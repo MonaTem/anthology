@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/Anthology.css';
-import './styles/NavBottom.css';
+import '../../styles/Anthology.css';
+import '../../styles/NavBottom.css';
 import { Link } from "react-router-dom";
 
 const NavBottom = (props) => {
