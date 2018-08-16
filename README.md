@@ -6,6 +6,7 @@
 
 - No server back end for now, author data stored in JSON in front end data folder
 
+*********************************************************************************
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
