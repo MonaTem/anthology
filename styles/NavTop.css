@@ -1,0 +1,34 @@
+#home-section {
+    z-index: 120;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 54px;
+}
+
+#description {
+    position: relative;
+    width: 198px;
+    z-index: 40;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: 159px;
+    height: 36px;
+}
+
+#table-of-contents {
+    position: relative;
+    width: 323px;
+    z-index: 50;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    display: inline-block;
+    left: -98px;
+    height: 36px;
+}
