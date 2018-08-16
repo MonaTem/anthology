@@ -1,0 +1,257 @@
+#patrick-rothfuss-wr {
+    position: relative;
+    width: 330px;
+    z-index: 20;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: right;
+    display: block;
+    margin-right: 330px;
+    height: 36px;
+}
+
+#its-like-everyone-t {
+    position: relative;
+    width: 527px;
+    z-index: 10;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 30px;
+    float: right;
+    display: block;
+    margin-right: 133px;
+    height: 108px;
+}
+
+#howard-gardner-psyc {
+    position: relative;
+    width: 421px;
+    z-index: 10;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: right;
+    display: block;
+    margin-top: 75px;
+    margin-right: -421px;
+    height: 36px;
+}
+
+#if-you-want-to-learn {
+    position: relative;
+    width: 552px;
+    z-index: 20;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 108px;
+}
+
+#steve-jobs {
+    position: relative;
+    width: 155px;
+    z-index: 20;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: right;
+    display: block;
+    margin-right: 505px;
+    height: 36px;
+}
+
+#bitmap {
+    position: relative;
+    width: 529px;
+    height: 137px;
+    z-index: 10;
+    float: right;
+    display: block;
+    margin-right: 131px;
+}
+
+#contact {
+    position: relative;
+    width: 139px;
+    z-index: 10;
+    text-align: left;
+    color: rgb(37, 72, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: right;
+    display: inline-block;
+    margin-top: 89px;
+    margin-right: -539px;
+    height: 36px;
+}
+
+#contact {
+    position: relative;
+    width: 139px;
+    z-index: 10;
+    text-align: left;
+    color: rgb(37, 72, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: right;
+    display: inline-block;
+    margin-top: 89px;
+    margin-right: -539px;
+    height: 36px;
+}
+
+#text {
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    line-height: 1;
+    color: rgb(37, 68, 137);
+    text-align: left;
+    direction: rtl;
+    z-index: 20;
+}
+
+#text2 {
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    line-height: 1;
+    color: rgb(36, 72, 137);
+    text-align: left;
+    direction: rtl;
+    z-index: 10;
+}
+
+#imprint {
+    position: relative;
+    width: 129px;
+    z-index: 50;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    direction: rtl;
+    display: inline-block;
+    margin-top: 89px;
+    margin-left: 29px;
+    left: -75px;
+    height: 36px;
+}
+
+#about {
+    position: relative;
+    width: 102px;
+    z-index: 40;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    margin-top: 89px;
+    margin-left: 148px;
+    height: 36px;
+}
+
+#buy {
+    position: relative;
+    width: 62px;
+    z-index: 10;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 185px;
+    left: 92px;
+    height: 36px;
+}
+
+#authors {
+    position: relative;
+    width: 143px;
+    z-index: 20;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    display: inline-block;
+    left: 75px;
+    height: 36px;
+}
+
+#table-of-contents {
+    position: relative;
+    width: 323px;
+    z-index: 50;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    display: inline-block;
+    left: -98px;
+    height: 36px;
+}
+
+#home {
+    position: relative;
+    width: 93px;
+    z-index: 30;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-weight: 700;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: 148px;
+    height: 36px;
+}
+
+#description {
+    position: relative;
+    width: 198px;
+    z-index: 40;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: 159px;
+    height: 36px;
+}
+
+#cover-001 {
+    position: absolute;
+    top: 123px;
+    left: -539px;
+    width: 545.094px;
+    height: 835px;
+    z-index: 150;
+    right: 539px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cover-002 {
+    position: absolute;
+    top: 123px;
+    left: 1px;
+    width: 545.094px;
+    height: 835px;
+    z-index: 180;
+    right: -1px;
+    margin-right: auto;
+    margin-left: auto;
+}
