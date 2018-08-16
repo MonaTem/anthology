@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/Anthology.css';
-import '../../styles/NavTop.css';
-import { Link } from "react-router-dom";
+import '../styles/Anthology.css';
+import '../styles/NavTop.css';
+import { Link } from 'react-router-dom';
 
 const NavTop = (props) => {
 

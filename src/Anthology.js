@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/Anthology.css';
+import './styles/Anthology.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Home.js';
 import Description from './components/Description.js';

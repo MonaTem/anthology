@@ -1,9 +1,8 @@
 import React from 'react';
-import '../../styles/Anthology.css';
-import '../../styles/Home.css';
+import '../styles/Anthology.css';
+import '../styles/Home.css';
 import NavTop from './NavTop.js';
 import NavBottom from './NavBottom.js';
-import { Link } from "react-router-dom";
 
 const Home = (props) => {
 
