@@ -16,7 +16,7 @@ class Anthology extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Anthology">
       <br/>
       <br/>
         <Router>

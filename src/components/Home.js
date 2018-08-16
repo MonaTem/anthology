@@ -10,6 +10,8 @@ const Home = (props) => {
 
     <div>
     <NavTop />
+    <img id="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+    <img id="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
     <section id="most-powerful-section">
            <p id="most-powerful">The most powerful person in the world
                <br></br>is the storyteller.  The storyteller sets the
@@ -45,8 +47,7 @@ const Home = (props) => {
             <br></br>We build OURSELVES out of that story.
         </p>
     </section>
-    <img id="cover-001" src="images/COVER.001.jpeg" alt="Anthology Front Cover"/>
-    <img id="cover-002" src="images/COVER.002.jpeg" alt="Anthology Back Cover"/>
+
     <section id="patrick-rothfuss-wr-section">
         <p id="patrick-rothfuss-wr">Patrick Rothfuss, Writer
         </p>
