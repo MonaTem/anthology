@@ -1,10 +1,10 @@
-#ANTHOLOGY WEBSITE FOR NEW AGE OF STORYTELLING ANTHOLOGY, STORYZONE
-
-## No server back end for now, author data stored in JSON in front
+# ANTHOLOGY WEBSITE FOR NEW AGE OF STORYTELLING ANTHOLOGY, STORYZONE
 
 -This is a React, Redux front end for the Storyzone Anthology website.
 
 -Only dynamic page is the author page
+
+- No server back end for now, author data stored in JSON in front end data folder
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
