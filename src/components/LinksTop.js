@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/Anthology.css';
-import '../styles/NavTop.css';
+import '../styles/LinksTop.css';
 import {Link} from 'react-router-dom';
 
 const LinksTop = (props) => {
-
+    
       return (<div>
         <nav>
           <p id="home">
-            <Link to={"/"} style={props.navstylehome}></Link>
+            <Link to={"/"} style={props.navstylehome}>HOME</Link>
           </p>
           <p id="description">
             <Link to={"/description"} style={props.navstyledesc}>DESCRIPTION</Link>
@@ -25,7 +25,7 @@ const LinksTop = (props) => {
         </nav>
       </div>);
 
-    
+
 }
 
 export default LinksTop;

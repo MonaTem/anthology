@@ -12,10 +12,10 @@ const Home = (props) => {
     <NavTop />
     <img id="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     <img id="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
-    <div class="home">
+    <div className="home">
         <div style="width: 1920px; height: 100%; position:relative; margin:auto;">
             <img anima-src="./img/home-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <div class="patrickrothfusswr">
+            <div className="patrickrothfusswr">
                 Patrick Rothfuss, Writer
             </div>
             <div class="itu2019slikeeveryonet">

@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/Anthology.css';
-import '../styles/NavTop.css';
-import {Link} from 'react-router-dom';
 import LinksTop from './LinksTop.js'
 
 const NavTop = (props) => {
