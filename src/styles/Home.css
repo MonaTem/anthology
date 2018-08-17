@@ -145,7 +145,8 @@ section {
 #most-powerful-section {
     /* z-index: 200; */
     position: relative;
-    display: float;
+    display: inline-block;
+    z-index: 15;
     text-align: center;
     padding-top: 33px;
     margin-top: 0px;

@@ -52,7 +52,7 @@ const Home = (props) => {
         <p id="patrick-rothfuss-wr">Patrick Rothfuss, Writer
         </p>
     </section>
-    <NavBottom />
+    <NavBottom page={Home}/>
     </div>
 
     );
