@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Anthology.css';
 import '../styles/NavTop.css';
 import {Link} from 'react-router-dom';
+import LinksTop from './LinksTop.js'
 
 const NavTop = (props) => {
 
@@ -21,131 +22,32 @@ const NavTop = (props) => {
     case "Home":
 
       return (<div>
-        <nav>
-          <p id="home">
-            <Link to={"/"} style={NavStyleBold}></Link>
-          </p>
-          <p id="description">
-            <Link to={"/description"} style={NavStyle}>DESCRIPTION</Link>
-          </p>
-          <p id="table-of-contents">
-            <Link to={"/tableofcontents"} style={NavStyle}>TABLE OF CONTENTS</Link>
-          </p>
-          <p id="authors">
-            <Link to={"/authors"} style={NavStyle}>AUTHORS</Link>
-          </p>
-          <p id="buy">
-            <Link to={"/buy"} style={NavStyle}>BUY</Link>
-          </p>
-        </nav>
+        <LinksTop navstylehome={NavStyleBold} navstyledesc={NavStyle} navstyletoc={NavStyle} navstyleauthors={NavStyle} navstylebuy={NavStyle}/>
       </div>);
 
     case "Description":
       return (<div>
-        <nav>
-          <p id="home">
-            <Link to={"/"} style={NavStyle}>HOME</Link>
-          </p>
-          <p id="description">
-            <Link to={"/description"} style={NavStyleBold}>DESCRIPTION</Link>
-          </p>
-          <p id="table-of-contents">
-            <Link to={"/tableofcontents"} style={NavStyle}>TABLE OF CONTENTS</Link>
-          </p>
-          <p id="authors">
-            <Link to={"/authors"} style={NavStyle}>AUTHORS</Link>
-          </p>
-          <p id="buy">
-            <Link to={"/buy"} style={NavStyle}>BUY</Link>
-          </p>
-        </nav>
+        <LinksTop navstylehome={NavStyle} navstyledesc={NavStyleBold} navstyletoc={NavStyle} navstyleauthors={NavStyle} navstylebuy={NavStyle}/>
       </div>);
 
     case "TableOfContents":
       return (<div>
-        <nav>
-          <p id="home">
-            <Link to={"/"} style={NavStyle}>HOME</Link>
-          </p>
-          <p id="description">
-            <Link to={"/description"} style={NavStyle}>DESCRIPTION</Link>
-          </p>
-          <p id="table-of-contents">
-            <Link to={"/tableofcontents"} style={NavStyleBold}>TABLE OF CONTENTS</Link>
-          </p>
-          <p id="authors" style={NavStyle}><Link to={"/authors"}>AUTHORS</Link>
-          </p>
-          <p id="buy">
-            <Link to={"/buy"} style={NavStyle}>BUY</Link>
-          </p>
-        </nav>
+        <LinksTop navstylehome={NavStyle} navstyledesc={NavStyle} navstyletoc={NavStyleBold} navstyleauthors={NavStyle} navstylebuy={NavStyle}/>
       </div>);
 
     case "Authors":
       return (<div>
-        <nav>
-          <p id="home">
-            <Link to={"/"} style={NavStyle}>HOME</Link>
-          </p>
-          <p id="description">
-            <Link to={"/description"} style={NavStyle}>DESCRIPTION</Link>
-          </p>
-          <p id="table-of-contents">
-            <Link to={"/tableofcontents"} style={NavStyle}>TABLE OF CONTENTS</Link>
-          </p>
-          <p id="authors">
-            <Link to={"/authors"} style={NavStyleBold}>AUTHORS</Link>
-          </p>
-          <p id="buy">
-            <Link to={"/buy"} style={NavStyle}>BUY</Link>
-          </p>
-        </nav>
+        <LinksTop navstylehome={NavStyle} navstyledesc={NavStyle} navstyletoc={NavStyle} navstyleauthors={NavStyleBold} navstylebuy={NavStyle}/>
       </div>);
 
     case "Buy":
       return (<div>
-        <nav>
-          <p id="home">
-            <Link to={"/"} style={NavStyle}>HOME</Link>
-          </p>
-          <p id="description">
-            <Link to={"/description"} style={NavStyle}>DESCRIPTION</Link>
-          </p>
-          <p id="table-of-contents">
-            <Link to={"/tableofcontents"} style={NavStyle}>TABLE OF CONTENTS</Link>
-          </p>
-          <p id="authors">
-            <Link to={"/authors"} style={NavStyle}>AUTHORS</Link>
-          </p>
-          <p id="buy">
-            <Link to={"/buy"} style={NavStyleBold}></Link>
-          </p>
-        </nav>
+        <LinksTop navstylehome={NavStyle} navstyledesc={NavStyle} navstyletoc={NavStyle} navstyleauthors={NavStyle} navstylebuy={NavStyleBold}/>
       </div>);
 
     default:
       return (<div>
-        <nav>
-          <p id="home">
-            <Link to={"/"} style={NavStyleBold}>HOME</Link>
-          </p>
-          <p id="description">
-            <Link to={"/description"} style={NavStyle}>
-            DESCRIPTION</Link>
-          </p>
-          <p id="table-of-contents">
-            <Link to={"/tableofcontents"} style={NavStyle}>
-            TABLE OF CONTENTS</Link>
-          </p>
-          <p id="authors">
-            <Link to={"/authors"} style={NavStyle}>
-            AUTHORS</Link>
-          </p>
-          <p id="buy">
-            <Link to={"/buy"} style={NavStyle}>
-            BUY</Link>
-          </p>
-        </nav>
+          <LinksTop navstylehome = {NavStyleBold} navstyledesc = {NavStyle} navstyletoc = {NavStyle} navstyleauthors = {NavStyle} navstylebuy = {NavStyle} />
       </div>);
   }
 
