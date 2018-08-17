@@ -55,6 +55,7 @@
     margin-left: auto;
     display: block;
     height: 108px;
+    float: left;
 }
 
 #steve-jobs {
@@ -65,8 +66,8 @@
     color: rgb(0, 0, 0);
     font-weight: 500;
     font-family: HelveticaNeue;
-    font-size: 30px;
-    float: right;
+    font-size: 26px;
+    float: left;
     display: block;
     margin-right: 505px;
     height: 36px;
@@ -147,17 +148,37 @@ section {
     position: relative;
     display: inline-block;
     z-index: 15;
+    float: left;
     text-align: center;
     padding-top: 33px;
     margin-top: 0px;
+    margin-left: 550px;
+    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+    font-size: 26px;
+}
+
+#generaton {
+  position: relative;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-left: 400px;
+  padding-left: 0px;
+  font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+  font-size: 26px;
+
 }
 
 #steve-jobs-section {
     z-index: 80;
     position: relative;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     margin-top: 0px;
+    margin-left: 75px;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 26px;
+    float: left;
 }
 
 #group-3-section {

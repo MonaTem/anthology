@@ -16,10 +16,6 @@ const NavBottom = (props) => {
       fontWeight: 'strong'
     }
 
-    var NavStyleRed = {
-      color: 'red',
-      textDecoration: 'none'
-    }
 
     switch (props.page) {
 

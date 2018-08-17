@@ -16,7 +16,7 @@ const Home = (props) => {
            <p id="most-powerful">The most powerful person in the world
                <br></br>is the storyteller.  The storyteller sets the
                <br></br>vision, values, and agenda for an entire
-               <br></br>generation that is to come.
+               <p id="generation">generation that is to come.</p>
            </p>
     </section>
     <section id="steve-jobs-section">
