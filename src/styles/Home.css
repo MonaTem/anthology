@@ -143,9 +143,9 @@ section {
 }
 
 #most-powerful-section {
-    z-index: 90;
+    /* z-index: 200; */
     position: relative;
-    display: inline-block;
+    display: float;
     text-align: center;
     padding-top: 33px;
     margin-top: 0px;
