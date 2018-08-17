@@ -9,7 +9,7 @@ const Home = (props) => {
     return (
 
     <div>
-    <NavTop />
+    <NavTop page={Home}/>
     <img id="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     <img id="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
     <section id="most-powerful-section">

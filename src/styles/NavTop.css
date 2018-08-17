@@ -19,6 +19,19 @@
     height: 36px;
 }
 
+#buy {
+    position: relative;
+    width: 62px;
+    z-index: 10;
+    text-align: left;
+    color: rgb(37, 68, 137);
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 185px;
+    left: 92px;
+    height: 36px;
+}
 
 #home {
     position: relative;
@@ -31,7 +44,7 @@
     font-size: 30px;
     float: left;
     display: inline-block;
-    margin-left: 148px;
+    margin-left: 80px;
     height: 36px;
 }
 
