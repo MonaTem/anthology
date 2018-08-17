@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Anthology.css';
-import '../styles/NavBottom.css';
-import {Link} from 'react-router-dom';
+import LinksBottom from './LinksBottom.js';
 
 const NavBottom = (props) => {
 
@@ -20,69 +19,31 @@ const NavBottom = (props) => {
     switch (props.page) {
 
       case "About":
+
         return (<div>
-          <nav>
-            <p id="about">
-              <Link to={"/about"} style={NavStyleBold}>ABOUT</Link>
-            </p>
-            <p id="imprint">
-                <Link to={"/imprint"} style={NavStyle}>IMPRINT</Link>
-            </p>
-            <p id="_2018">© 2018</p>
-            <p id="contact">
-              <Link to={"/contact"} style={NavStyle}>CONTACT</Link>
-            </p>
-          </nav>
+          <LinksBottom navstyleabout={NavStyleBold} navstyleimprint={NavStyle} navstylecontact={NavStyle} />
         </div>);
 
       case "Imprint":
-        return (<div>
-          <nav>
-            <p id="about">
-              <Link to={"/about"} style={NavStyle}>ABOUT</Link>
-            </p>
-            <p id="imprint">
-                <Link to={"/imprint"} style={NavStyleBold}>IMPRINT</Link>
-            </p>
-            <p id="_2018">© 2018</p>
-            <p id="contact">
-              <Link to={"/contact"} style={NavStyle}>CONTACT</Link>
-            </p>
-          </nav>
-        </div>);
+
+      return (<div>
+        <LinksBottom navstyleabout={NavStyle} navstyleimprint={NavStyleBold} navstylecontact={NavStyle} />
+      </div>);
+
 
       case "Contact":
-        return (<div>
-          <nav>
-            <p id="about">
-              <Link to={"/about"} style={NavStyle}>ABOUT</Link>
-            </p>
-            <p id="imprint">
-                <Link to={"/imprint"} style={NavStyle}>IMPRINT</Link>
-            </p>
-            <p id="_2018">© 2018</p>
-            <p id="contact">
-              <Link to={"/contact"} style={NavStyleBold}>CONTACT</Link>
-            </p>
-          </nav>
-        </div>);
+
+      return (<div>
+        <LinksBottom navstyleabout={NavStyle} navstyleimprint={NavStyle} navstylecontact={NavStyleBold} />
+      </div>);
+
 
       default:
         return (<div>
-          <nav>
-            <p id="about">
-              <Link to={"/about"} style={NavStyle}>ABOUT</Link>
-            </p>
-            <p id="imprint">
-                <Link to={"/imprint"} style={NavStyle}>IMPRINT</Link>
-            </p>
-            <p id="_2018">© 2018</p>
-            <p id="contact">
-              <Link to={"/contact"} style={NavStyle}>CONTACT</Link>
-            </p>
-          </nav>
+            <LinksBottom navstyleabout = {NavStyle} navstyleimprint = {NavStyle} navstylecontact = {NavStyle}  />
         </div>);
     }
+
   }
 
   export default NavBottom;
