@@ -1,9 +1,38 @@
-#home-section {
+/* #home {
     z-index: 120;
     position: relative;
     display: inline-block;
     text-align: center;
     padding-top: 54px;
+} */
+
+#authors {
+    position: relative;
+    width: 143px;
+    z-index: 20;
+    text-align: left;
+    color: #254489;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    display: inline-block;
+    left: 75px;
+    height: 36px;
+}
+
+
+#home {
+    position: relative;
+    width: 93px;
+    z-index: 30;
+    text-align: left;
+    color: #254489;
+    font-weight: 700;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: 148px;
+    height: 36px;
 }
 
 #description {
@@ -11,7 +40,7 @@
     width: 198px;
     z-index: 40;
     text-align: left;
-    color: rgb(37, 68, 137);
+    color: #254489;
     font-family: HelveticaNeue;
     font-size: 30px;
     float: left;
@@ -25,7 +54,7 @@
     width: 323px;
     z-index: 50;
     text-align: left;
-    color: rgb(37, 68, 137);
+    color: #254489;
     font-family: HelveticaNeue;
     font-size: 30px;
     display: inline-block;

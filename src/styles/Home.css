@@ -112,34 +112,7 @@
     height: 36px;
 }
 
-#authors {
-    position: relative;
-    width: 143px;
-    z-index: 20;
-    text-align: left;
-    color: rgb(37, 68, 137);
-    font-family: HelveticaNeue;
-    font-size: 30px;
-    display: inline-block;
-    left: 75px;
-    height: 36px;
-}
 
-
-#home {
-    position: relative;
-    width: 93px;
-    z-index: 30;
-    text-align: left;
-    color: rgb(37, 68, 137);
-    font-weight: 700;
-    font-family: HelveticaNeue;
-    font-size: 30px;
-    float: left;
-    display: inline-block;
-    margin-left: 148px;
-    height: 36px;
-}
 
 #cover-001 {
     position: absolute;
