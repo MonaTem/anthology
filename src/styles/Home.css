@@ -1,6 +1,6 @@
 #patrick-rothfuss-wr {
     position: relative;
-    width: 330px;
+    width: 13em;
     z-index: 20;
     text-align: left;
     color: black;
@@ -9,13 +9,12 @@
     font-size: 26px;
     float: right;
     display: inline-block;
-    margin-left: 0px;
-    height: 36px;
+    height: 1em;
 }
 
 #its-like-everyone-t {
     position: relative;
-    width: 527px;
+    width: 527em;
     z-index: 10;
     text-align: left;
     color: black;
@@ -23,13 +22,12 @@
     font-size: 26px;
     float: right;
     display: block;
-    margin-left: 0px;
-    height: 108px;
+    height: 4em;
 }
 
 #howard-gardner-psyc {
     position: relative;
-    width: 421px;
+    width: 16em;
     z-index: 10;
     text-align: left;
     color: black;
@@ -38,31 +36,30 @@
     font-size: 26px;
     float: right;
     display: block;
-    margin-top: 75px;
-    margin-right: -421px;
-    height: 36px;
+    margin-top: 5rem;
+    height: 1em;
 }
 
 #if-you-want-to-learn {
     position: relative;
-    width: 552px;
+    width: 21em;
     z-index: 20;
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 26px;
     margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
+    margin-left: 4.5em;
+    margin-top: -50rem;
     display: block;
-    height: 108px;
+    height: 4em;
     float: left;
 }
 
 #steve-jobs {
     position: relative;
-    top: -20px;
-    width: 155px;
+    top: -1rem;
+    width: 6em;
     z-index: 20;
     text-align: left;
     color: black;
@@ -71,50 +68,50 @@
     font-size: 26px;
     float: left;
     display: inline-block;
-    /* margin-right: 505px; */
-    height: 36px;
+    /* margin-right: 505em; */
+    height: 1.5em;
 }
 
 /* #bitmap {
     position: relative;
-    width: 529px;
-    height: 137px;
+    width: 529em;
+    height: 137em;
     z-index: 10;
     float: right;
     display: block;
-    margin-right: 131px;
+    margin-right: 131em;
 } */
 
 
 #cover-001 {
-    position: absolute;
-    top: 123px;
-    left: -539px;
-    width: 545.094px;
-    height: 835px;
+    position: relative;
+    /* top: 7.5rem; */
+    left: -16em;
+    width: 34rem;
+    height: 52rem;
     max-width: 100%;
     z-index: 150;
-    right: 539px;
+    /* right: 21em; */
     margin-right: auto;
     margin-left: auto;
 }
 
 #cover-002 {
-    position: absolute;
-    top: 123px;
-    left: 1px;
-    width: 545.094px;
-    height: 835px;
+    position: relative;
+    /* top: 7.5rem; */
+    left: -16em;
+    width: 34rem;
+    height: 52rem;
     max-width: 100%;
     z-index: 180;
-    right: -1px;
+    /* right: -1em; */
     margin-right: auto;
     margin-left: auto;
 }
 
 #michael-margolis-te {
     position: relative;
-    width: 429px;
+    width: 16em;
     z-index: 10;
     text-align: left;
     color: black;
@@ -122,27 +119,28 @@
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 26px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 6.5em;
+    margin-top: -35rem;
     display: block;
-    top: -10px;
-    left: -62px;
-    height: 36px;
+    top: -1rem;
+    left: -2em;
+    height: 1.5em;
 }
 
 #group-4 {
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    width: 552px;
+    width: 21em;
     z-index: 10;
     display: block;
-    margin-top: 120px;
-    left: 576px;
+    margin-top: 7.5rem;
+    left: 22em;
 }
 
 section {
     width: 100%;
-    left: 0px;
+    left: 0em;
     position: relative;
     overflow: visible;
 }
@@ -154,9 +152,9 @@ section {
     z-index: 15;
     float: left;
     text-align: left;
-    padding-top: 20px;
-    margin-top: 0px;
-    margin-left: 1200px;
+    top: -52.2rem;
+    /* padding-top: 1rem; */
+    margin-left: 46em;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 26px;
 }
@@ -166,8 +164,7 @@ section {
   display: inline-block;
   float: left;
   text-align: left;
-  margin-left: 400px;
-  padding-left: 0px;
+  margin-left: 15em;
   font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
   font-size: 26px;
 
@@ -178,7 +175,7 @@ section {
     position: relative;
     display: inline-block;
     text-align: left;
-    margin-left: 1200px;
+    margin-left: 15em;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 26px;
     float: left;
@@ -188,8 +185,24 @@ section {
     z-index: 40;
     position: relative;
     display: inline-block;
-    text-align: center;
-    padding-top: 94px;
+    text-align: left;
+    padding-top: 2rem;
+}
+
+#stories-constitute-t {
+    position: relative;
+    width: auto;
+    z-index: 20;
+    text-align: left;
+    color: black;
+    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+    font-size: 26px;
+    margin-right: auto;
+    margin-left: 45em;
+    margin-top: -50rem;
+    display: block;
+    height: 4em;
+    float: left;
 }
 
 #its-like-everyone-t-section {
@@ -197,8 +210,8 @@ section {
     position: relative;
     display: inline-block;
     text-align: center;
-    padding-top: 79px;
-    margin-top: 0px;
+    padding-top: 5rem;
+    margin-top: 0em;
 }
 
 #patrick-rothfuss-wr-section {
@@ -206,5 +219,5 @@ section {
     position: relative;
     display: inline-block;
     text-align: center;
-    padding-top: 7px;
+    padding-top: .5rem;
 }
