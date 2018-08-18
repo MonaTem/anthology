@@ -3,13 +3,13 @@
     width: 330px;
     z-index: 20;
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 500;
-    font-family: HelveticaNeue;
-    font-size: 30px;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 26px;
     float: right;
-    display: block;
-    margin-right: 330px;
+    display: inline-block;
+    margin-left: 0px;
     height: 36px;
 }
 
@@ -18,12 +18,12 @@
     width: 527px;
     z-index: 10;
     text-align: left;
-    color: rgb(0, 0, 0);
-    font-family: Helvetica;
-    font-size: 30px;
+    color: black;
+    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+    font-size: 26px;
     float: right;
     display: block;
-    margin-right: 133px;
+    margin-left: 0px;
     height: 108px;
 }
 
@@ -32,10 +32,10 @@
     width: 421px;
     z-index: 10;
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 500;
-    font-family: HelveticaNeue;
-    font-size: 30px;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 26px;
     float: right;
     display: block;
     margin-top: 75px;
@@ -48,11 +48,12 @@
     width: 552px;
     z-index: 20;
     text-align: left;
-    color: rgb(0, 0, 0);
-    font-family: Helvetica;
-    font-size: 30px;
+    color: black;
+    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+    font-size: 26px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
     display: block;
     height: 108px;
     float: left;
@@ -60,16 +61,17 @@
 
 #steve-jobs {
     position: relative;
+    top: -20px;
     width: 155px;
     z-index: 20;
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 500;
-    font-family: HelveticaNeue;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 26px;
     float: left;
-    display: block;
-    margin-right: 505px;
+    display: inline-block;
+    /* margin-right: 505px; */
     height: 36px;
 }
 
@@ -90,6 +92,7 @@
     left: -539px;
     width: 545.094px;
     height: 835px;
+    max-width: 100%;
     z-index: 150;
     right: 539px;
     margin-right: auto;
@@ -102,6 +105,7 @@
     left: 1px;
     width: 545.094px;
     height: 835px;
+    max-width: 100%;
     z-index: 180;
     right: -1px;
     margin-right: auto;
@@ -113,14 +117,14 @@
     width: 429px;
     z-index: 10;
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 500;
-    font-family: HelveticaNeue;
-    font-size: 30px;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 26px;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    margin-top: 2px;
+    top: -10px;
     left: -62px;
     height: 36px;
 }
@@ -149,10 +153,10 @@ section {
     display: inline-block;
     z-index: 15;
     float: left;
-    text-align: center;
-    padding-top: 33px;
+    text-align: left;
+    padding-top: 20px;
     margin-top: 0px;
-    margin-left: 550px;
+    margin-left: 1200px;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 26px;
 }
@@ -174,7 +178,6 @@ section {
     position: relative;
     display: inline-block;
     text-align: left;
-    margin-top: 0px;
     margin-left: 1200px;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 26px;

@@ -10,16 +10,16 @@ const Home = (props) => {
 
     <div>
     <NavTop page={Home}/>
-    <img id="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
-    <img id="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
+    <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+    <img id="cover-002" className="img-fluid" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
     <section id="most-powerful-section">
            <p id="most-powerful">The most powerful person in the world
                <br></br>is the storyteller.  The storyteller sets the
                <br></br>vision, values, and agenda for an entire
                <br></br>generation that is to come.
            </p>
-    </section>
-    <section id="steve-jobs-section">
+    {/* </section>
+    <section id="steve-jobs-section"> */}
         <p id="steve-jobs">Steve Jobs</p>
     </section>
     <section>
