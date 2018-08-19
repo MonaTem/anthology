@@ -10,27 +10,29 @@ const LinksTop = (props) => {
   }
 
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-lg navbar-toggleable-lg" style={bgcolor}>
-      <button class="navbar navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar navbar-toggler-icon"></span>
+    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-lg" style={bgcolor}>
+      <button className="navbar navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar navbar-toggler-icon"></span>
       </button>
-      <div class="navbar navbar-nav">
-      <p id="home">
-        <Link to={"/"} style={props.navstylehome}>HOME</Link>
-      </p>
-      <p id="description">
-        <Link to={"/description"} style={props.navstyledesc}>DESCRIPTION</Link>
-      </p>
-      <p id="table-of-contents">
-        <Link to={"/tableofcontents"} style={props.navstyletoc}>TABLE OF CONTENTS</Link>
-      </p>
-      <p id="authors">
-        <Link to={"/authors"} style={props.navstyleauthors}>AUTHORS</Link>
-      </p>
-      <p id="buy">
-        <Link to={"/buy"} style={props.navstylebuy}>BUY</Link>
-      </p>
-    </div>
+      <div className="collapse navbar-collapse">
+        <ul className="navbar navbar-nav" id="collapse_target">
+          <li id="home" className="navbar-item">
+            <Link to={"/"} style={props.navstylehome}>HOME</Link>
+          </li>
+          <li id="description" className="navbar-item">
+            <Link to={"/description"} style={props.navstyledesc}>DESCRIPTION</Link>
+          </li>
+          <li id="table-of-contents" className="navbar-item">
+            <Link to={"/tableofcontents"} style={props.navstyletoc}>TABLE OF CONTENTS</Link>
+          </li>
+          <li id="authors" className="navbar-item">
+            <Link to={"/authors"} style={props.navstyleauthors}>AUTHORS</Link>
+          </li>
+          <li id="buy" className="navbar-item">
+            <Link to={"/buy"} style={props.navstylebuy}>BUY</Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>);
 
