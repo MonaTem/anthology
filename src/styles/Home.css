@@ -16,13 +16,14 @@
     position: relative;
     width: 527em;
     z-index: 10;
-    text-align: left;
+    text-align: right;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 26px;
     float: right;
-    display: block;
+    display: inline-block;
     height: 4em;
+    margin-left: 45em;
 }
 
 #howard-gardner-psyc {
@@ -36,8 +37,9 @@
     font-size: 26px;
     float: right;
     display: block;
-    margin-top: 5rem;
+    margin-top: -3rem;
     height: 1em;
+    left: -6.5em;
 }
 
 #if-you-want-to-learn {
@@ -208,9 +210,9 @@ section {
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 26px;
     margin-right: auto;
-    margin-left: 300em;
-    margin-top: -50rem;
-    display: block;
+    margin-left: 46em;
+    margin-top: 1rem;
+    display: inline-block;
     height: 4em;
     float: left;
 }
@@ -219,15 +221,13 @@ section {
     z-index: 60;
     position: relative;
     display: inline-block;
-    text-align: center;
-    padding-top: 5rem;
-    margin-top: 0em;
+    text-align: left;
+    padding-top: 3rem;
 }
 
 #patrick-rothfuss-wr-section {
     z-index: 90;
     position: relative;
     display: inline-block;
-    text-align: center;
-    padding-top: .5rem;
+    text-align: left;
 }
