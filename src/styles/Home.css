@@ -86,7 +86,7 @@
 #cover-001 {
     position: relative;
     /* top: 7.5rem; */
-    left: -16em;
+    /* left: -16em; */
     width: 34rem;
     height: auto;
     max-width: 100%;
@@ -99,7 +99,7 @@
 #cover-002 {
     position: relative;
     /* top: 7.5rem; */
-    left: -16em;
+    /* left: -16em; */
     width: 34rem;
     /* height: 52rem; */
     max-width: 100%;
@@ -109,6 +109,15 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+@media only screen and (min-width: 1400px) {
+    /* For large screen: */
+    [id*="cover-"] {
+        left: -16em;
+    }
+}
+
+
 
 #michael-margolis-te {
     position: relative;

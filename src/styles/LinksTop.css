@@ -76,7 +76,7 @@
 
 #table-of-contents {
     position: relative;
-    width: auto;
+    /* width: auto; */
     max-width: 100%;
     height: auto;
     z-index: 50;
