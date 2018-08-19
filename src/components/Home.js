@@ -6,9 +6,9 @@ import NavBottom from './NavBottom.js';
 
 const Home = (props) => {
 
-  return (<div>
+  return (<div className="container-fluid">
     <NavTop page={Home}/>
-    <div className="container-fluid">
+    <div>
       <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       <img id="cover-002" className="img-fluid" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
       <section id="most-powerful-section">
