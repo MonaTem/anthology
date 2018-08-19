@@ -10,7 +10,7 @@ const LinksTop = (props) => {
   }
 
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-lg" style={bgcolor}>
+    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-md fixed-top" style={bgcolor}>
       <button className="navbar navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar navbar-toggler-icon"></span>
       </button>
