@@ -5,13 +5,8 @@ import {Link} from 'react-router-dom';
 
 const LinksBottom = (props) => {
 
-  var bgcolor = {
-    backgroundColor: 'rgb(202, 220, 232)'
-
-  }
-
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-md fixed-bottom" style={bgcolor}>
+    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-md">
       <button className="navbar navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar navbar-toggler-icon"></span>
       </button>
@@ -30,7 +25,7 @@ const LinksBottom = (props) => {
         </ul>
       </div>
     </nav>
-  </div>);
+  </div>)
 
 }
 

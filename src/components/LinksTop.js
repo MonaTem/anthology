@@ -5,12 +5,8 @@ import {Link} from 'react-router-dom';
 
 const LinksTop = (props) => {
 
-  var bgcolor = {
-    backgroundColor: 'rgb(115, 179, 222)'
-  }
-
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-md fixed-top" style={bgcolor}>
+    <nav className="navbar navbar-light navbar-expand-md navbar-toggleable-md">
       <button className="navbar navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar navbar-toggler-icon"></span>
       </button>
