@@ -6,6 +6,35 @@
     padding-top: 54em;
 } */
 
+/* @media only screen and (max-width: 400px) { */
+    /* For small screens: */
+    /* nav {
+        left: -6em;
+    }
+ } */
+
+@media only screen and (max-width: 400px) {
+  #table-of-contents {
+      margin-top: 1rem;
+      left: -1em;
+      fontsize: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #authors {
+      margin-top: 4rem;
+  }
+}
+
+/* @media only screen and (max-width: 1400px) and (min-width: 401px) {
+    /* For medium screens: */
+    /* nav {
+        font-size: 1rem;
+        class: navbar-left;
+    } */
+ /* }  */
+
 #authors {
     position: relative;
     width: 5 em;
