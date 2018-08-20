@@ -6,12 +6,9 @@ import {Link} from 'react-router-dom';
 const LinksBottom = (props) => {
 
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-xl navbar-toggleable-xl">
-      <button className="navbar navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse">
-        <ul className="navbar navbar-nav" id="navbarNavAltMarkup">
+    <nav className="navbar navbar-light navbar-expand-xl navbar-left">
+      <div className="navbar-nav">
+        <ul className="navbar navbar-nav">
           <li id="about" className="navbar-item">
             <Link to={"/"} style={props.navstyleabout}>ABOUT</Link>
           </li>

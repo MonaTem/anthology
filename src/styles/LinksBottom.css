@@ -1,3 +1,11 @@
+/* @media only screen and (max-width: 1400px) { */
+    /* For medium and small screens: */
+    /* nav {
+        left: -6em;
+    }
+ } */
+
+
 #text {
     font-family: HelveticaNeue;
     font-size: 30px;
