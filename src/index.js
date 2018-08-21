@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
+import { Provider } from 'react-redux';
 import Anthology from './Anthology';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Anthology />, document.getElementById('root'));
+const app = (
+	<Provider store={configured_store}>
+		<Anthology />
+	</Provider>
+)
+
+
+ReactDOM.render(app, document.getElementById('root'));
 registerServiceWorker();
