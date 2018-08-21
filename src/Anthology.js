@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import store, { history } from './store';
 import './styles/Anthology.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Home.js';
@@ -19,6 +21,7 @@ class Anthology extends Component {
       <div className="Anthology">
       <br/>
       <br/>
+        <Provider store={store}>
         <Router>
           <div>
           <Switch>
@@ -34,6 +37,7 @@ class Anthology extends Component {
           </Switch>
            </div>
         </Router>
+      </Provider>
       </div>
     );
   }
