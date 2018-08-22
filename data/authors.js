@@ -14,8 +14,9 @@ const authors = [
     'bio': 'Marc Jadoul (born September 14, 1962) is marketing director at Nokia, spare-time communications consultant, and a passionate B2B storyteller. Over the past decades, Marc has given hundreds of business presentations to tech sector executives worldwide. Author/co-author of ~200 papers, magazine articles and conference talks, and a frequent speaker and panelist at technology industry events, he has earned ‘best speaker’ awards at different occasions. Marc lives in Belgium and speaks Dutch, English and French.',
     'photo_url': 'https://lh3.googleusercontent.com/gPTN1r5xay4KBZLGv4wLHYICoQw6dyvdDsPljs2HpkOD2fYBpYQOhHBSeYZ4IUzBZSYKORjM4kXVIiwbpmb62nHRkVtG9GOpyEAdVNfA6IKGDVZ4w-E-rD-2p_LS-4g-4ZqOG4YJr2jCMSOF_oUBWckmYfF6S7dB-15ezlaNTKYB68gJ_EZGmZQgLQ5tOGasDeHHmiKI2t9lwqiwhEP4YkTsLh8LA4Yjyv9mAGFg3LpwiDZx8uJSYf--IdamUZuOYpZY4ThYMAIbHMgAX26DGce_lLlcbqFkiZctdPRgOktz7GSOhKo_u1MGS2LJLLa6pqxVIso5DkRVtEFdm9Duauof5t6VZ28HGCdFNwQZz53rrSvUvNufnduW42dLQ0h1DN4-mreO_db7nQ52AR_Yo69lQ5w7uqXx8uKONtv7XbOIxHxR2RohrORI6sKeGKbGVnhVi1f9FTMH8qxCkcWfhSDvcWexdf-kvVug4PxML1Nb5PLtI9oONBtRg2OuMnhYv6JYpczNZSI3wA-3Ri8hj-6_ZM4aY2pJzKLoxOXsZQcCd5LbfjL6-YQ3ExXQz0oB7bZ4QSD94LAcPEeDr_flInmoHW9LUMrLyEXZuc8=w163-h165-no',
     'video_link': 'https://www.youtube.com/watch?v=MwOaesC01E8',
-    'video_caption': ['“7 SINS OF THE SPEAKER”',
-                      'CAMPUS IN THE CLOUD VIDEO ON YOUTUBE'],
+    'video_caption': ['  “7 SINS OF THE SPEAKER"           ',
+                      'CAMPUS IN THE CLOUD VIDEO ON        ',
+                      '          YOUTUBE                   '],
     'websites': [{'website': 'https://www.linkedin.com/in/mjadoul/'}, {'website': 'https://www.speakersbase.com/public/mjadoul'},{'website': 'https://b2bstorytelling.wordpress.com/'},{'website':'https://www.business2community.com/author/marc-jadoul'},{'website':'https://www.slideshare.net/mjadoul'}],
     'contact': 'https://b2bstorytelling.wordpress.com/get-in-touch-with-me/',
     'publications': [{'publication': 'https://b2bstorytelling.wordpress.com/download/'}, {'publication': 'https://b2bstorytelling.wordpress.com/download/'}]
@@ -38,9 +39,22 @@ const authors = [
     'bio': 'Decades ago, I was a very discouraged teacher of emotionally disturbed adolescents. I wanted to be on their side, but all they did was fold their arms and scowl. One day, by accident, I told them a story. They responded! For the duration of the story, we were on the same side! That experience gave me hope, so I renewed my efforts. Months later, we finally became the cooperative classroom I had dreamed of Ever since then, I have pursued the transformative power of storytelling. I pursue it for myself, and work hard to find ever more efficient and satisfying ways to help others master it, too.',
     'photo_url': 'https://lh3.googleusercontent.com/x4LDGrOPAxFR85cjo5zZc9FK_NvhYkxQqmeMD_HWIy9icaVZd8n8-pVOt4u31M-qIqLy-Um30Q=w327-h325-no',
     'video_link': 'https://vimeo.com/73540804',
+    'video_caption': ['Why Storytelling Matters:',
+                      'Plenary with Doug Lipman'],
     'websites': [{'website': 'http://www.storydynamics.com/'}],
     'contact': 'doug@storydynamics.com',
     'publications': [{'publication': 'Improving Your Storytelling'}, {'publication': 'The Storytelling Coach '}, {'publication': 'Storytelling Games '}, {'publication': 'The Storytelling Workshop in a Box '}, {'publication':  'We All Go Together'} ]
+  },
+
+  {
+    'name': 'Michael Margolis',
+    'bio': 'Michael Margolis is the CEO and Founder of Get Storied - a storytelling and culture-making company. We serve heads of product, design, and marketing who need to sell a big disruptive future. An advisor to Facebook, Google, and NASA. 2x TEDx speaker. Helping leaders get the sponsorship, alignment, and transformational results they require. All through the power of Storied communications.',
+    'photo_url': 'https://lh3.googleusercontent.com/HgYWB0K7CXk8YlRBSfCaIMKUirHLNeshbMBl5qeFOiS3UoB6T_EDO8QP6CxdqP9wrM21Mak6T8-N6De1t5gaIbR3xQ9m-QM135PzglV4WBhetzQQ4Upr2po_5Fgb-CrxMhNssaoa8IVGepkNt1WMtnZXmkY7sTfXgGbNDsNo-MbdAgZJEEhKNjFVEgFfZJ8l9NqiekO7HVaaFLg3Nj8TbOsa_jgoR_G3XsZf3w-v4AVCIi-Hv0pSrp9f_fOE2XYh82ribplv39_dUfaKFb2EYb2riySeh16W7iweDIokYLBcaWqLo3ZV9JMfT5QWPR67PQ1GTQX6toLqxT-LHAWh9FEwdFVwJXRjDj6BbdMmmq2tX50ig7dx_fw5_S6yLkWPpheUpRRyeAzkJ8F3lDsFWJgNRi_RWcZXSNH3rc7o8OCpcgHVjxrAu6QBMMo0x94gkSs6fMmzVC9rIA9Kr8AAYAhYuCD_9N9vB6L5lMHi9q4LHq-r3jOXyu8ZQ-PzN3JgRuo4aLpLTUqqMvzJNfXAfbHffQWVxR6JjWUJLKykc0lafDw1LglsrDYCrTnTASkkssPwN9wC8jbAtY-5RpRPobbZtyTx-YWD7qXWJDw=s168-no',
+    'video_link': 'https://www.getstoried.com/',
+    'video_caption': 'How do you explain what you do?',
+    'websites': [{'website': 'https://www.getstoried.com/'}],
+    'contact': 'jodi@getstoried.com',
+    'publications': [{'publication': 'World Storytelling Day: The Land of Upside Down'}]
   }
 
 
