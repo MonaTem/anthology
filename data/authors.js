@@ -18,13 +18,23 @@ const authors = [
     'publications': [{'publication': 'https://b2bstorytelling.wordpress.com/download/'}, {'publication': 'https://b2bstorytelling.wordpress.com/download/'}]
   },
   {
-    'name': 'Donald Davis',
-    'bio': 'Donald Davis (born 1944) is an American storyteller, author, and minister. Davis had a twenty-year career as a minister before he became a professional storyteller. He has recorded over 25 storytelling albums and written several books. His long career as a teller and his promotion of the cultural importance of storytelling through seminars and master classes has led to Davis being dubbed the "dean of storytelling".',
-    'photo_url': 'https://lh3.googleusercontent.com/HKNBBGLqAg1XUD2DD7e9JB9aHBKwEfWNbwZm6yAt9yAvHt9i4-N04HYp93i9BFbxSOdk6E6A4w=w328-h324-no',
-    'video_link': 'https://www.youtube.com/watch?v=wgeh4xhSA2Q&feature=youtu.be',
-    'websites': [{'website': 'http://www.ddavisstoryteller.com/'}],
-    'contact': 'donald@ddavisstoryteller.com',
-    'publications': [{'publication': 'Davis has recorded more than two dozen storytelling albums during approximately two decades. He considers himself to be primarily a storyteller, but Davis is also an author. While the majority of his books are based on his recorded stories, he has also written a novel, a memoir and two educational books about storytelling and language'}]
+  'name': 'Donald Davis',
+  'bio': 'Donald Davis (born 1944) is an American storyteller, author, and minister. Davis had a twenty-year career as a minister before he became a professional storyteller. He has recorded over 25 storytelling albums and written several books. His long career as a teller and his promotion of the cultural importance of storytelling through seminars and master classes has led to Davis being dubbed the "dean of storytelling".',
+  'photo_url': 'https://lh3.googleusercontent.com/HKNBBGLqAg1XUD2DD7e9JB9aHBKwEfWNbwZm6yAt9yAvHt9i4-N04HYp93i9BFbxSOdk6E6A4w=w328-h324-no',
+  'video_link': 'https://www.youtube.com/watch?v=wgeh4xhSA2Q&feature=youtu.be',
+  'websites': [{'website': 'http://www.ddavisstoryteller.com/'}],
+  'contact': 'donald@ddavisstoryteller.com',
+  'publications': [{'publication': 'Davis has recorded more than two dozen storytelling albums during approximately two decades. He considers himself to be primarily a storyteller, but Davis is also an author. While the majority of his books are based on his recorded stories, he has also written a novel, a memoir and two educational books about storytelling and language'}]
+  },
+
+  {
+    'name': 'Doug Lipman',
+    'bio': 'Decades ago, I was a very discouraged teacher of emotionally disturbed adolescents. I wanted to be on their side, but all they did was fold their arms and scowl. One day, by accident, I told them a story. They responded! For the duration of the story, we were on the same side! That experience gave me hope, so I renewed my efforts. Months later, we finally became the cooperative classroom I had dreamed of Ever since then, I have pursued the transformative power of storytelling. I pursue it for myself, and work hard to find ever more efficient and satisfying ways to help others master it, too.',
+    'photo_url': 'https://lh3.googleusercontent.com/x4LDGrOPAxFR85cjo5zZc9FK_NvhYkxQqmeMD_HWIy9icaVZd8n8-pVOt4u31M-qIqLy-Um30Q=w327-h325-no',
+    'video_link': 'https://vimeo.com/73540804',
+    'websites': [{'website': 'http://www.storydynamics.com/'}],
+    'contact': 'doug@storydynamics.com',
+    'publications': [{'publication': 'Improving Your Storytelling'}, {'publication': 'The Storytelling Coach '}, {'publication': 'Storytelling Games '}, {'publication': 'The Storytelling Workshop in a Box '}, {'publication':  'We All Go Together'} ]
   }
 
 
