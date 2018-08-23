@@ -78,6 +78,17 @@ const authors = [
     'websites': [{'website': 'https://people.stanford.edu/jaaker/'}],
     'contact': 'faculty-gsb.stanford.edu/aaker/',
     'publications': [{'publication': 'The Dragon Fly Effect '}, {'publication':'Keep Calm, Play Hard'}, {'publication': "Tea Sloan’s Adventure"}]
+  },
+
+  {
+    'name': 'ANDY SMITH',
+    'bio': 'Andy Smith is an American entrepreneur, author, seed stage startup advisor, investor in connected technologies infrastructure and services including IoT and blockchain.',
+    'photo_url': 'https://lh3.googleusercontent.com/QmB4klF9DOY27F3X3D-NzLS053RTWv4bBZ7k62VY6eJ5eT4KahQryLhCNxfBLXieXuNuX6itL5FPUQqHVtzlL4FSqpxeztl0cGTW5cD7etUJHuGqVYjXh8y-qsGYsSkYOzvi-dPfSnvcGR-iBaSBvm3_2AiHhg_Xz-4A3UDZbTaWeVojRJ7hq8Xz29uVrIejrk8A-GhDchhcZHrBUHK0sUfEvf9dctabnvvrrnfAU7yxImb1SEXHsGMJJrHNL620qFkRizmfpbBK06os-C5hWmaXue8Y193cH6HIg2DclNcDCKxOrMVYMCIeDyv6hdVXWxbHRAIx3ngd803ogYDuhtkRLa7rWafrKKUZn-_qo3cLOBAn28OphHnMlRgZaWodXa5p6OSq5F8DT8ajyWlXXQoFs6eia4gAshlRzwLFbkxxvPKqAhuXt22UGTXtW7Medh_6W7rY7ck9ST9BhpE0r-ExFnakjS0IRUQZg-b_HYHUHXDNCxRJcFHbxeQsvIRoIVybwqqCdqApG4j62KLNvAFG7pzd3V5ornq3cQ7xfxOYaR3yMonB8jkKdWMjn8PUszzcCuxfGa1XMlkd3xc4vwczmxCMnTIpb_00iU4=w199-h198-no',
+    'video_link': 'https://youtu.be/t0AHyjJk6Ug',
+    'video_caption': 'The Dragonfly Effect',
+    'websites': [{'website': 'http://cen.vc/andy-smith/'}],
+    'contact': 'linkedin.com/in/andysmithlinkedin',
+    'publications': [{'publication': 'The Dragon Fly Effect '}]
   }
 
 ];
