@@ -65,8 +65,19 @@ const authors = [
     'video_caption': ['     Bewusstsein & Verbundenheit         ',
                       'Wie du dein Potential entwickelte kannst.'],
     'websites': [{'website': 'https://www.gerald-huether.de/'}, {'website': 'https://de.wikipedia.org/wiki/Gerald_Hüther'}],
-    'contact': 'jodi@getstoried.com',
+    'contact': null,
     'publications': [{'publication': 'Kommunale Intelligenz. edition Körber-Stiftung'}, {'publication':'Die Macht der inneren Bilder. Wie Visionen das Gehirn, den Menschen und die Welt verändern'}, {'publication': 'Bedienungsanleitung für ein menschliches Gehirn.'}]
+  },
+
+  {
+    'name': 'JENNIFER AAKER',
+    'bio': 'Jennifer Aaker is an American social psychologist, author and General Atlantic Professor of Marketing at Stanford Graduate School of Business. Best known for her research on time, money and happiness, Aaker also focuses on the transmission of ideas through social networks, the power of story in decision making, and how to build global brands across cultures. She is the recipient of the Distinguished Scientific Achievement Award from the Society for Consumer Psychology and the Stanford Distinguished Teaching Award.',
+    'photo_url': 'https://lh3.googleusercontent.com/S_Qkj6DXgofoii9GKAjsg1jkNYQIONYH-73UyefLOxWR0wuia77Xz8DWO371C_63qWUxydgPoo6yJT4DV1Sw1tCaqHnnGOm_1Di8h0x4fDXdccOUFIjW51SaGYhrJvhBabdtGWZxBahltaXEQxbbejO6sX0WjT8uU2QBLjqbNCxLa0kDBHL2AnfSfvxHte7fQB9qSU7r1yCTvZH0Ve0rO21vfbAux0o270M4bA56ppBiQ7dU0gvxoDk-tqHvDqb0Ks1f9c2h--n_VLFxbIifT8NOMCejlqvYzNJ8xautp6mKAPtaUlUpl37ktX-ubmOyRr5dx9h5h01uUQgczFXHqauH8VK9pGNCmrw6vUa16RJ0VLLDGPrb2ZJkzeJeVdK92xGZpDkuyeb0ADQQDzTm2CD_nbOVa1HevjkfzYh2Kq9A3nKCTzx45KQTgg4Lby2AIbPCrI4Sj2f4kbTtdyWBLpyjbmV0lC1Jb3QPOMTUY4d7IfTwtuUr_KK7Pyc9rU6klisZtQpSPjAerri4glxITrwg-rN0AOUeuZRu8akZPcI3emLi4F6jrgwwwzwS_gJK8CvN_loS-a02MdKhpmZhhLcr8wYhGKsksgk5yo0=w265-h269-no',
+    'video_link': 'https://youtu.be/CVqeUaYr98s',
+    'video_caption': 'The Power Of Story',
+    'websites': [{'website': 'https://people.stanford.edu/jaaker/'}],
+    'contact': 'faculty-gsb.stanford.edu/aaker/',
+    'publications': [{'publication': 'The Dragon Fly Effect '}, {'publication':'Keep Calm, Play Hard'}, {'publication': "Tea Sloan’s Adventure"}]
   }
 
 ];
