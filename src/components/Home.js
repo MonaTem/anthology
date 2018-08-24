@@ -1,4 +1,7 @@
 import React from 'react';
+import { push } from 'connected-react-router'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
 import '../styles/Anthology.css';
 import '../styles/Home.css';
 import NavTop from './NavTop.js';
