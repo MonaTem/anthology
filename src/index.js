@@ -6,7 +6,7 @@ import Anthology from './Anthology';
 import registerServiceWorker from './registerServiceWorker';
 
 const app = (
-	<Provider store={configured_store}>
+	<Provider store={configureStore()}>
 		<Anthology />
 	</Provider>
 )

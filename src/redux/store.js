@@ -1,42 +1,35 @@
-import { createStore, applyMiddleware, combineReducers } from 'redux'
-import { authors } from '../reducers'
+import { createStore, applyMiddleware, compose } from 'redux'
+import { connectRouter, routerMiddleware } from 'connected-react-router'
+import thunk from 'redux-thunk'
+import createHistory from 'history/createBrowserHistory'
+import rootReducer from './reducers'
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * *
-	This is a store with one reducer: SELECT_AUTHORs. When
-	adding more reducers, make sure to include them in
-	line 3 (above) and line 18 (below):
-* * * * * * * * * * * * * * * * * * * * * * * * * * * *
-*/
+export const history = createHistory()
 
-var store
-export default {
+const initialState = {}
+const enhancers = []
+const middleware = [
+  thunk,
+  routerMiddleware(history)
+]
 
-	configure: (initialState) => { // initialState can be null
+if (process.env.NODE_ENV === 'development') {
+  const devToolsExtension = window.__REDUX_DEVTOOLS_EXTENSION__
 
-		const reducers = combineReducers({ // insert reducers here
-			index: 0
-		})
-
-		if (initialState){
-			store = createStore(
-			    reducers,
-			    initialState,
-			    applyMiddleware(thunk)
-			)
-
-			return store
-		}
-
-		store = createStore(
-		    reducers,
-				window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-		    applyMiddleware(thunk)
-		)
-
-		return store
-	},
-
-	currentStore: () => {
-		return store
-	}
+  if (typeof devToolsExtension === 'function') {
+    enhancers.push(devToolsExtension())
+  }
 }
+
+const composedEnhancers = compose(
+  applyMiddleware(...middleware),
+  ...enhancers
+)
+
+const store = createStore(
+  connectRouter(history)(rootReducer),
+  initialState,
+  composedEnhancers
+)
+
+export default store
