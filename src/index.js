@@ -4,12 +4,12 @@ import './styles/index.css';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import Anthology from './Anthology';
-import store, { history } from './store'
+import store, { history } from './redux/store.js';
 import registerServiceWorker from './registerServiceWorker';
 
 const app = (
 	<Provider store={store}>
-    <ConnectedRouter history={history}>  
+    <ConnectedRouter history={history}>
 		 <Anthology />
    </ConnectedRouter>
 	</Provider>
