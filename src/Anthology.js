@@ -7,7 +7,7 @@ import Home from './components/Home.js';
 import Description from './components/Description.js';
 import TableOfContents from './components/TableOfContents.js';
 import Author from './components/Author.js';
-import Authors from './components/Authors.js';
+import Authors from './containers/Authors.js';
 import Imprint from './components/Imprint.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
