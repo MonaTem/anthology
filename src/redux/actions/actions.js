@@ -2,10 +2,11 @@
 // which one to use?
 
 // select author
+export const SELECT_AUTHOR = "SELECT_AUTHOR";
 
 export function selectAuthor(authorName, index) {
   return {
-    type: 'SELECT_AUTHOR',
+    type: SELECT_AUTHOR,
     authorName,
     index
   }
