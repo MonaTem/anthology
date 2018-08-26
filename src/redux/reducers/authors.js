@@ -7,11 +7,16 @@ import store from './redux/store.js';
 //
 function authors(state = store.initialState, action) {
  switch(action.type) {
-   case 'SELECT_AUTHOR' :
+
+   case 'SELECT_AUTHOR' : {
    // return the updated state
       console.log('Selecting author!');
-      const i = action.index;
-      return state[i];
+      return {
+        ...state,
+        authorName: action.authorName,
+        index: action.index
+      };
+    }
    default:
       return state;
   }
