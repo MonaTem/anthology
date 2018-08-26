@@ -4,20 +4,23 @@
 // select author
 export const SELECT_AUTHOR = "SELECT_AUTHOR";
 
-export function selectAuthor(authorName, index) {
-  return {
-    type: SELECT_AUTHOR,
-    authorName,
-    index
+const actions = { selectAuthor(authorName, index) {
+    return {
+      type: SELECT_AUTHOR,
+      authorName,
+      index
+    }
   }
 }
 
 /*
 //  select author
 */
-export const selectAuthor2 = () => dispatch => {
- dispatch({
-  type: 'SELECT_AUTHOR',
-  payload: 'index, authorName'
- })
-}
+// export const selectAuthor2 = () => dispatch => {
+//  dispatch({
+//   type: 'SELECT_AUTHOR',
+//   payload: 'index, authorName'
+//  })
+// }
+
+export default actions;
