@@ -6,9 +6,9 @@ import NavTop from './NavTop.js';
 import NavBottom from './NavBottom.js';
 // import authors from './redux/reducers/authors.js';
 import { actions } from '.redux/actions/actions.js';
+// import * as actions from '.redux/actions/actions.js';
 import { bindActionCreators } from 'redux';
 import Author from './components.Author.js';
-// import * as actions from '.redux/actions/actions.js';
 
 class Authors extends Component {
 
@@ -16,6 +16,7 @@ class Authors extends Component {
    return (
      <div>
      <NavTop />
+     <Author authorName={this.props.authorName} index={this.props.index}/>
      <NavBottom />
      </div>
 

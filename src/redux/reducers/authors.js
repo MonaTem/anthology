@@ -20,7 +20,6 @@ function authors(state = store.initialState, action) {
    default:
       return state;
   }
-  return state;
 }
 
 export default authors;
