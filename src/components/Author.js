@@ -8,7 +8,7 @@ const Author = (props) => {
   return (<div className="container-fluid">
     <NavTop page={Author}/>
     <div>
-    
+
       <NavBottom page={Author}/>
     </div>
   </div>);

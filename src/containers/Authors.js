@@ -5,12 +5,16 @@ import '../styles/Anthology.css';
 import NavTop from './NavTop.js';
 import NavBottom from './NavBottom.js';
 // import authors from './redux/reducers/authors.js';
-import { actions } from '.redux/actions/actions.js';
-// import * as actions from '.redux/actions/actions.js';
+// import { actions } from '.redux/actions/actions.js';
+import * as actions from '.redux/actions/actions.js';
 import { bindActionCreators } from 'redux';
 import Author from './components.Author.js';
 
 class Authors extends Component {
+  constructor(props) {
+    super(props);
+    this.render = this.render.bind(this);
+  }
 
   render() {
    return (
