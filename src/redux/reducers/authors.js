@@ -1,9 +1,11 @@
+import store from './redux/store.js';
+
 // a reducer takes in two things:
 
 // 1. the action (info about what happened)
 // 2. a copy of current state
 //
-function authors(state = [], action) {
+function authors(state = store.initialState, action) {
  switch(action.type) {
    case 'SELECT_AUTHOR' :
    // return the updated state

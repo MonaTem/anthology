@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import '../styles/Authors.css';
 import '../styles/Anthology.css';
 import NavTop from './NavTop.js';
@@ -16,4 +17,11 @@ class Authors extends Component {
    )
  }
 }
-export default Authors;
+
+function mapStateToProps(state) {
+  return {
+    authorName: state.authorName,
+    index: state.index
+  }
+}
+export default connect(mapStateToProps)(Authors);

@@ -6,6 +6,7 @@
 export function selectAuthor(index) {
   return {
     type: 'SELECT_AUTHOR',
+    authorName,
     index
   }
 }
@@ -13,9 +14,9 @@ export function selectAuthor(index) {
 /*
 //  select author
 */
-export const simpleAction = () => dispatch => {
+export const selectAuthor2 = () => dispatch => {
  dispatch({
   type: 'SELECT_AUTHOR',
-  payload: 'index'
+  payload: 'index, authorName'
  })
 }

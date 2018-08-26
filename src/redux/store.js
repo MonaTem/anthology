@@ -6,7 +6,7 @@ import rootReducer from './reducers/rootReducer.js'
 
 export const history = createHistory()
 
-const initialState = {}
+const initialState = {authorName: 'Gene Bellinger', index: 1}
 const enhancers = []
 const middleware = [
   thunk,
