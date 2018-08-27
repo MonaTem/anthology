@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import store, { history } from './redux/store.js';
+import store from './redux/store.js';
 import './styles/Anthology.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Home.js';
