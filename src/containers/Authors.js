@@ -20,6 +20,7 @@ class Authors extends Component {
    return (
      <div>
      <NavTop />
+     <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
      <Author authorName={this.props.authorName} index={this.props.index}/>
      <NavBottom />
      </div>
