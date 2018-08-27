@@ -7,7 +7,7 @@ import { logger } from 'redux-logger'
 
 export const history = createHistory();
 
-export const initialState = {};
+const initialState = {};
 
 const enhancers = []
 const middleware = [

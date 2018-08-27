@@ -1,4 +1,4 @@
-import store from '../store.js';
+// import store from '../store.js';
 // import actions from '../actions.action.js';
 
 // a reducer takes in two things:
@@ -6,6 +6,11 @@ import store from '../store.js';
 // 1. the action (info about what happened)
 // 2. a copy of current state
 //
+const initialState = {
+  authorName: 'Gene Bellinger',
+  index: 0
+}
+
 function authors(state = initialState, action) {
  switch(action.type) {
 
