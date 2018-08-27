@@ -1,0 +1,12 @@
+#cover-001 {
+    position: relative;
+    /* top: 7.5rem; */
+    /* left: -16em; */
+    width: 30em;
+    height: auto;
+    max-width: 100%;
+    z-index: 150;
+    /* right: 21em; */
+    margin-right: auto;
+    margin-left: auto;
+}
