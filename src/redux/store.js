@@ -5,9 +5,10 @@ import createHistory from 'history/createBrowserHistory'
 import rootReducer from './reducers/rootReducer.js'
 import { logger } from 'redux-logger'
 
-export const history = createHistory()
+export const history = createHistory();
 
-const initialState = {authorName: 'Gene Bellinger', index: 1}
+export const initialState = {};
+
 const enhancers = []
 const middleware = [
   thunk,
@@ -27,6 +28,7 @@ const composedEnhancers = compose(
   applyMiddleware(...middleware, logger),
   ...enhancers
 )
+
 
 const store = createStore(
   connectRouter(history)(rootReducer),
