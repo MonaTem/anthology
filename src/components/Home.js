@@ -7,7 +7,7 @@ import NavBottom from './NavBottom.js';
 const Home = (props) => {
 
   return (<div className="container-fluid">
-    <NavTop page={Home}/>
+    <NavTop page={'Home'}/>
     <div>
       <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       <img id="cover-002" className="img-fluid" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
@@ -51,12 +51,8 @@ const Home = (props) => {
         </p>
       </section>
 
-      {/* <section id="patrick-rothfuss-wr-section"> */}
-      {/* <p id="patrick-rothfuss-wr">Patrick Rothfuss, Writer
-        </p> */
-      }
-      {/* </section> */}
-      <NavBottom page={Home}/>
+    
+      <NavBottom page={'Home'}/>
     </div>
   </div>);
 }

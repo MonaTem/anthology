@@ -8,26 +8,26 @@ import NavBottom from '../components/NavBottom.js';
 // import { actions } from '.redux/actions/actions.js';
 import * as actions from '../redux/actions/actions.js';
 import { bindActionCreators } from 'redux';
-import Author from '../components/Author.js';
+// import Author from '../components/Author.js';
 
 class Authors extends Component {
 
   render() {
    return (
      <div>
-     <NavTop />
+     <NavTop page={'Authors'}/>
      <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
 
      <ul className="d-inline-flex list-group flex-column">
        <li  className="list-group-item p-2 active">
-         <Author authorName={'JENNIFER AAKER'} index={0}/>
+         JENNIFER AAKER
        </li>
        <li  className="list-group-item p-2 active">
-         <Author authorName={'GENE BELLINGER'} index={1}/>
+         GENE BELLINGER
        </li>
      </ul>
 
-     <NavBottom />
+     <NavBottom page={'Authors'}/>
      </div>
 
    )
