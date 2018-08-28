@@ -15,15 +15,15 @@ class Authors extends Component {
   render() {
     return (<div>
       <NavTop page={'Authors'}/>
-      <div className="align-left">
+      <div className="container-fluid">
         <img id="cover-001" className="img-fluid ml-0" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
       <div className="row">
-        <div className="col-lg">
-          <p className="active author">
+        <div className="col-md-3 offset-md-5 col-lg-6 offset-lg-3 author">
+          <p className="active">
             JENNIFER AAKER
           </p>
-          <p className="active author">
+          <p className="active">
             GENE BELLINGER
           </p>
         </div>

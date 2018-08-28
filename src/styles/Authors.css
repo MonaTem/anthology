@@ -5,18 +5,23 @@
     width: 30em;
     height: auto;
     max-width: 100%;
-    z-index: 150;
+    /* z-index: 150; */
     /* right: 21em; */
     margin-right: auto;
-    margin-left: auto;
+    left: -30em;
+
+    /* float: left; */
 }
 
 .active {
   font-weight: bold
 }
 
-author {
+.author {
   font-family: Arial,cursive;
-  font-size: 32em;
-  font-color: #254489;
+  font-size: 30px;
+  color: #254489;
+  top: -30rem;
+  /* float: right; */
+
 }
