@@ -6,13 +6,14 @@ const NavBottom = (props) => {
 
     var NavStyle = {
       color: '#254489',
-      textDecoration: 'none'
+      textDecoration: 'none',
+      fontWeight: 'normal'
     }
 
     var NavStyleBold = {
       color: '#254489',
       textDecoration: 'none',
-      fontWeight: 'strong'
+      fontWeight: 'bold'
     }
 
 
