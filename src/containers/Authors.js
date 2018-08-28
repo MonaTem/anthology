@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 import '../styles/Authors.css';
 import '../styles/Anthology.css';
 import NavTop from '../components/NavTop.js';
@@ -7,38 +7,35 @@ import NavBottom from '../components/NavBottom.js';
 // import authors from './redux/reducers/authors.js';
 // import { actions } from '.redux/actions/actions.js';
 import * as actions from '../redux/actions/actions.js';
-import { bindActionCreators } from 'redux';
+import {bindActionCreators} from 'redux';
 // import Author from '../components/Author.js';
 
 class Authors extends Component {
 
   render() {
-   return (
-     <div>
-     <NavTop page={'Authors'}/>
-     <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+    return (<div>
+      <NavTop page={'Authors'}/>
+      <div className="align-left">
+        <img id="cover-001" className="img-fluid ml-0" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+      </div>
+      <div className="row">
+        <div className="col-lg">
+          <p className="active author">
+            JENNIFER AAKER
+          </p>
+          <p className="active author">
+            GENE BELLINGER
+          </p>
+        </div>
+      </div>
 
-     <ul className="d-inline-flex list-group flex-column">
-       <li  className="list-group-item p-2 active">
-         JENNIFER AAKER
-       </li>
-       <li  className="list-group-item p-2 active">
-         GENE BELLINGER
-       </li>
-     </ul>
-
-     <NavBottom page={'Authors'}/>
-     </div>
-
-   )
- }
+      <NavBottom page={'Authors'}/>
+    </div>)
+  }
 }
 
 function mapStateToProps(state) {
-  return {
-    authorName: state.authorName,
-    index: state.index
-  }
+  return {authorName: state.authorName, index: state.index}
 }
 
 // function mapDispatchToProps(dispatch) {
@@ -52,6 +49,5 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(actions, dispatch);
 }
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(Authors);

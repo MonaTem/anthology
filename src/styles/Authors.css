@@ -10,3 +10,13 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.active {
+  font-weight: bold
+}
+
+author {
+  font-family: Arial,cursive;
+  font-size: 32em;
+  font-color: #254489;
+}
