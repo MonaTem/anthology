@@ -101,7 +101,53 @@ const authors = [
     'websites': [{'website': 'http://www.mitchditkoff.com/'}, {'website': 'http://www.ideachampions.com/'}],
     'contact': '',
     'publications': [{'publication': 'Full Moon at Sunrise: Poetry of the Heart'}, {'publication': 'Storytelling at Work: How Moments of Truth on the Job Reveal the Real Business of Life'}, {'publication': 'Storytelling for the Revolution: The Ultimate Uprising of Insight, Wisdom, and Love'}]
+  },
+
+  {
+    'name': 'JIMMY NEIL SMITH',
+    'bio': 'Jimmy Neil Smith is founder and president of the International Storytelling Center (ISC) in Jonesborough, Tennessee. In 1973, Smith, then a local journalism teacher, hosted the first National Storytelling Festival as a way to build regional and national awareness of Jonesborough. Two years after the first Festival, Smith founded the National Association for the Preservation and Perpetuation of Storytelling—now known as the International Storytelling Center.',
+    'photo_url': 'https://lh3.googleusercontent.com/dqCgorbEdqtCswy_hC2L2jISntC-pADd9wSgDz6SaYq5qMVrpYPHz4sV9_AG0RgY2OzZ3LHMAtE27vi3vYskYkPWcUOp7xpEkZjbq7BZwhFsvhw1QKgFWpCMaLjxpl0aSBUTd8jUAIqoJ7_P-uJGETaNf59YGIJwYSU2pKJMkKV9O8PKJXRCsGWkqSBs_tqldxNaO-i4VMKXs2SHD6o2TLaVOnYTBzwxam4hqNuA9Kpj_i9SIc-98RcVtrYzvvZaU7XkY783r5nEgC5nnzLe8n4IiRTu316UdRbLoKw0hEfkfhZ4vhxFGsZ7w3FzNMgLaTCNzeJjNNprQs6yxRONENd-x2pLUk6o_mgY_iKqODSqPugjcFyOii1YnFfEnW1c2rywSWeCOpCf6a7p7GdIbE0jF6g-nEvn1e2FWYbXRQ3VzsIE6rXONOKWtwMS1g6OZkId3VwpmYKeecqgBCAVjBo2DAO7HsQbS70iA6aGGCa7InyGTbnmL3nbGsYkthuQrfQyN63jHG_l9cg4kongRuFqn1FPSPN46XrRNGFyPY1M--9E2_JFPjwY9cVF0wdI-RKuaXWPywPKEEgZNJl823fCU03m-MsOv4FXX_5ptDIXzA8zNnBcYsSNsTEcAVw=w169-h168-no',
+    'video_link': 'https://youtu.be/5fd68Rz5Utk',
+    'video_caption': 'Seven Billion Dreams',
+    'websites': [{'website': 'https://en.wikipedia.org/wiki/Jimmy_Neil_Smith'}],
+    'contact': '',
+    'publications': [{'publication': 'Homespun'}, {'publication': 'Why the Possum Lost its Tail.'}]
+  },
+
+  {
+    'name': 'HOWARD GARDNER',
+    'bio': 'Howard Earl Gardner is an American developmental psychologist and the John H. and Elisabeth A. Hobbs Professor of Cognition and Education at the Harvard Graduate School of Education at Harvard University. He is currently the senior director of Harvard Project Zero, and since 1995, he has been the co-director of The Good Project.',
+    'photo_url': 'https://lh3.googleusercontent.com/IyCd5_MYD6B-oJlUV9OJmn2PVp5DDytPqyNiFJOd7b4X0zNYXu9NsP7PzjTqWzcji5h0ZIQOnkmOlWOMRtB0ieRGizZ4bVLzK8rTdjM48vvq3CiFTUcSoOc3KuiG2G1kKaB5LPN5hlDTL4d-21ZIAMaCkMzhlyPc_U9uuUrq0-tuD835FNUbJsFXkwaX5dP8JYx8rnvGjwZ_FxFmqx4J5nwqQ0hZcL2PM9XUI8M0ha71cIPi0oOrxy5r1IGIQNXm16GwEuHDMx9KX3SPCmHmQWsXtVeXKEPM1Gd9t2eD3-Cfg4Rel2iVrd3Jfysq2k3Ceu7F3pLuepzPUwE8LI2L2fo0JPtJrpmCSHHkvlbXpDx_jAuQZ1375Sydg6HfUJ3ckKYvRKOywV1dhJIh7TtKtRddGSiC3aa42yjfhGTpiqmcHcZpfag7chCQS4Ey75x8i7VZ7rE-64JBVCpFRH5EZa5-ZrOZuAKjLdSxpecoYyBG3d8ejMaz3zHoNqJY-XxEgzCYK-a4bD6d9AZWRYLAKjMcgJ6AiY7PvfeupSK9rXfPycawJYGcT7vqaOEIh8IE1uIJ1NB1xp23dUe0jdOKA1eUthi7soTuiIbZV1-qxlY5e4umVUgCTL4B7fC2UlE=w499-h489-no',
+    'video_link': 'https://youtu.be/IfzrN2yMBaQ',
+    'video_caption': ['Beyond Wit and Grit: Rethinking the',
+                      '        Keys to Success            '],
+    'websites': [{'website': 'https://howardgardner.com/'},{'website': 'https://en.wikipedia.org/wiki/Howard_Gardner'}, {'website': 'https://www.gse.harvard.edu/faculty/howard-gardner'}],
+    'contact': '',
+    'publications': [{'publication': 'The App Generation: How Today’s Youth Navigate Identity, Intimacy, and Imagination in a Digital World'}, {'publication': 'Truth, Beauty, and Goodness Reframed: Educating for the Virtues in the Age of Truthiness and Twitter'}, {'publication': 'Five Minds for the Future'}, {'publication': 'Multiple Intelligences: New Horizons'}]
+  },
+
+  {
+    'name': 'LUKE SULLIVAN',
+    'bio': 'LUKE SULLIVAN Professor of Advertising, Savannah College of Art & Design, is an award-winning copywriter at Fallon McElligott, an ad agency that has developed campaigns for Miller Lite beer, Time magazine, BMW, and Lee Jeans, among others, and which was named "Ad Agency of the Year" by Adweek.',
+    'photo_url': 'https://lh3.googleusercontent.com/e4AaMbylNDHUaZDSPRFqF40j4HrUpFCphkabDuoFoVW2Iet_JRqp15lJQLckIpUKByAFi0xSJOOl4g-i-rTFAdKSPVfEZgVGDBF6pxh3fZ_brGfRhFtQPshxeAZDNXcK5d2Xq3H8USbiy6oUPo7aPAWv7LP0Sods5t8P9mbXsssl4mjKp1pjebAlLLj56V1hNJWIc6TFarW-eFCwq-hr_srClZnrW042P46b2aTyawQVGGfrb89sgIcwfGEkDQ65klceZlhof_OSk57fgZP47VoleZzoBSbd5gfeTtW7nJlLHVwsM5I6PBMAvHWuX29UAPx5THsKPWPVSzFNnuIXq-QgTV6hrUe6EVq8aDDtQRFLCrKuIxcqRzrsqF9p6iTcKChBhfg1v5UoblIJ6-58F5HYkCq-7UhNJ7ghzZYlNQUz111bXapPkwrEJT8PzSmM63HCLzvJu6WvTAJMukqN_F_mEc_lgWgQbWOaL1P0YuBABnj9BjheIUs5OLUgXI0azJvW5fLIVG_yuXP-u6oxslp8AIcVdtFBrWifXa37GMjFKRYu_EwXrqvocjXbCYwPxM16aPX8uFyq2xmnT6Z8T7Wk4xFLVcbyDJs5iq5ix0z_gSQ2bTqEndh9cEXPSZs=w447-h450-no',
+    'video_link': 'https://youtu.be/iuVu2V87Qi4',
+    'video_caption': 'Always Be Interesting',
+    'websites': [{'website': 'https://heywhipple.com/'},],
+    'contact': '',
+    'publications': [{'publication': 'HEY WHIPPLE, SQUEEZE THIS!'}, {'publication': 'THIRTY ROOMS TO HIDE IN'}]
+  },
+
+  {
+    'name': 'JULIE SPRINGER',
+    'bio': 'LUKE SULLIVAN Professor of Advertising, Savannah College of Art & Design, is an award-winning copywriter at Fallon McElligott, an ad agency that has developed campaigns for Miller Lite beer, Time magazine, BMW, and Lee Jeans, among others, and which was named "Ad Agency of the Year" by Adweek.',
+    'photo_url': 'https://lh3.googleusercontent.com/e4AaMbylNDHUaZDSPRFqF40j4HrUpFCphkabDuoFoVW2Iet_JRqp15lJQLckIpUKByAFi0xSJOOl4g-i-rTFAdKSPVfEZgVGDBF6pxh3fZ_brGfRhFtQPshxeAZDNXcK5d2Xq3H8USbiy6oUPo7aPAWv7LP0Sods5t8P9mbXsssl4mjKp1pjebAlLLj56V1hNJWIc6TFarW-eFCwq-hr_srClZnrW042P46b2aTyawQVGGfrb89sgIcwfGEkDQ65klceZlhof_OSk57fgZP47VoleZzoBSbd5gfeTtW7nJlLHVwsM5I6PBMAvHWuX29UAPx5THsKPWPVSzFNnuIXq-QgTV6hrUe6EVq8aDDtQRFLCrKuIxcqRzrsqF9p6iTcKChBhfg1v5UoblIJ6-58F5HYkCq-7UhNJ7ghzZYlNQUz111bXapPkwrEJT8PzSmM63HCLzvJu6WvTAJMukqN_F_mEc_lgWgQbWOaL1P0YuBABnj9BjheIUs5OLUgXI0azJvW5fLIVG_yuXP-u6oxslp8AIcVdtFBrWifXa37GMjFKRYu_EwXrqvocjXbCYwPxM16aPX8uFyq2xmnT6Z8T7Wk4xFLVcbyDJs5iq5ix0z_gSQ2bTqEndh9cEXPSZs=w447-h450-no',
+    'video_link': 'https://youtu.be/iuVu2V87Qi4',
+    'video_caption': 'Always Be Interesting',
+    'websites': [{'website': 'https://heywhipple.com/'},],
+    'contact': '',
+    'publications': [{'publication': 'HEY WHIPPLE, SQUEEZE THIS!'}, {'publication': 'THIRTY ROOMS TO HIDE IN'}]
   }
+
 
 ];
 
