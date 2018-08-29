@@ -77,7 +77,7 @@ const authors = [
     'video_caption': 'The Power Of Story',
     'websites': [{'website': 'https://people.stanford.edu/jaaker/'}],
     'contact': 'faculty-gsb.stanford.edu/aaker/',
-    'publications': [{'publication': 'The Dragon Fly Effect '}, {'publication':'Keep Calm, Play Hard'}, {'publication': "Tea Sloan’s Adventure"}]
+    'publications': [{'publication': 'The Dragon Fly Effect'}, {'publication':'Keep Calm, Play Hard'}, {'publication': "Tea Sloan’s Adventure"}]
   },
 
   {
@@ -88,7 +88,19 @@ const authors = [
     'video_caption': 'The Dragonfly Effect',
     'websites': [{'website': 'http://cen.vc/andy-smith/'}],
     'contact': 'linkedin.com/in/andysmithlinkedin',
-    'publications': [{'publication': 'The Dragon Fly Effect '}]
+    'publications': [{'publication': 'The Dragon Fly Effect'}]
+  },
+
+  {
+    'name': 'MITCH DITKOFF',
+    'bio': 'Mitch Ditkoff, author of Stoytelling at Work, is the Co-Founder and President of Idea Champions, a leading edge innovation consulting and training company headquartered in Woodstock, NY.',
+    'photo_url': 'https://lh3.googleusercontent.com/sNM8OpwXEr5oRoTioYTd1CvV-WfXcdpyNhWrr3eWLaxz-tBqNZ7BY8OrfyzcXQgLbaN8F46pqu7h6rbpL4LHlLLFcq0eiybcv1s4XFd8vbjrzAwic9OpP1eeDZ-AOoyjEqwbABPK3KUx9Zo0e8WQSA4pu5xDrQqgU7_w_hPKbsJ6Ke-OEOiPoaHMsrxyuTipLeD6S8JeWHZak2IkQ3rzNHFgwcLVOnZcfDZpVMqYdPb5NVwy9XrFWGVJefuegDvYlTmdjGpmEjMGUaeuQfT1UKBmWZsGrUc4rNEHLt5H1ZQqyNMn0jqowBfz8tIgUM1bpql3E7ueTMzJ5FN-ksvwt1vnVoDVTdAJQ0fahIlNTCf9XtdXjopyafAtP36EKqHxu50dJZjVouFghWiTtpYjJSwXY1dgzz4NxOSaqD4avBTVQQA-kSpfOvSpXjSVFlaiCnjqeh4_BKcNnxR87UhWkRpn9Q9juBYLYOmHz8Ys6auIZh_rnfadl1P2B2TB6sL9X9UID9OMIw_3gDGUsAlGTyXMiVZXou3fBZhc2LmHI2QzdJb7fa1GtmhniRWvDrjErEexpXbWQq6U4ez-mlLyJhjyX2zF5SQjGfzeJwpgkPoxftFn44ZFIj9_AyzdcXA=w355-h346-no',
+    'video_link': 'https://www.youtube.com/watch?v=O8PMrmwDK2U',
+    'video_caption': ['WEBINAR: A How-to on Storytelling',
+                      '      & Lean Six Sigma           '],
+    'websites': [{'website': 'http://www.mitchditkoff.com/'}, {'website': 'http://www.ideachampions.com/'}],
+    'contact': '',
+    'publications': [{'publication': 'Full Moon at Sunrise: Poetry of the Heart'}, {'publication': 'Storytelling at Work: How Moments of Truth on the Job Reveal the Real Business of Life'}, {'publication': 'Storytelling for the Revolution: The Ultimate Uprising of Insight, Wisdom, and Love'}]
   }
 
 ];
