@@ -139,13 +139,14 @@ const authors = [
 
   {
     'name': 'JULIE SPRINGER',
-    'bio': 'LUKE SULLIVAN Professor of Advertising, Savannah College of Art & Design, is an award-winning copywriter at Fallon McElligott, an ad agency that has developed campaigns for Miller Lite beer, Time magazine, BMW, and Lee Jeans, among others, and which was named "Ad Agency of the Year" by Adweek.',
-    'photo_url': 'https://lh3.googleusercontent.com/e4AaMbylNDHUaZDSPRFqF40j4HrUpFCphkabDuoFoVW2Iet_JRqp15lJQLckIpUKByAFi0xSJOOl4g-i-rTFAdKSPVfEZgVGDBF6pxh3fZ_brGfRhFtQPshxeAZDNXcK5d2Xq3H8USbiy6oUPo7aPAWv7LP0Sods5t8P9mbXsssl4mjKp1pjebAlLLj56V1hNJWIc6TFarW-eFCwq-hr_srClZnrW042P46b2aTyawQVGGfrb89sgIcwfGEkDQ65klceZlhof_OSk57fgZP47VoleZzoBSbd5gfeTtW7nJlLHVwsM5I6PBMAvHWuX29UAPx5THsKPWPVSzFNnuIXq-QgTV6hrUe6EVq8aDDtQRFLCrKuIxcqRzrsqF9p6iTcKChBhfg1v5UoblIJ6-58F5HYkCq-7UhNJ7ghzZYlNQUz111bXapPkwrEJT8PzSmM63HCLzvJu6WvTAJMukqN_F_mEc_lgWgQbWOaL1P0YuBABnj9BjheIUs5OLUgXI0azJvW5fLIVG_yuXP-u6oxslp8AIcVdtFBrWifXa37GMjFKRYu_EwXrqvocjXbCYwPxM16aPX8uFyq2xmnT6Z8T7Wk4xFLVcbyDJs5iq5ix0z_gSQ2bTqEndh9cEXPSZs=w447-h450-no',
-    'video_link': 'https://youtu.be/iuVu2V87Qi4',
-    'video_caption': 'Always Be Interesting',
-    'websites': [{'website': 'https://heywhipple.com/'},],
+    'bio': 'Julie Springer is an art historian and educator at the National Gallery of Art, Washington DC, where she conducts professional development programs for K-12 teachers. An early advocate of electronic technologies in the classroom, many programs have focused on digital storytelling as a medium for listening and sharing with others, while strengthening social and emotional learning.',
+    'photo_url': 'https://lh3.googleusercontent.com/8gHyM7QPV98EJoxa3ED8jX6bYfzC0jXXW3R4sc2r34Rivv5Whk1bL-rs_nuMec8a2ox69O2BUAjUbFjfw3F3Mb-A3yMxzJgcPrrQL6dGRz-_77TPPCSaIOLD229r3x7SgnR7h7RoTs-4FVDj0fRsmGeM93QKEJPwi5iwQNyXm20arq1lz6sVnVKwsXyCxHIQdhEF_8FfatHdpP-PdMXe74qOGCjG3BXij_UslfAXhWzb7ZuLabIkOEhJRDGaO1peecptB3Jm9BM1a89ft37viY-Fm2jSNaMrO6XtB6_nL1uJCkATrWgauoAerVLxnHNrEBtvAHgJlsHXy_X6ebDiQ3YGp2Bj0zw0JH00Ecypz4dVph9shdiFK2LSwOsmnbQ7hCx_eZ43fNO9uSy3dVrT1m6Acu_s4A0S9dQPTuIocNPzqDvHqhe-J67s8kY3NH7Oe_BDsLDj0KxgmjOL9Jq6jt2lOnM9BsrQiZJXlPCvU6XCmkIPfNT0HwWH20LyIwBnm1Cd0EjwcCIE9qK-KFCysVEecPaf-TxOO2BA9vejdCbQkl9eyG49HCEA0Khsako4FtaLLmFpwk9XaBGBtXOQLQSwqqJX6IQV2NT-kxuhNXSfwmfPjFGewk_xvVM_GLs=w147-h200-no',
+    'video_link': 'https://youtu.be/wDNBwIe8_48',
+    'video_caption': ['A day in my life || National Gallery of',
+                      '       Art in Washington, DC           '],
+    'websites': [{'website': 'https://www.museumsandtheweb.com/mw2004/papers/springer/springer.html'}],
     'contact': '',
-    'publications': [{'publication': 'HEY WHIPPLE, SQUEEZE THIS!'}, {'publication': 'THIRTY ROOMS TO HIDE IN'}]
+    'publications': [{'publication': 'Digital Art at the National Gallery of Art'}, {'publication': 'Digital Storytelling, Then and Now. From Academic Tool to Social Empowerment.'}]
   }
 
 
