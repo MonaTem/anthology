@@ -21,7 +21,7 @@
     position: relative;
     /* width: 527em; */
     width: auto;
-    z-index: 10;
+    /* z-index: 10; */
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
@@ -37,13 +37,13 @@
 
 #howard-gardner-psyc {
     position: relative;
-    width: 16em;
-    z-index: 10;
+    /* width: 16em; */
+    /* z-index: 10; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 24px;
+    font-size: 1.2em;
     /* float: right; */
     display: inline-block;
     /* margin-top: -15rem;
@@ -57,34 +57,34 @@
 
 #if-you-want-to-learn {
     position: relative;
-    width: 21em;
-    z-index: 20;
+    /* width: 21em;
+    z-index: 20; */
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-    font-size: 24px;
-    margin-right: auto;
-    margin-left: 5em;
-    top: -45rem;
-    display: block;
-    height: 4em;
-    float: left;
+    font-size: 1.2em;
+    /* margin-right: auto; */
+    /* margin-left: 5em; */
+    /* top: -45rem; */
+    /* display: inline-block; */
+    /* height: 4em; */
+    /* float: left; */
 }
 
 #steve-jobs {
     position: relative;
     top: -1rem;
-    width: 6em;
-    z-index: 20;
+    /* width: 6em;
+    z-index: 20; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 24px;
-    float: left;
+    font-size: 1.2em;
+    /* float: left; */
     display: inline-block;
     /* margin-right: 505em; */
-    height: 1.5em;
+    /* height: 1.2em;  */
 }
 
 
@@ -92,10 +92,10 @@
     position: relative;
     /* top: 7.5rem; */
     /* left: -16em; */
-    width: 30em;
+    /* width: 30em; */
     height: auto;
     max-width: 100%;
-    z-index: 150;
+    /* z-index: 150; */
     /* right: 21em; */
     margin-right: auto;
     /* left: 60em; */
@@ -107,26 +107,26 @@
     position: relative;
     /* top: 7.5rem; */
     /* left: -16em; */
-    width: 30em;
+    /* width: 30em; */
     /* height: 52rem; */
     max-width: 100%;
     height: auto;
-    z-index: 180;
+    /* z-index: 180; */
     /* right: -1em; */
     margin-right: auto;
     /* margin-left: -30em; */
 
 }
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
     /* For large screen: */
-    #cover-001 {
+    /* #cover-001 {
         margin-left: 5em;
     }
     #cover-002 {
         margin-left: -30em;
-    }
- }
+    } */
+ /* }  */
  /* @media only screen and (max-width: 1100px) { */
      /* For medium and small screens: */
      /* [id*="-section"] { */
@@ -137,52 +137,58 @@
 
 #michael-margolis-te {
     position: relative;
-    width: 16em;
-    z-index: 10;
+    /* width: 16em;
+    z-index: 10; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 24px;
-    margin-right: auto;
+    font-size: 1.2em;
+    left: -24.5em;
+    /* left: -26em; */
+    /* left: -600em;
+    top: -1rem; */
+    display: inline-block;
+    /* left: -2em; */
+    /* margin-right: auto;
     margin-left: 7em;
     margin-top: -44rem;
-    display: block;
     top: -1rem;
     left: -2em;
-    height: 1.5em;
+    height: 1.5em; */
 }
 
 #group-4 {
     position: relative;
-    margin-right: auto;
+    /* margin-top: 7.5rem; */
+    display: inline-block;
+    /* margin-right: auto;
     margin-left: auto;
     width: 21em;
     z-index: 10;
-    display: block;
-    margin-top: 7.5rem;
-    left: 22em;
-}
+    display: block; */
+    /* margin-top: 7.5rem; */
+    /* left: 22em; */ }
 
 section {
     width: 100%;
-    left: 0em;
-    position: relative;
-    overflow: visible;
+    /* left: 0em; */
+    /* position: relative; */
+    /* overflow: visible; */
 }
 
 #most-powerful-section {
     /* z-index: 200; */
     position: relative;
     display: inline-block;
-    z-index: 15;
-    float: left;
+    /* z-index: 15; */
+    /* float: left; */
     text-align: left;
-    top: -46.2rem;
+    /* top: -46.2rem; */
     /* padding-top: 1rem; */
-    margin-left: 45em;
+    /* margin-left: 45em; */
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 #generaton {
@@ -196,19 +202,20 @@ section {
 
 }
 
-#steve-jobs-section {
-    z-index: 80;
-    position: relative;
+/* #steve-jobs-section {
+    /* z-index: 80; */
+    /* position: relative;
     display: inline-block;
-    text-align: left;
-    margin-left: 15em;
-    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 24px;
-    float: left;
-}
+    text-align: left; */
+    /* margin-left: 15em; */
+    /* font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-weight: 500;
+    font-size: 1.2em; */
+    /* float: left; */
+/* }  */
 
 #group-3-section {
-    z-index: 40;
+    /* z-index: 40; */
     position: relative;
     display: inline-block;
     text-align: left;
@@ -217,22 +224,22 @@ section {
 
 #stories-constitute-t {
     position: relative;
-    width: auto;
-    z-index: 20;
+    /* width: auto; */
+    /* z-index: 20; */
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-    font-size: 24px;
-    margin-right: auto;
-    margin-left: 45em;
-    top: -34rem;
+    font-size: 1.2em;
+    /* margin-right: auto; */
+    /* margin-left: 45em; */
+    /* top: -31rem; */
     display: inline-block;
-    height: 4em;
+
     /* float: left; */
 }
 
 #its-like-everyone-t-section {
-    z-index: 60;
+    /* z-index: 60; */
     position: relative;
     display: inline-block;
     text-align: left;
@@ -241,7 +248,7 @@ section {
 }
 
 #patrick-rothfuss-wr-section {
-    z-index: 90;
+    /* z-index: 90; */
     position: relative;
     display: inline-block;
     text-align: left;

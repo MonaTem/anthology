@@ -15,94 +15,96 @@ class Authors extends Component {
   render() {
     return (<div>
       <NavTop page={'Authors'}/>
-      <div className="container-fluid">
-        <img id="cover-001" className="img-fluid ml-0" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+      <div className="media">
+        <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
-      <div className="row">
-        <div className="col-6 offset-5 author text-left">
-          <p className="active">
-            JENNIFER AAKER
-          </p>
-          <p className="active">
-            GENE BELLINGER
-          </p>
-          <p>
-            JULIA BORST BRAZAS
-          </p>
-          <p className="active">
-            DONALD DAVIS
-          </p>
-          <p>
-            BRENT DYKES
-          </p>
-          <p className="active">
-            MITCH DITKOFF
-          </p>
-          <p>
-            JON FERREIRA
-          </p>
-          <p className="active">
-            HOWARD GARDNER
-          </p>
-          <p>
-            KIM GASKINS
-          </p>
-          <p className="active">
-            GERALD HÜTHER
-          </p>
-          <p className="active">
-            MARC JADOUL
-          </p>
+      <div className="media-body">
+        <div className="row">
+          <div className="col-6 offset-5 author text-left">
+            <p className="active">
+              JENNIFER AAKER
+            </p>
+            <p className="active">
+              GENE BELLINGER
+            </p>
+            <p>
+              JULIA BORST BRAZAS
+            </p>
+            <p className="active">
+              DONALD DAVIS
+            </p>
+            <p>
+              BRENT DYKES
+            </p>
+            <p className="active">
+              MITCH DITKOFF
+            </p>
+            <p>
+              JON FERREIRA
+            </p>
+            <p className="active">
+              HOWARD GARDNER
+            </p>
+            <p>
+              KIM GASKINS
+            </p>
+            <p className="active">
+              GERALD HÜTHER
+            </p>
+            <p className="active">
+              MARC JADOUL
+            </p>
+          </div>
+          <div className="col-6 offset-7 author text-left">
+            <p>
+              JOEL KURZMAN
+            </p>
+            <p>
+              SARAH KAJDER
+            </p>
+            <p className="active">
+              DOUG LIPMAN
+            </p>
+            <p>
+              ILANA SIMONS
+            </p>
+            <p className="active">
+              MICHAEL MARGOLIS
+            </p>
+            <p className="active">
+              ANDY SMITH
+            </p>
+            <p className="active">
+              JIMMY NEIL SMITH
+            </p>
+            <p className="active">
+              LUKE SULLIVAN
+            </p>
+            <p className="active">
+              JULIE SPRINGER
+            </p>
+            <p>
+              STORYREGIONS
+            </p>
+            <p>
+              JASON XENOPOOULOS
+            </p>
+            <p>
+              RUEDIGER DRISCHEL (EDITOR)
+            </p>
+          </div>
         </div>
-        <div className="col-6 offset-7 author text-left">
-          <p>
-            JOEL KURZMAN
-          </p>
-          <p>
-            SARAH KAJDER
-          </p>
-          <p className="active">
-            DOUG LIPMAN
-          </p>
-          <p>
-            ILANA SIMONS
-          </p>
-          <p className="active">
-            MICHAEL MARGOLIS
-          </p>
-          <p className="active">
-            ANDY SMITH
-          </p>
-          <p className="active">
-            JIMMY NEIL SMITH
-          </p>
-          <p className="active">
-            LUKE SULLIVAN
-          </p>
-          <p className="active">
-            JULIE SPRINGER
-          </p>
-          <p>
-            STORYREGIONS
-          </p>
-          <p>
-            JASON XENOPOOULOS
-          </p>
-          <p>
-            RUEDIGER DRISCHEL (EDITOR)
-          </p>
+        <div className="row">
+          <div className="col-12 offset-1 info">
+            <p>
+              FOR MORE INFORMATION
+            </p>
+            <p>
+              CLICK ON THE AUTHOR'S NAME
+            </p>
+          </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-12 offset-1 info">
-          <p>
-          FOR MORE INFORMATION
-          </p>
-          <p>
-          CLICK ON THE AUTHOR'S NAME
-         </p>
-      </div>
-     </div>
 
       <NavBottom page={'Authors'}/>
     </div>)

@@ -2,13 +2,13 @@
     position: relative;
     /* top: 7.5rem; */
     /* left: -16em; */
-    width: 30em;
+    /* width: 30em; */
     height: auto;
     max-width: 100%;
     /* z-index: 150; */
     /* right: 21em; */
-    margin-right: auto;
-    left: -30em;
+    /* margin-right: auto; */
+    /* left: -10em; */
 
     /* float: left; */
 }
@@ -19,7 +19,7 @@
 
 .author {
   font-family: Arial,cursive;
-  font-size: 20px;
+  font-size: 20em;
   color: #254489;
   margin-top: -45rem;
   /* top: -0rem; */
@@ -29,8 +29,15 @@
 
 .info {
   font-family: HelveticaNeue;
-  font-size: 24px;
+  font-size: 24em;
   color: #254489;
   font-weight: bold;
   margin-top: -10rem;
 }
+
+/* @media only screen and (max-width: 1100px) {
+    /* For medium and small screens: */
+    /* .author {
+        font-size:
+    } */
+ /* }   */
