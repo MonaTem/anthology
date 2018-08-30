@@ -54,7 +54,7 @@ class Authors extends Component {
             MARC JADOUL
           </p>
         </div>
-        <div className="col-6 offset-8 author text-left">
+        <div className="col-6 offset-7 author text-left">
           <p>
             JOEL KURZMAN
           </p>
@@ -93,6 +93,16 @@ class Authors extends Component {
           </p>
         </div>
       </div>
+      <div className="row">
+        <div className="col-12 offset-1 info">
+          <p>
+          FOR MORE INFORMATION
+          </p>
+          <p>
+          CLICK ON THE AUTHOR'S NAME
+         </p>
+      </div>
+     </div>
 
       <NavBottom page={'Authors'}/>
     </div>)

@@ -38,7 +38,7 @@
     /* direction: rtl; */
     display: inline-block;
     margin-top: -1rem;
-    margin-left: 10em;
+    margin-left: 17em;
     float: left;
     /* left: -75px; */
     height: 36px;
@@ -57,7 +57,7 @@
     float: left;
     display: inline-block;
     margin-top: -1rem;
-    margin-left: 2em;
+    margin-left: 2.5em;
     height: auto;
 
 }
@@ -74,7 +74,7 @@
       float: left;
       display: inline-block;
       /* margin-top: 1 rem; */
-      margin-left: 11em;
+      margin-left: 18em;
       /* height: 36px; */
       height: auto;
 }

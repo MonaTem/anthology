@@ -26,3 +26,11 @@
   /* float: right; */
 
 }
+
+.info {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #254489;
+  font-weight: bold;
+  margin-top: -10rem;
+}
