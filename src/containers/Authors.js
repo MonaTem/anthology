@@ -19,12 +19,30 @@ class Authors extends Component {
         <img id="cover-001" className="img-fluid ml-0" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
       <div className="row">
-        <div className="col-md-3 offset-md-5 col-lg-6 offset-lg-3 author">
+        <div className="col-md-6 offset-md-5 col-lg-6 offset-lg-5 col-xs-6 offset-xs-5 author text-left">
           <p className="active">
             JENNIFER AAKER
           </p>
           <p className="active">
             GENE BELLINGER
+          </p>
+          <p>
+            JULIA BORST BRAZAS
+          </p>
+          <p className="active">
+            DONALD DAVIS
+          </p>
+          <p>
+            BRENT DYKES
+          </p>
+          <p className="active">
+            MITCH DITKOFF
+          </p>
+          <p>
+            JON FERREIRA
+          </p>
+          <p className="active">
+            HOWARD GARDNER
           </p>
         </div>
       </div>
