@@ -8,7 +8,7 @@
 
 #text {
     font-family: HelveticaNeue;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1;
     color: #254489;
     text-align: left;
@@ -18,7 +18,7 @@
 
 #text2 {
     font-family: HelveticaNeue;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1;
     color: #254489;
     text-align: left;
@@ -34,7 +34,7 @@
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 30px;
+    font-size: 20px;
     /* direction: rtl; */
     display: inline-block;
     margin-top: -1rem;
@@ -53,7 +53,7 @@
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 30px;
+    font-size: 20px;
     float: left;
     display: inline-block;
     margin-top: -1rem;
@@ -70,7 +70,7 @@
       text-align: left;
       color: #254489;
       font-family: HelveticaNeue;
-      font-size: 30px;
+      font-size: 20px;
       float: left;
       display: inline-block;
       /* margin-top: 1 rem; */
@@ -88,7 +88,7 @@
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 30px;
+    font-size: 20px;
     float: left;
     display: inline-block;
     margin-top: -1rem;

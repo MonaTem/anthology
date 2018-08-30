@@ -54,6 +54,44 @@ class Authors extends Component {
             MARC JADOUL
           </p>
         </div>
+        <div className="col-6 offset-8 author text-left">
+          <p>
+            JOEL KURZMAN
+          </p>
+          <p>
+            SARAH KAJDER
+          </p>
+          <p className="active">
+            DOUG LIPMAN
+          </p>
+          <p>
+            ILANA SIMONS
+          </p>
+          <p className="active">
+            MICHAEL MARGOLIS
+          </p>
+          <p className="active">
+            ANDY SMITH
+          </p>
+          <p className="active">
+            JIMMY NEIL SMITH
+          </p>
+          <p className="active">
+            LUKE SULLIVAN
+          </p>
+          <p className="active">
+            JULIE SPRINGER
+          </p>
+          <p>
+            STORYREGIONS
+          </p>
+          <p>
+            JASON XENOPOOULOS
+          </p>
+          <p>
+            RUEDIGER DRISCHEL (EDITOR)
+          </p>
+        </div>
       </div>
 
       <NavBottom page={'Authors'}/>
