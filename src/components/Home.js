@@ -25,20 +25,23 @@ const Home = (props) => {
             <section id="group-4">
               {/* <div id="group-4"> */}
               {/* <div> */}
-                <p id="if-you-want-to-learn">If you want to learn about a CULTURE,
-                  <br></br>listen to the stories.If you want to change
-                  <br></br>the culture, change the stories.
-                </p>
-                <p id="michael-margolis-te">Michael Margolis, Technologist
-                  {/* <p> Michael Margolis, Technologist */}
-                  <br></br>
-                </p>
+              <p id="if-you-want-to-learn">If you want to learn about a CULTURE,
+                <br></br>listen to the stories.If you want to change
+                <br></br>the culture, change the stories.
+              </p>
+              <br></br>
+              <p id="michael-margolis-te">Michael Margolis, Technologist {/* <p> Michael Margolis, Technologist */}
+                <br></br>
+              </p>
               {/* </div> */}
             </section>
             <section id="group-3-section">
               <p id="stories-constitute-t">Stories constitute the single most powerful
                 <br></br>weapon in a LEADER’s arsenal.
               </p>
+              <br></br>
+              <br></br>
+              <br></br>
               <p id="howard-gardner-psyc">Howard Gardner, Psychologist
                 <br></br>
               </p>
@@ -55,9 +58,8 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-
-      <NavBottom page={'Home'}/>
     </div>
+    <NavBottom page={'Home'}/>
   </div>);
 }
 

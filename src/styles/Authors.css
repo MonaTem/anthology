@@ -19,9 +19,9 @@
 
 .author {
   font-family: Arial,cursive;
-  font-size: 20em;
+  font-size: 1em;
   color: #254489;
-  margin-top: -45rem;
+  margin-top: -40rem;
   /* top: -0rem; */
   /* float: right; */
 
@@ -29,7 +29,7 @@
 
 .info {
   font-family: HelveticaNeue;
-  font-size: 24em;
+  font-size: 1.5em;
   color: #254489;
   font-weight: bold;
   margin-top: -10rem;

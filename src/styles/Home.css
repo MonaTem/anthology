@@ -1,37 +1,37 @@
 #patrick-rothfuss-wr {
     position: relative;
     /* width: 13em; */
-    with: auto;
+    /* with: auto; */
     /* z-index: 20; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 24px;
+    font-size: 1.2em;
     /* float: right; */
-    display: block;
+    display: inline-block;
     /* height: 1em; */
-    height: auto;
-    margin-left: 45em;
-    top: -27rem;
+    /* height: auto; */
+    /* margin-left: 45em; */
+    /* top: 1rem; */
     /* padding-top: -300rem; */
 }
 
 #its-like-everyone-t {
     position: relative;
     /* width: 527em; */
-    width: auto;
+    /* width: auto; */
     /* z-index: 10; */
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-    font-size: 24px;
+    font-size: 1.2em;
     /* float: right; */
-    display: block;
-    top: -26rem;
+    display: inline-block;
+    /* margin-top: 1.5rem; */
     /* height: 4em; */
-    height: auto;
-    margin-left: 45em;
+    /* height: auto; */
+    /* margin-left: 1em; */
     /* margin-top: -1.4rem; */
 }
 
@@ -46,13 +46,15 @@
     font-size: 1.2em;
     /* float: right; */
     display: inline-block;
+    /* top: 6rem; */
+    marginleft: 10em;
     /* margin-top: -15rem;
     padding-top: -15rem; */
-    top: -37rem;
+    /* top: -37rem; */
     /* padding-bottom: .4rem; */
     /* height: 1em; */
-    height: auto;
-    margin-left: 45em;
+    /* height: auto; */
+    /* margin-left: 45em; */
 }
 
 #if-you-want-to-learn {
@@ -63,6 +65,7 @@
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 1.2em;
+    top: 1.5rem;
     /* margin-right: auto; */
     /* margin-left: 5em; */
     /* top: -45rem; */
@@ -80,7 +83,7 @@
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 1.2em;
+    font-size: 1em;
     /* float: left; */
     display: inline-block;
     /* margin-right: 505em; */
@@ -144,7 +147,8 @@
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1.2em;
-    left: -24.5em;
+    left: -10em;
+    /* top: 4 rem; */
     /* left: -26em; */
     /* left: -600em;
     top: -1rem; */
@@ -191,28 +195,17 @@ section {
     font-size: 1.2em;
 }
 
-#generaton {
+#generation {
   position: relative;
   display: inline-block;
   float: left;
   text-align: left;
   margin-left: 15em;
   font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-  font-size: 24px;
+  font-size: 1.2em;
 
 }
 
-/* #steve-jobs-section {
-    /* z-index: 80; */
-    /* position: relative;
-    display: inline-block;
-    text-align: left; */
-    /* margin-left: 15em; */
-    /* font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-weight: 500;
-    font-size: 1.2em; */
-    /* float: left; */
-/* }  */
 
 #group-3-section {
     /* z-index: 40; */
@@ -234,6 +227,7 @@ section {
     /* margin-left: 45em; */
     /* top: -31rem; */
     display: inline-block;
+    top: 3rem;
 
     /* float: left; */
 }
@@ -243,14 +237,7 @@ section {
     position: relative;
     display: inline-block;
     text-align: left;
-    top: -10rem;
+    /* top: -50rem; */
+    /* margin-left: 10em; */
     /* padding-top: 4rem; */
-}
-
-#patrick-rothfuss-wr-section {
-    /* z-index: 90; */
-    position: relative;
-    display: inline-block;
-    text-align: left;
-    top: -10rem;
 }
