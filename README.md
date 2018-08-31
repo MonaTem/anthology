@@ -1,10 +1,12 @@
-## ANTHOLOGY WEBSITE FOR NEW AGE OF STORYTELLING ANTHOLOGY, STORYZONE
+## ANTHOLOGY WEBSITE FOR ANTHOLOGY STORYTELLING, STORYZONE
 
-- This is a React, Redux front end for the Storyzone Anthology website.
+- This is a React, Redux front end for the Storyzone Anthology Storytelling website.
 
-- Only dynamic page is the author page
+- The only dynamic page is the author page.
 
-- No server back end for now, author data stored in JSON in front end data folder
+- No server back end for now, author data stored in JSON in front end data folder.
+
+  The site is responsive.
 
 *********************************************************************************
 
