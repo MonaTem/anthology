@@ -6,8 +6,7 @@ import {Link} from 'react-router-dom';
 const LinksTop = (props) => {
 
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-xl navbar-left d-flex">
-    {/* <nav className="navbar navbar-light navbar-expand-xl navbar-left"> */}
+    <nav className="navbar navbar-light navbar-expand-xl navbar-left d-flex p-5">
       <div className="navbar-nav">
         <ul className="navbar-nav">
           <li id="home" className="navbar-item">

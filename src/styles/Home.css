@@ -121,15 +121,16 @@
 
 }
 
-/* @media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
     /* For large screen: */
-    /* #cover-001 {
-        margin-left: 5em;
+    #cover-001 {
+        margin-left: 4.5em;
     }
-    #cover-002 {
+    /* #cover-002 {
         margin-left: -30em;
     } */
- /* }  */
+ }
+
  /* @media only screen and (max-width: 1100px) { */
      /* For medium and small screens: */
      /* [id*="-section"] { */
@@ -147,7 +148,7 @@
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1.2em;
-    left: -10em;
+    left: -7.5em; 
     /* top: 4 rem; */
     /* left: -26em; */
     /* left: -600em;
