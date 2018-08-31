@@ -43,10 +43,12 @@
 
       #authors {
         margin-left: -17em;
+        width: auto;
       }
-      /* #buy {
-        margin-left: -50em;
-      } */
+      #buy {
+        margin-left: -30em;
+        left: -30em;
+      }
 
 }
 
