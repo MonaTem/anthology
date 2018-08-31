@@ -23,8 +23,6 @@ const Home = (props) => {
               <p id="steve-jobs">Steve Jobs</p>
             </section>
             <section id="group-4">
-              {/* <div id="group-4"> */}
-              {/* <div> */}
               <p id="if-you-want-to-learn">If you want to learn about a CULTURE,
                 <br></br>listen to the stories.If you want to change
                 <br></br>the culture, change the stories.
@@ -33,7 +31,6 @@ const Home = (props) => {
               <p id="michael-margolis-te">Michael Margolis, Technologist {/* <p> Michael Margolis, Technologist */}
                 <br></br>
               </p>
-              {/* </div> */}
             </section>
             <section id="group-3-section">
               <p id="stories-constitute-t">Stories constitute the single most powerful

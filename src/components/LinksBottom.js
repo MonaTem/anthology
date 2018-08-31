@@ -7,7 +7,7 @@ const LinksBottom = (props) => {
 
   return (<div>
 
-    <nav className="navbar navbar-light navbar-expand-md d-flex">
+    <nav className="navbar navbar-light navbar-expand-md navbottom d-flex">
       <div className="navbar-nav">
         <ul className="navbar navbar-nav">
           <li id="about" className="navbar-item">

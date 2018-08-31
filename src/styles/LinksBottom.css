@@ -91,10 +91,12 @@
     height: auto;
 }
 @media only screen and (max-width: 950px) and (min-width: 750px) {
+      .navbottom {
+        margin-top: -60rem;
+      }
       .navbar-item {
         font-size: 1.5em;
       }
-
 
       #about {
         margin-top: 1rem;

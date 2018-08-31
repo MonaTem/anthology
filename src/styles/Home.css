@@ -93,32 +93,71 @@
 
 #cover-001 {
     position: relative;
-    /* top: 7.5rem; */
-    /* left: -16em; */
-    /* width: 30em; */
     height: auto;
     max-width: 100%;
-    /* z-index: 150; */
-    /* right: 21em; */
     margin-right: auto;
-    /* left: 60em; */
-    /* margin-left: auto; */
 
 }
 
 #cover-002 {
     position: relative;
-    /* top: 7.5rem; */
-    /* left: -16em; */
-    /* width: 30em; */
-    /* height: 52rem; */
     max-width: 100%;
     height: auto;
-    /* z-index: 180; */
-    /* right: -1em; */
     margin-right: auto;
-    /* margin-left: -30em; */
 
+}
+
+
+#michael-margolis-te {
+    position: relative;
+    text-align: left;
+    color: black;
+    font-weight: 500;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 1.2em;
+    left: -7.5em;
+    display: inline-block;
+
+}
+
+#group-4 {
+    position: relative;
+    display: inline-block;
+}
+
+section {
+    width: 100%;
+}
+
+#most-powerful-section {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+    font-size: 1.2em;
+}
+
+#group-3-section {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+#stories-constitute-t {
+    position: relative;
+    text-align: left;
+    color: black;
+    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
+    font-size: 1.2em;
+    display: inline-block;
+    top: 3rem;
+
+}
+
+#its-like-everyone-t-section {
+    position: relative;
+    display: inline-block;
+    text-align: left;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -126,128 +165,24 @@
     #cover-001 {
         margin-left: 4.5em;
     }
-    /* #cover-002 {
-        margin-left: -30em;
-    } */
+
  }
 
  @media only screen and (max-width: 950px) and (min-width: 750px) {
     /* For medium screens--i.e., smaller sized tablets */
     #cover-002 {
       margin-left: -26em;
-      margin-top: 60em;
+      margin-top: 60rem;
+    }
+    #michael-margolis-te {
+      margin-left: 7.5em;
+    }
+    #group-3-section {
+      margin-top: 22rem;
+    }
+    .col-12 {
+      margin-right: 1em;
+      width: 10em;
     }
 
   }
-
- /* @media only screen and (max-width: 1100px) { */
-     /* For medium and small screens: */
-     /* [id*="-section"] { */
-         /* overflow: hidden;
-     }
-  } */
-
-
-#michael-margolis-te {
-    position: relative;
-    /* width: 16em;
-    z-index: 10; */
-    text-align: left;
-    color: black;
-    font-weight: 500;
-    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 1.2em;
-    left: -7.5em;
-    /* top: 4 rem; */
-    /* left: -26em; */
-    /* left: -600em;
-    top: -1rem; */
-    display: inline-block;
-    /* left: -2em; */
-    /* margin-right: auto;
-    margin-left: 7em;
-    margin-top: -44rem;
-    top: -1rem;
-    left: -2em;
-    height: 1.5em; */
-}
-
-#group-4 {
-    position: relative;
-    /* margin-top: 7.5rem; */
-    display: inline-block;
-    /* margin-right: auto;
-    margin-left: auto;
-    width: 21em;
-    z-index: 10;
-    display: block; */
-    /* margin-top: 7.5rem; */
-    /* left: 22em; */ }
-
-section {
-    width: 100%;
-    /* left: 0em; */
-    /* position: relative; */
-    /* overflow: visible; */
-}
-
-#most-powerful-section {
-    /* z-index: 200; */
-    position: relative;
-    display: inline-block;
-    /* z-index: 15; */
-    /* float: left; */
-    text-align: left;
-    /* top: -46.2rem; */
-    /* padding-top: 1rem; */
-    /* margin-left: 45em; */
-    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-    font-size: 1.2em;
-}
-
-#generation {
-  position: relative;
-  display: inline-block;
-  float: left;
-  text-align: left;
-  margin-left: 15em;
-  font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-  font-size: 1.2em;
-
-}
-
-
-#group-3-section {
-    /* z-index: 40; */
-    position: relative;
-    display: inline-block;
-    text-align: left;
-    /* padding-top: 2rem; */
-}
-
-#stories-constitute-t {
-    position: relative;
-    /* width: auto; */
-    /* z-index: 20; */
-    text-align: left;
-    color: black;
-    font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
-    font-size: 1.2em;
-    /* margin-right: auto; */
-    /* margin-left: 45em; */
-    /* top: -31rem; */
-    display: inline-block;
-    top: 3rem;
-
-    /* float: left; */
-}
-
-#its-like-everyone-t-section {
-    /* z-index: 60; */
-    position: relative;
-    display: inline-block;
-    text-align: left;
-    /* top: -50rem; */
-    /* margin-left: 10em; */
-    /* padding-top: 4rem; */
-}
