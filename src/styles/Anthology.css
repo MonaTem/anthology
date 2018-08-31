@@ -10,8 +10,8 @@ body {
     background-image: linear-gradient(rgb(115, 179, 222) 0%, rgb(202, 220, 232) 100%);
 }
 
-@media only screen and (max-width: 950px) and (min-width: 750px) {
+@media only screen and (max-width: 1499px) and (min-width: 750px) {
     body {
       height: 200vh;
     }
-}    
+}

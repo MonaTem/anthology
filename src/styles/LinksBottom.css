@@ -123,3 +123,40 @@
         width: auto;
       }
 }
+
+@media only screen and (min-width: 951px) and (max-width: 1499px) {
+    /* For medium large screens--some larger tablets and smaller laptops */
+
+
+    .navbottom {
+      margin-top: -60rem;
+    }
+    .navbar-item {
+      font-size: 1.5em;
+    }
+
+    #about {
+      margin-top: 1rem;
+    }
+
+
+    #imprint {
+      margin-top: 1.5rem;
+      left: -20em;
+    }
+
+    #_2018 {
+
+      margin-top: -2.1rem;
+    }
+
+    #contact {
+      margin-left: 25em;
+      margin-top: -4rem;
+    }
+
+    #authors {
+      margin-left: -20em;
+      width: auto;
+    }
+  }    

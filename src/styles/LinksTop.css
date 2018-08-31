@@ -1,33 +1,4 @@
-/* #home {
-    z-index: 120;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    padding-top: 54em;
-} */
 
-/* @media only screen and (max-width: 400px) { */
-    /* For small screens: */
-    /* nav {
-        left: -6em;
-    }
- } */
-
-
-
-/* @media only screen and (max-width: 400px) {
-  #authors {
-      margin-top: 4rem;
-  }
-} */
-
-/* @media only screen and (max-width: 1400px) and (min-width: 401px) {
-    /* For medium screens: */
-    /* nav {
-        font-size: 1rem;
-        class: navbar-left;
-    } */
- /* }  */
 
 #authors {
     position: relative;
@@ -149,6 +120,30 @@
         margin-left: -20em;
         width: auto;
       }
+
+
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1499px) {
+    /* For medium large screens--some larger tablets and smaller laptops */
+
+    #description {
+      left: -3em;
+    }
+
+    #table-of-contents {
+      left: -10em;
+    }
+
+    #authors {
+      left: 12em;
+
+    }
+
+    #buy {
+      margin-left: 13em;
+
+    }
 
 
 }

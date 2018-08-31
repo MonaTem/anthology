@@ -1,93 +1,53 @@
 #patrick-rothfuss-wr {
     position: relative;
-    /* width: 13em; */
-    /* with: auto; */
-    /* z-index: 20; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1.2em;
-    /* float: right; */
     display: inline-block;
-    /* height: 1em; */
-    /* height: auto; */
-    /* margin-left: 45em; */
-    /* top: 1rem; */
-    /* padding-top: -300rem; */
 }
+
 
 #its-like-everyone-t {
     position: relative;
-    /* width: 527em; */
-    /* width: auto; */
-    /* z-index: 10; */
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 1.2em;
-    /* float: right; */
     display: inline-block;
-    /* margin-top: 1.5rem; */
-    /* height: 4em; */
-    /* height: auto; */
-    /* margin-left: 1em; */
-    /* margin-top: -1.4rem; */
 }
 
 #howard-gardner-psyc {
     position: relative;
-    /* width: 16em; */
-    /* z-index: 10; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1.2em;
-    /* float: right; */
     display: inline-block;
-    /* top: 6rem; */
     marginleft: 10em;
-    /* margin-top: -15rem;
-    padding-top: -15rem; */
-    /* top: -37rem; */
-    /* padding-bottom: .4rem; */
-    /* height: 1em; */
-    /* height: auto; */
-    /* margin-left: 45em; */
+
 }
 
 #if-you-want-to-learn {
     position: relative;
-    /* width: 21em;
-    z-index: 20; */
     text-align: left;
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 1.2em;
     top: 1.5rem;
-    /* margin-right: auto; */
-    /* margin-left: 5em; */
-    /* top: -45rem; */
-    /* display: inline-block; */
-    /* height: 4em; */
-    /* float: left; */
 }
 
 #steve-jobs {
     position: relative;
     top: -1rem;
-    /* width: 6em;
-    z-index: 20; */
     text-align: left;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1em;
-    /* float: left; */
     display: inline-block;
-    /* margin-right: 505em; */
-    /* height: 1.2em;  */
 }
 
 
@@ -160,8 +120,8 @@ section {
     text-align: left;
 }
 
-@media only screen and (min-width: 1400px) {
-    /* For large screen: */
+@media only screen and (min-width: 1500px) {
+    /* For extra large screens, i.e., laptops and desktops: */
     #cover-001 {
         margin-left: 4.5em;
     }
@@ -186,3 +146,12 @@ section {
     }
 
   }
+
+@media only screen and (min-width: 951px) and (max-width: 1499px) {
+    /* For medium large screens--some larger tablets and smaller laptops */
+
+  #michael-margolis-te {
+    margin-left: 0em;
+  }
+
+}
