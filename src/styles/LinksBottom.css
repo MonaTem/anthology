@@ -129,7 +129,7 @@
 
 
     .navbottom {
-      margin-top: -60rem;
+      margin-top: -80rem;
     }
     .navbar-item {
       font-size: 1.5em;
@@ -137,26 +137,28 @@
 
     #about {
       margin-top: 1rem;
+      margin-left: 3em;
     }
 
 
     #imprint {
       margin-top: 1.5rem;
-      left: -20em;
+      left: -10em;
     }
 
     #_2018 {
 
-      margin-top: -2.1rem;
+      margin-top: 2rem;
+      margin-left: -3em;
     }
 
     #contact {
-      margin-left: 25em;
-      margin-top: -4rem;
+      margin-left: 13em;
+      margin-top: 1.5rem;
     }
 
     #authors {
       margin-left: -20em;
       width: auto;
     }
-  }    
+  }

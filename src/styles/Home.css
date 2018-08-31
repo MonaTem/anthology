@@ -151,7 +151,21 @@ section {
     /* For medium large screens--some larger tablets and smaller laptops */
 
   #michael-margolis-te {
-    margin-left: 0em;
+    margin-left: -352em;
   }
 
+  #cover-001 {
+    left: -2em;
+  }
+
+  #cover-002 {
+    left: -2em;
+  }
+
+  .col-12 {
+    margin-top: 80rem;
+    margin-left: -40em;
+    height: auto;
+    width: 500em;
+  }
 }
