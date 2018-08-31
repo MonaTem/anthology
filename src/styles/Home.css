@@ -219,7 +219,7 @@ section {
     position: relative;
     display: inline-block;
     text-align: left;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 #stories-constitute-t {
