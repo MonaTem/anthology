@@ -169,3 +169,15 @@ section {
     width: 500em;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  /* For smart phone screens */
+  #cover-001 {
+    left: -5.5em;
+    top: -5.5rem;
+  }
+  #cover-002 {
+    left: -24em;
+    margin-top: 40rem;
+  }
+}

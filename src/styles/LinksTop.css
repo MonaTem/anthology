@@ -84,21 +84,50 @@
     height: 1.5em;
 }
 
-@media only screen and (max-width: 400px) {
-  #table-of-contents {
-      margin-top: 1rem;
-      left: -1.5em;
-      fontsize: 1.5em;
+@media only screen and (max-width: 750px) {
+  /* For smart phone screens */
+  .navbar {
+    font-size: 1em;
+    top: -4rem;
   }
+
+  #buy {
+    margin-left: -.5em;
+  }
+
+  #home {
+    margin-top: 2rem;
+  }
+
+   #description {
+    left: -2.5em;
+  }
+
+  #table-of-contents {
+    left: -5.5em;
+    margin-top: .5rem;
+  }
+
+  #authors {
+    margin-left: -2.5em;
+    margin-top: 2rem;
+
+  }
+
+  /* .navbar-nav  {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    } */
 }
 
-@media only screen and (max-width: 950px) and (min-width: 750px) {
+@media only screen and (max-width: 950px) and (min-width: 751px) {
+  /* For medium sized screens like small tablets */
       .navbar-item {
         font-size: 1.5em;
       }
-      .nav {
-        padding: 1em;
-      }
+
 
       #buy {
         margin-left: 3em;

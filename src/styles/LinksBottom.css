@@ -162,3 +162,29 @@
       width: auto;
     }
   }
+
+  @media only screen and (max-width: 750px) {
+    /* For smart phone screens */
+    .navbottom {
+      margin-top: -30rem;
+      margin-left: -12em;
+      font-size: 1em;
+      top: -4rem;
+    }
+
+    #imprint {
+      margin-top: 1rem;
+      left: -7em;
+    }
+
+    #_2018 {
+      margin-top: 1rem;
+      left: -8em;
+    }
+
+    #contact {
+      margin-top: 1rem;
+      left: -3em;
+    }
+
+  }

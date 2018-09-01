@@ -16,3 +16,11 @@ body {
       height: 200vh;
     }
 }
+
+@media only screen and (max-width: 750px) {
+  /* For smart phone screens */
+  body {
+    min-height: 100vh;
+    height: 270vh;
+  }
+}
