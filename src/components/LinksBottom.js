@@ -8,7 +8,10 @@ const LinksBottom = (props) => {
   return (<div>
 
     <nav className="navbar navbar-light navbar-expand-sm navbottom d-flex">
-      <div className="navbar-nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div className="navbar-collapse collapse" id="navbarToggler">
         <ul className="navbar navbar-nav">
           <li id="about" className="navbar-item">
             <Link to={"/"} style={props.navstyleabout}>ABOUT</Link>
