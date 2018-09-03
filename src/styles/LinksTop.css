@@ -103,24 +103,30 @@
 
   #buy {
     margin-left: -.5em;
+    /* margin-top: -5rem; */
+    font-size: 2em;
   }
 
   #home {
     margin-top: 2rem;
+    font-size: 2em;
   }
 
    #description {
     left: -2.5em;
+    font-size: 2em;
   }
 
   #table-of-contents {
     left: -5.5em;
-    margin-top: .5rem;
+    margin-top: .2rem;
+    font-size: 2em;
   }
 
   #authors {
     margin-left: -2.5em;
-    margin-top: 2rem;
+    /* margin-top: 1rem; */
+    font-size: 2em;
 
   }
 
