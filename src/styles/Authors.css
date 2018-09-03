@@ -36,6 +36,56 @@
   margin-top: -10rem;
 }
 
+@media only screen and (min-width: 1500px) {
+    /* For extra large screens, i.e., laptops and desktops: */
+    #cover-001a {
+        margin-left: 8em;
+    }
+
+ }
+
+ @media only screen and (max-width: 950px) and (min-width: 751px) {
+    /* For medium screens--i.e., smaller sized tablets */
+
+    #cover-001a {
+      left: -1em;
+      /* margin-top: 0rem; */
+      width: 30%;
+      height: 30%;
+    }
+
+    .author-list {
+      margin-top: 18rem;
+      left: -2em;
+    }
+
+    .second-author-col {
+      margin-left: 32em;
+    }
+
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1499px) {
+    /* For medium large screens--some larger tablets and smaller laptops */
+
+    #cover-001a {
+      left: -1em;
+      /* margin-top: 0rem; */
+      width: 30%;
+      height: 30%;
+    }
+
+    .author-list {
+      margin-top: 12rem;
+      /* left: -2em; */
+    }
+
+    .second-author-col {
+      margin-left: 40em;
+    }
+
+}
+
 @media only screen and (max-width: 750px) {
   /* For smart phone screens */
   #cover-001a {
