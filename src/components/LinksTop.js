@@ -6,11 +6,11 @@ import {Link} from 'react-router-dom';
 const LinksTop = (props) => {
 
   return (<div>
-    <nav className="navbar navbar-light navbar-expand-sm d-flex p-5">
+    <nav className="navbar navbar-light navbar-expand-sm navtop d-flex p-5">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div className="navbar-collapse collapse" id="navbarToggler">
+      <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
         <ul className="navbar-nav">
           <li id="home" className="navbar-item">
             <Link to={"/"} style={props.navstylehome}>HOME</Link>

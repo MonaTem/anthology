@@ -165,10 +165,14 @@
 
   @media only screen and (max-width: 750px) {
     /* For smart phone screens */
-    .navbottom {
-      margin-top: -35rem;
+    .navbar-expand-sm {
+      margin-top: -5rem;
       margin-left: -2em;
       font-size: .2em;
+    }
+
+    .navbar-collapse {
+      margin-top: 5rem;
     }
 
     #about {

@@ -86,9 +86,19 @@
 
 @media only screen and (max-width: 750px) {
   /* For smart phone screens */
-  .navbar {
-    font-size: .8em;
-    top: -4rem;
+  /* .navbar {
+    font-size: .9em;
+    top: 25rem;
+  } */
+
+  .navtop {
+    margin-top: -5rem;
+    margin-left: -2em;
+    font-size: 2em;
+  }
+
+  .navtop-collapse {
+    margin-top: -5rem;
   }
 
   #buy {

@@ -7,7 +7,7 @@ const LinksBottom = (props) => {
 
   return (<div>
 
-    <nav className="navbar navbar-light navbar-expand-sm navbottom d-flex">
+    <nav className="navbar navbar-light navbar-expand-sm d-flex">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

@@ -21,6 +21,6 @@ body {
   /* For smart phone screens */
   body {
     min-height: 100vh;
-    height: 270vh;
+    height: 300vh;
   }
 }
