@@ -94,39 +94,43 @@
   .navtop {
     margin-top: -5rem;
     margin-left: -2em;
-    font-size: 2em;
+    font-size: 4em;
+  }
+
+  button {
+    margin-top: -3rem;
   }
 
   .navtop-collapse {
-    margin-top: -5rem;
+    margin-top: -8rem;
   }
 
   #buy {
     margin-left: -.5em;
     /* margin-top: -5rem; */
-    font-size: 2em;
+    font-size: 6em;
   }
 
   #home {
     margin-top: 2rem;
-    font-size: 2em;
+    font-size: 6em;
   }
 
    #description {
     left: -2.5em;
-    font-size: 2em;
+    font-size: 6em;
   }
 
   #table-of-contents {
     left: -5.5em;
     margin-top: .2rem;
-    font-size: 2em;
+    font-size: 6em;
   }
 
   #authors {
     margin-left: -2.5em;
-    /* margin-top: 1rem; */
-    font-size: 2em;
+    margin-top: 1.5rem;
+    font-size: 6em;
 
   }
 

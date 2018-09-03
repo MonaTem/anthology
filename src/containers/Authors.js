@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import '../styles/Authors.css';
 import '../styles/Anthology.css';
 import NavTop from '../components/NavTop.js';
-import NavBottom from '../components/NavBottom.js';
+import NavBottomNoToggle from '../components/NavBottomNoToggle.js';
 // import authors from './redux/reducers/authors.js';
 // import { actions } from '.redux/actions/actions.js';
 import * as actions from '../redux/actions/actions.js';
@@ -106,7 +106,7 @@ class Authors extends Component {
         </div>
       </div>
 
-      <NavBottom page={'Authors'}/>
+      <NavBottomNoToggle page={'Authors'}/>
     </div>)
   }
 }

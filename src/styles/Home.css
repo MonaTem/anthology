@@ -173,15 +173,28 @@ section {
 @media only screen and (max-width: 750px) {
   /* For smart phone screens */
   #cover-001 {
-    left: -2em;
+    left: 1em;
+    margin-top: -1rem;
     /* margin-top: 0rem; */
     width: 70%;
     height: 70%;
   }
   #cover-002 {
-    left: -15em;
-    margin-top: 80rem;
+    left: -12em;
+    margin-top: 45rem;
     width: 70%;
     height: 70%;
+  }
+
+  .quotes {
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
+
+  }
+  #michael-margolis-te {
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Anthology.css';
 import '../styles/Home.css';
 import NavTop from './NavTop.js';
-import NavBottom from './NavBottom.js';
+import NavBottomNoToggle from './NavBottomNoToggle.js';
 
 const Home = (props) => {
 
@@ -11,7 +11,7 @@ const Home = (props) => {
     <div className="media ml-5">
       <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       <img id="cover-002" className="img-fluid" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
-      <div className="media-body ml-3">
+      <div className="media-body ml-3 quotes">
         <div className="row">
           <div className="col-12">
             <section id="most-powerful-section">
@@ -56,7 +56,7 @@ const Home = (props) => {
         </div>
       </div>
     </div>
-    <NavBottom page={'Home'}/>
+    <NavBottomNoToggle page={'Home'}/>
   </div>);
 }
 
