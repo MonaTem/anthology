@@ -16,9 +16,9 @@ class Authors extends Component {
     return (<div>
       <NavTop page={'Authors'}/>
       <div className="media">
-        <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+        <img id="cover-001a" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
-      <div className="media-body">
+      <div className="media-body author-list">
         <div className="row">
           <div className="col-6 offset-5 author text-left">
             <p className="active">
@@ -55,7 +55,7 @@ class Authors extends Component {
               MARC JADOUL
             </p>
           </div>
-          <div className="col-6 offset-7 author text-left">
+          <div className="col-6 offset-7 author text-left second-author-col">
             <p>
               JOEL KURZMAN
             </p>
@@ -99,7 +99,7 @@ class Authors extends Component {
             <p>
               FOR MORE INFORMATION
             </p>
-            <p>
+            <p className="clickName">
               CLICK ON THE AUTHOR'S NAME
             </p>
           </div>
