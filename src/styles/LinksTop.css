@@ -87,7 +87,7 @@
 @media only screen and (max-width: 750px) {
   /* For smart phone screens */
   .navbar {
-    font-size: 1em;
+    font-size: .8em;
     top: -4rem;
   }
 

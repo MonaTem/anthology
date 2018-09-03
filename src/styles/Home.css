@@ -173,11 +173,15 @@ section {
 @media only screen and (max-width: 750px) {
   /* For smart phone screens */
   #cover-001 {
-    left: -5.5em;
+    left: -2em;
     top: -5.5rem;
+    width: 70%;
+    height: 70%;
   }
   #cover-002 {
-    left: -24em;
+    left: -15em;
     margin-top: 40rem;
+    width: 70%;
+    height: 70%;
   }
 }
