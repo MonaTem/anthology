@@ -5,7 +5,7 @@ import NavBottom from './NavBottom.js'
 
 const Author = (props) => {
 
-  console.log("props is " + Object.entries(props));
+  console.log("props is " + props.authorname);
 
 
   return (<div className="container-fluid">

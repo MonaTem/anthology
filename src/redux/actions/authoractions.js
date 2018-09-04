@@ -4,7 +4,7 @@
 // select author
 export const SELECT_AUTHOR = "SELECT_AUTHOR";
 
-const actions = { selectAuthor(authorname, index) {
+const authoractions = { selectAuthor(authorname, index) {
     return {
       type: SELECT_AUTHOR,
       authorname,
@@ -23,4 +23,4 @@ const actions = { selectAuthor(authorname, index) {
 //  })
 // }
 
-export default actions;
+export default authoractions;
