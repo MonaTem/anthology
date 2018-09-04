@@ -36,6 +36,12 @@ const NavTop = (props) => {
         <LinksTop navstylehome={NavStyle} navstyledesc={NavStyle} navstyletoc={NavStyleBold} navstyleauthors={NavStyle} navstylebuy={NavStyle}/>
       </div>);
 
+  case "Author":
+      return (<div>
+      <LinksTop navstylehome={NavStyle} navstyledesc={NavStyle} navstyletoc={NavStyle} navstyleauthors={NavStyle} navstylebuy={NavStyle}/>
+      </div>);
+
+
     case "Authors":
       return (<div>
         <LinksTop navstylehome={NavStyle} navstyledesc={NavStyle} navstyletoc={NavStyle} navstyleauthors={NavStyleBold} navstylebuy={NavStyle}/>

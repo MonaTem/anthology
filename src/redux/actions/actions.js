@@ -4,10 +4,10 @@
 // select author
 export const SELECT_AUTHOR = "SELECT_AUTHOR";
 
-const actions = { selectAuthor(authorName, index) {
+const actions = { selectAuthor(authorname, index) {
     return {
       type: SELECT_AUTHOR,
-      authorName,
+      authorname,
       index
     }
   }
@@ -19,7 +19,7 @@ const actions = { selectAuthor(authorName, index) {
 // export const selectAuthor2 = () => dispatch => {
 //  dispatch({
 //   type: 'SELECT_AUTHOR',
-//   payload: 'index, authorName'
+//   payload: 'index, authorname'
 //  })
 // }
 

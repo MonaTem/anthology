@@ -6,13 +6,32 @@ import NavTop from '../components/NavTop.js';
 import NavBottomNoToggle from '../components/NavBottomNoToggle.js';
 // import authors from './redux/reducers/authors.js';
 // import { actions } from '.redux/actions/actions.js';
-import * as actions from '../redux/actions/actions.js';
+import { SELECT_AUTHOR } from '../redux/actions/actions.js';
 import {bindActionCreators} from 'redux';
 // import Author from '../components/Author.js';
+import {Link} from 'react-router-dom';
+// import store from '../redux/store.js';
 
 class Authors extends Component {
 
+
+  // constructor(props) {
+  // super(props);
+  // this.state = {
+  //   authorName: 'JENNIFER AAKER',
+  //   index: 0
+  // bind.this.getState();
+ // }
+
+  // store.getState();
+  //
+  // console.log("state is " + state.authorname + " " + state.index);
+
+  // console.log(store.getState());
+
+
   render() {
+
     return (<div>
       <NavTop page={'Authors'}/>
       <div className="media">
@@ -22,7 +41,7 @@ class Authors extends Component {
         <div className="row">
           <div className="col-6 offset-5 author text-left">
             <p className="active">
-              JENNIFER AAKER
+                <Link to={"/author"} authorname={this.state.authorname} index={this.state.index}>JENNIFER AAKER</Link>
             </p>
             <p className="active">
               GENE BELLINGER
@@ -115,16 +134,19 @@ function mapStateToProps(state) {
   return {authorName: state.authorName, index: state.index}
 }
 
+
 // function mapDispatchToProps(dispatch) {
-//   return {
-//     onAuthorSelected(AUTHOR_SELECTED) {
-//       dispatch(actions.selectAuthor(authorName, index))
-//    }
-//   }
+//   return bindActionCreators(SELECT_AUTHOR, dispatch);
 // }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators(actions, dispatch);
-}
+const mapDispatchToProps = dispatch => ({
+  ...bindActionCreators(
+    {
+      SELECT_AUTHOR,
+    },
+    dispatch
+   )
+  // otherService, // this is not to be wrapped into dispatch
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(Authors);

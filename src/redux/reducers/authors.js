@@ -7,7 +7,7 @@
 // 2. a copy of current state
 //
 const initialState = {
-  authorName: 'Gene Bellinger',
+  authorname: 'JENNIFER AAKER',
   index: 0
 }
 
@@ -19,7 +19,7 @@ function authors(state = initialState, action) {
       console.log('Selecting author!');
       return {
         ...state,
-        authorName: action.authorName,
+        authorname: action.authorname,
         index: action.index
       };
     }

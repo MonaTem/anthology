@@ -5,11 +5,16 @@ import NavBottom from './NavBottom.js'
 
 const Author = (props) => {
 
-  return (<div className="container-fluid">
-    <NavTop page={Author}/>
-    <div>
+  console.log("props is " + Object.entries(props));
 
-      <NavBottom page={Author}/>
+
+  return (<div className="container-fluid">
+    <NavTop page={'Author'}/>
+    <div>
+      Author is {props.authorname};
+      Index is {props.index};
+
+      <NavBottom page={'Author'}/>
     </div>
   </div>);
 }
