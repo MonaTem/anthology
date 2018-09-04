@@ -23,7 +23,7 @@ class Authors extends Component {
     //   index: 0
     // }
     // this.state.bind(this);
-  }
+  // }
 
   // store.getState();
   //
