@@ -28,6 +28,15 @@
 
 }
 
+/* .author-list {
+  margin-top: 3rem;
+  left: -2em;
+}
+
+.second-author-col {
+  margin-left: 80em;
+} */
+
 .info {
   font-family: HelveticaNeue;
   font-size: 1.5em;
@@ -35,6 +44,7 @@
   font-weight: bold;
   margin-top: -10rem;
 }
+
 
 @media only screen and (min-width: 1500px) {
     /* For extra large screens, i.e., laptops and desktops: */
@@ -76,12 +86,12 @@
     }
 
     .author-list {
-      margin-top: 12rem;
+      top: 2rem;
       /* left: -2em; */
     }
 
     .second-author-col {
-      margin-left: 40em;
+      margin-left: 60em;
     }
 
 }

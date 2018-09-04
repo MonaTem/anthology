@@ -16,12 +16,12 @@ import {Link} from 'react-router-dom';
 class Authors extends Component {
 
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      authorname: 'JENNIFER AAKER',
-      index: 0
-    }
+  // constructor(props) {
+  //   super(props);
+    // this.state = {
+    //   authorname: 'JENNIFER AAKER',
+    //   index: 0
+    // }
     // this.state.bind(this);
   }
 
@@ -34,9 +34,9 @@ class Authors extends Component {
 
   render() {
 
-    let authorname = 'JENNIFER AAKER';
-    let index = 0;
-    console.log ("author name and index = " + authorname + " " + index);
+    // let authorname = 'JENNIFER AAKER';
+    // let index = 0;
+    // console.log ("author name and index = " + authorname + " " + index);
 
     return (<div>
       <NavTop page={'Authors'}/>
@@ -47,37 +47,37 @@ class Authors extends Component {
         <div className="row">
           <div className="col-6 offset-5 author text-left">
             <p className="active">
-                <Link to={"/author"} authorname={authorname} index={index}>JENNIFER AAKER</Link>
+               <Link to={'/author/0'}>JENNIFER AAKER</Link>
             </p>
             <p className="active">
-              GENE BELLINGER
+              <Link to={'/author/1'}>GENE BELLINGER</Link>
             </p>
             <p>
               JULIA BORST BRAZAS
             </p>
             <p className="active">
-              DONALD DAVIS
+                <Link to={'/author/3'}>DONALD DAVIS</Link>
             </p>
             <p>
               BRENT DYKES
             </p>
             <p className="active">
-              MITCH DITKOFF
+                <Link to={'/author/8'}>MITCH DITKOFF</Link>
             </p>
             <p>
               JON FERREIRA
             </p>
             <p className="active">
-              HOWARD GARDNER
+              <Link to={'/author/10'}>HOWARD GARDNER</Link>
             </p>
             <p>
               KIM GASKINS
             </p>
             <p className="active">
-              GERALD HÜTHER
+                <Link to={'/author/6'}>GERALD HÜTHER</Link>
             </p>
             <p className="active">
-              MARC JADOUL
+              <Link to={'/author/2'}>MARC JADOUL</Link>
             </p>
           </div>
           <div className="col-6 offset-7 author text-left second-author-col">
@@ -94,19 +94,20 @@ class Authors extends Component {
               ILANA SIMONS
             </p>
             <p className="active">
-              MICHAEL MARGOLIS
+              <Link to={'/author/5'}>MICHAEL MARGOLIS</Link>
             </p>
             <p className="active">
+                <Link to={'/author/7'}>ANDY SMITH</Link>
               ANDY SMITH
             </p>
             <p className="active">
-              JIMMY NEIL SMITH
+                <Link to={'/author/7'}>JIMMY NEIL SMITH</Link>
             </p>
             <p className="active">
-              LUKE SULLIVAN
+                <Link to={'/author/11'}>LUKE SULLIVAN</Link>
             </p>
             <p className="active">
-              JULIE SPRINGER
+                <Link to={'/author/12'}>JULIE SPRINGER</Link>
             </p>
             <p>
               STORYREGIONS

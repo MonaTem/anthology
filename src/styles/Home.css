@@ -67,7 +67,6 @@
 
 }
 
-
 #michael-margolis-te {
     position: relative;
     text-align: left;
@@ -125,6 +124,11 @@ section {
     #cover-001 {
         margin-left: 4.5em;
     }
+
+    /* .quotes {
+       top: -120rem;
+       left: -300em;
+    } */
 
  }
 

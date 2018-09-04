@@ -128,14 +128,15 @@
         margin-left: -20em;
         width: auto;
       }
-} 
+}
 
 @media only screen and (min-width: 951px) and (max-width: 1499px) {
     /* For medium large screens--some larger tablets and smaller laptops */
 
 
     .navbottom {
-      margin-top: -30rem;
+      top: -60rem;
+      left: -30rem;
     }
     .navbar-item {
       font-size: 1.5em;
@@ -170,11 +171,11 @@
     }
   }
 
-  @media only screen and (max-width: 750px) {
-    /* For smart phone screens */
+  @media only screen and (max-width: 575px) {
+    /* For smaller smart phone screens */
     .navbar-exp {
       margin-top: -23rem;
-      margin-left: -2em;
+      margin-left: 2em;
       font-size: .2em;
     }
 
@@ -184,6 +185,7 @@
 
     #about {
       top: -1rem;
+      left: -.1em;
     }
 
     #imprint {
@@ -203,3 +205,12 @@
     }
 
   }
+
+  @media only screen and (min-width: 576px) and (max-width: 749px) {
+    /* For medium sized smart phone screens */
+    .navbar-exp {
+      margin-top: -23rem;
+      margin-left: 2em;
+      font-size: .2em;
+    }
+  }  

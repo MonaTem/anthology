@@ -7,7 +7,10 @@ import { logger } from 'redux-logger'
 
 export const history = createHistory();
 
-const initialState = {};
+const initialState = {
+      authorname: 'JENNIFER AAKER',
+      index: 0
+};
 
 const enhancers = []
 const middleware = [

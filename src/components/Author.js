@@ -5,7 +5,7 @@ import NavBottom from './NavBottom.js'
 
 const Author = (props) => {
 
-  console.log("props is " + props.authorname);
+  // console.log("props is " + Object.entries(Object.entries(Object.entries(props))));
 
 
   return (<div className="container-fluid">
@@ -13,6 +13,8 @@ const Author = (props) => {
     <div>
       Author is {props.authorname};
       Index is {props.index};
+      {/* Author is JENNIFER AAKER;
+      Index is 0; */}
 
       <NavBottom page={'Author'}/>
     </div>
