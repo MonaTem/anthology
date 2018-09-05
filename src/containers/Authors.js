@@ -47,37 +47,37 @@ class Authors extends Component {
         <div className="row">
           <div className="col-6 offset-5 author text-left">
             <p className="active">
-               <Link to={'/author/0'}>JENNIFER AAKER</Link>
+               <Link to={'/author/0/JENNIFER_AAKER'}>JENNIFER AAKER</Link>
             </p>
             <p className="active">
-              <Link to={'/author/1'}>GENE BELLINGER</Link>
+              <Link to={'/author/1/GENE_BELLINGER'}>GENE BELLINGER</Link>
             </p>
             <p>
               JULIA BORST BRAZAS
             </p>
             <p className="active">
-                <Link to={'/author/3'}>DONALD DAVIS</Link>
+                <Link to={'/author/3/DONALD_DAVIS'}>DONALD DAVIS</Link>
             </p>
             <p>
               BRENT DYKES
             </p>
             <p className="active">
-                <Link to={'/author/8'}>MITCH DITKOFF</Link>
+                <Link to={'/author/8/MITCH_DITKOFF'}>MITCH DITKOFF</Link>
             </p>
             <p>
               JON FERREIRA
             </p>
             <p className="active">
-              <Link to={'/author/10'}>HOWARD GARDNER</Link>
+              <Link to={'/author/10/HOWARD_GARDNER'}>HOWARD GARDNER</Link>
             </p>
             <p>
               KIM GASKINS
             </p>
             <p className="active">
-                <Link to={'/author/6'}>GERALD HÜTHER</Link>
+                <Link to={'/author/6/GERALD_HÜTHER'}>GERALD HÜTHER</Link>
             </p>
             <p className="active">
-              <Link to={'/author/2'}>MARC JADOUL</Link>
+              <Link to={'/author/2/MARC_JADOUL'}>MARC JADOUL</Link>
             </p>
           </div>
           <div className="col-6 offset-7 author text-left second-author-col">
@@ -88,25 +88,25 @@ class Authors extends Component {
               SARAH KAJDER
             </p>
             <p className="active">
-              <Link to={'/author/4'}>DOUG LIPMAN</Link>
+              <Link to={'/author/4/DOUG_LIPMAN'}>DOUG LIPMAN</Link>
             </p>
             <p>
               ILANA SIMONS
             </p>
             <p className="active">
-              <Link to={'/author/5'}>MICHAEL MARGOLIS</Link>
+              <Link to={'/author/5/MICHAEL_MARGOLIS'}>MICHAEL MARGOLIS</Link>
             </p>
             <p className="active">
-                <Link to={'/author/7'}>ANDY SMITH</Link>
+                <Link to={'/author/7/ANDY_SMITH'}>ANDY SMITH</Link>
             </p>
             <p className="active">
-                <Link to={'/author/9'}>JIMMY NEIL SMITH</Link>
+                <Link to={'/author/9/JIMMY_NEIL_SMITH'}>JIMMY NEIL SMITH</Link>
             </p>
             <p className="active">
-                <Link to={'/author/11'}>LUKE SULLIVAN</Link>
+                <Link to={'/author/11/LUKE_SULLIVAN'}>LUKE SULLIVAN</Link>
             </p>
             <p className="active">
-                <Link to={'/author/12'}>JULIE SPRINGER</Link>
+                <Link to={'/author/12/JULIE_SPRINGER'}>JULIE SPRINGER</Link>
             </p>
             <p>
               STORYREGIONS
