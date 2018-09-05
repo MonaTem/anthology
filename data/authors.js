@@ -9,10 +9,10 @@ const authors = [
     'contact': 'faculty-gsb.stanford.edu/aaker/',
     'publications': [{'publication': 'The Dragon Fly Effect'}, {'publication':'Keep Calm, Play Hard'}, {'publication': "Tea Sloan’s Adventure"}]
   },
-  
+
   {
     'name': 'GENE BELLINGER',
-    'bio': 'Gene Bellinger, etc. (placeholder for bio)',
+    'bio': 'Gene Bellinger (born March 9, 1948) is an American organizational theorist, systems thinker, and consultant, known for his work on systems thinking and knowledge management. "Since reading Stafford Beer\'s "Platform for Change" in 1975 the primary pursuit has been the development of stories of relationships and their implications, to provoke thought, foster deeper understanding, create insights and enable more effective action. It took me a long time to figure out what I was really doing and it is hoped you find the efforts a meaningful contribution to your endeavors." ',
     'photo_url': 'https://lh3.googleusercontent.com/e45xzKITIU3PnH8szs7DucfagOpQ2DqtAoYgNTAHzTaKNe7zbuEE-rdaCaE9mtvPiU9E13MW1xhEFbRSkAy1ie91SV5xWUNyqO4pKLf9ybB-EIwazwjXE0lVTTgxW5gU_h3_xYBNDNCk26aRNOXoZjC7pAS5oxz0aajEHA2i1LsCNgtSkAIJMCPQqy4cEFuRRQaVEKavHSwo1fQOSJCVBcXlyoWSBvgj7kM-OliPMytrDmkSOpGP1IKa2UnC5AAFrsWN7eZ089GA43iNO8WIKnJehSafRur11yny_PVi62iXqbel8Dx4JcMolFJD_46e50ydjLWmgJuC3_CA38dLnVl22OA1HoaUsJVukoi1Nv2aG1SPB9-WbjHdJSXQr90VFa3Sajvnt4zWuNWf0EefagacVGHtVTPHzCHCQ3lPdfN39IRPduJNmjdbQJ7oUVNrTz9FO2p50q-JJ532a_ayjz5ajBA0TJtTwCGzuvpgE-1WPlq8STu2jNejUv-Kn9qgQ5_3HrOxPou_AnbO92OCDN7lzQoRaKyW3-3bkdk7NlhYecrFeN0SPrm9M_aepTc44l-IdE0Mi_jTT-SaqevvVLm_2b5JmZ6jFFsfOF8=s236-no',
     'video_link': 'https://youtu.be/3Ymt_TbNNwE',
     'video_caption': 'VIDEO SERIES “PERSPECTIVES” ON YOUTUBE',

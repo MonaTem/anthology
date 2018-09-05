@@ -5,14 +5,15 @@ import NavBottom from './NavBottom.js'
 
 const Author = (props) => {
 
-  // console.log("props is " + Object.entries(Object.entries(Object.entries(props))));
+  console.log("location props is " + Object.entries(props.location));
+  console.log("match params props are " + Object.entries(props.match.params));
 
 
   return (<div className="container-fluid">
     <NavTop page={'Author'}/>
     <div>
-      Author is {props.authorname};
-      Index is {props.index};
+      {/* Author is {this.props.authorname}; */}
+      Index is {props.match.params.index};
       {/* Author is JENNIFER AAKER;
       Index is 0; */}
 
