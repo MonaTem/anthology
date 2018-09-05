@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Author.css';
 import NavTop from './NavTop.js'
 import NavBottom from './NavBottom.js'
+import authors from '../data/authors.js'
 
 const Author = (props) => {
 
