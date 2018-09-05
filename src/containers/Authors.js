@@ -38,7 +38,7 @@ class Authors extends Component {
     // let index = 0;
     // console.log ("author name and index = " + authorname + " " + index);
 
-    return (<div>
+    return (<div className="container">
       <NavTop page={'Authors'}/>
       <div className="media">
         <img id="cover-001a" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
