@@ -41,10 +41,10 @@ const Author = (props) => {
       Index is 0; */
     }
     {/* </div> */}
-    <div>
+    {/* <div> */}
       {/* <h1>{authors[index].name}</h1> */}
-      <h3>{name}</h3>
-    </div>
+      {/* <h3>{name}</h3>
+    </div> */}
     <div className="row">
       <div className="col-4">
         <img src={authors[index].photo_url} alt={authors[index].name} className="author-photo" width={width} height="200"/>
@@ -56,9 +56,11 @@ const Author = (props) => {
         {/* <video width="320" height="240" controls>
      <source src={authors[index].video_link}></source>
      Your browser does not support the video tag.
-    </video> */
-        }
+    </video> */}
+        <h2>{name}</h2>
+        <br></br>
         <iframe width="500" height="281" title={authors[index].video_caption} src={authors[index].video_link} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+        <br></br>
         <br></br>
         <p>{authors[index].video_caption}</p>
       </div>
