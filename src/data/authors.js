@@ -23,14 +23,14 @@ const authors = [
   {
     'name': 'MARC JADOUL',
     'bio': 'Marc Jadoul (born September 14, 1962) is marketing director at Nokia, spare-time communications consultant, and a passionate B2B storyteller. Over the past decades, Marc has given hundreds of business presentations to tech sector executives worldwide. Author/co-author of ~200 papers, magazine articles and conference talks, and a frequent speaker and panelist at technology industry events, he has earned ‘best speaker’ awards at different occasions. Marc lives in Belgium and speaks Dutch, English and French.',
-    'photo_url': 'https://lh3.googleusercontent.com/eq_44Mj5chGvVM-ZKWp6ZJNewcqAJlEZqAnc3yXKZP8RiGBZzjz4RuzY0vP1M9J7KHXB00h7m444F350xtWUjvIJL3i1vmA5Zq5x0db1VY2gI84ngCnwJ3s4WtRnI829DVeZpGyxNfrrGkGTKLv9ZddCzyWLKPOwlzmCeIjiEkUS6-qGaskX6LQRriVTLQMk7xiuSaynIxo0mn_1aVFRr9llxlErBoeFYnBX7w32drTa_lP71MZn2In3DXt2EJ_thdlOW-nOs-fLMlfAc4bWu6CIGnQsigyVTjW57QbvVJIseNUc6VL2Bb17iP4xPchvuHoZjn-m8yiD8TWZQCu3GZF3mxBCGws-PLj-P6cM32QNoruWwDbcwmvX6wIuVOSIuALDnAUd92FlxiQ4BkupcYhvhdxPy2gO3CpSRj7u08Z8fCvIqWjlyPkdGv5w_ZTnznWTtkjY36Sw7rR3KHSkKZkdKz_xKzFeDKyhQNCr1jiZ_xXU2E4_QYCeS-3xotdcN-Z_DPDrt_OWkgn6w9YvgTOcJ87AJnW59vevW-o34ftd1ojnJ7Xjt5CLVZrvfvPs5iXaYiiQfJTx2MdUrb5trH7DqiYIP8f7OFj3dpA=s334-no',
+    'photo_url': 'https://lh3.googleusercontent.com/kasekag3fQLNhydt2L_R3NnliW4iaUJzJKLM6-p2lBMb22WaTDJL9yEsdEk-MjZhjYVl3QPslbYZHSGjaaoqoSd-XuOs8BWOHpm7qr5gYU5GoWSif_6Lc5V4ErKh0Gc1PFehlHtzoMjywWMhxIyw6iyeUQSAu3n3jA_yN1EnlBW7ySm8ZuF8MnZIvzbnDONjW5dWL97K-1KbQ08ByTjmDJHpU3MGo-5chSwKm7NFS_f9cIky9vteZZH787f6ITyUQ_O9wYUp7Fqq3Xo-KmclaX0F_fF0Vov9sIYWM2QdsBp35i4JsRtDox9jFMf2hrjBaMBhSHpOIG-GLfXbRoy7DRJ-w6dE8b0NPBMagLjYMg5CRoxQUVOKDivA3qXo2aLQVRYH_onvxjzEl4oY4r31XOayM-xCfxePYWrByimq-szR6Sx-vG0yVnAUmnJaars3HAifYOkAK6XV5W0gb4SBi8uIkxTVjfv0VN1jlcwTbUbf45gMGCki15v_WJJU_bA5MpISurzawQfZOU2Se_P8Dnuujj3FiHSVXeF0O4MGk5PRnhe4hkcbZzYoQOv_yP4PLWGVdRn25U_uHQrkxsljZ-wMrJ-P7b2P1b1vU1mJvi0_OOBNAI_3nxzNYq3vP8A=s800-no',
     'video_link': 'https://www.youtube.com/watch?v=MwOaesC01E8',
     'video_caption': ['  “7 SINS OF THE SPEAKER"           ',
                       'CAMPUS IN THE CLOUD VIDEO ON        ',
                       '          YOUTUBE                   '],
     'websites': [{'website': 'https://www.linkedin.com/in/mjadoul/'}, {'website': 'https://www.speakersbase.com/public/mjadoul'},{'website': 'https://b2bstorytelling.wordpress.com/'},{'website':'https://www.business2community.com/author/marc-jadoul'},{'website':'https://www.slideshare.net/mjadoul'}],
     'contact': 'https://b2bstorytelling.wordpress.com/get-in-touch-with-me/',
-    'publications': [{'publication': 'https://b2bstorytelling.wordpress.com/download/'}, {'publication': 'https://b2bstorytelling.wordpress.com/download/'}]
+    'publications': [{'publication': 'blog posts compilation https://b2bstorytelling.wordpress.com/download/'}]
   },
   {
   'name': 'DONALD DAVIS',

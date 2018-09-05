@@ -6,7 +6,7 @@ import NavBottomNoToggle from './NavBottomNoToggle.js';
 
 const Home = (props) => {
 
-  return (<div className="container-fluid">
+  return (<div className="container">
     <NavTop page={'Home'}/>
     <div className="media ml-5">
       <img id="cover-001" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>

@@ -11,27 +11,30 @@ const Author = (props) => {
 
 
   const index = props.match.params.index;
-  const stringy = (JSON.stringify(authors[index]));
 
-  var regex = /\\/g;
+  // const stringy = (JSON.stringify(authors[index]));
+  //
+  // var regex = /\\/g;
+  //
+  // //escape backslash to avoid errors
+  // var escapeJSON = function(str) {
+  //      return str.replace(regex,'');
+  //  }
+  //
+  // const newObj = escapeJSON(stringy);
+  //
+  // console.log(newObj);
 
-  //escape backslash to avoid errors
-  var escapeJSON = function(str) {
-       return str.replace(regex,'');
-   }
 
-  const newObj = escapeJSON(stringy);
-
-  console.log(newObj);
-
-
-  return (<div className="container-fluid">
+  return (<div className="container">
     <NavTop page={'Author'}/>
     <div>
-      {/* Author is {this.props.authorname}; */}
-      Index is {props.match.params.index};
+      {/* Author is {authors[index].name};
+      Bio is {authors[index].bio};
+      Index is {props.match.params.index}; */}
       {/* Author is JENNIFER AAKER;
       Index is 0; */}
+      <img src={authors[index].photo_url} alt={authors[index].name} className="author-photo" />
 
       <NavBottom page={'Author'}/>
     </div>
