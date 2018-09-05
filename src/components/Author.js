@@ -39,13 +39,22 @@ const Author = (props) => {
     {/* </div> */}
     <div>
     {/* <h1>{authors[index].name}</h1> */}
-    <h1>{name}</h1>
+    <h3>{name}</h3>
     </div>
-    <div>
+    <div className="row">
+    <div className="col-4" >
       <img src={authors[index].photo_url} alt={authors[index].name} className="author-photo" width={width} height="200"/>
       <br></br>
-      <p>{authors[index].bio}</p>
+      <p className="author-bio">{authors[index].bio}</p>
     </div>
+    <div className="col-4">
+    <img src={authors[index].video_link} alt={authors[index].video_caption} className="author-video" width="400" height="200"/>
+     <br></br>
+     <p>{authors[index].video_caption}</p>
+    </div>
+    <div className="col-4">
+    </div>
+  </div>
 
       <NavBottom page={'Author'}/>
     {/* </div> */}
