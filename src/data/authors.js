@@ -81,7 +81,6 @@ const authors = [
   },
 
 
-
   {
     'name': 'ANDY SMITH',
     'bio': 'Andy Smith is an American entrepreneur, author, seed stage startup advisor, investor in connected technologies infrastructure and services including IoT and blockchain.',

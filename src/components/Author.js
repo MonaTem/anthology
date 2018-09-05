@@ -6,8 +6,23 @@ import authors from '../data/authors.js'
 
 const Author = (props) => {
 
-  console.log("location props is " + Object.entries(props.location));
-  console.log("match params props are " + Object.entries(props.match.params));
+  // console.log("location props is " + Object.entries(props.location));
+  // console.log("match params props are " + Object.entries(props.match.params));
+
+
+  const index = props.match.params.index;
+  const stringy = (JSON.stringify(authors[index]));
+
+  var regex = /\\/g;
+
+  //escape backslash to avoid errors
+  var escapeJSON = function(str) {
+       return str.replace(regex,'');
+   }
+
+  const newObj = escapeJSON(stringy);
+
+  console.log(newObj);
 
 
   return (<div className="container-fluid">

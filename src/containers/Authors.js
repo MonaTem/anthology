@@ -88,7 +88,7 @@ class Authors extends Component {
               SARAH KAJDER
             </p>
             <p className="active">
-              DOUG LIPMAN
+              <Link to={'/author/4'}>DOUG LIPMAN</Link>
             </p>
             <p>
               ILANA SIMONS
@@ -98,10 +98,9 @@ class Authors extends Component {
             </p>
             <p className="active">
                 <Link to={'/author/7'}>ANDY SMITH</Link>
-              ANDY SMITH
             </p>
             <p className="active">
-                <Link to={'/author/7'}>JIMMY NEIL SMITH</Link>
+                <Link to={'/author/9'}>JIMMY NEIL SMITH</Link>
             </p>
             <p className="active">
                 <Link to={'/author/11'}>LUKE SULLIVAN</Link>
