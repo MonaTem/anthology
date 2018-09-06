@@ -16,12 +16,22 @@ const Author = (props) => {
 
   var websiteList = "";
 
-  authors[2].websites.forEach((element) => {
+  authors[index].websites.forEach((element) => {
      const website = Object.values(element).join();
 
      if (websiteList) {
        websiteList = websiteList + " " + website;
     } else websiteList = websiteList + website;
+  });
+
+  var publicationList = "";
+
+  authors[index].publications.forEach((element) => {
+     const publication = Object.values(element).join();
+
+     if (publicationList) {
+       publicationList = publicationList + " " + publication;
+    } else publicationList = publicationList + publication;
   });
 
 
@@ -52,6 +62,7 @@ const Author = (props) => {
       <h3>CONTACT</h3>
       {authors[index].contact}
       <h3>PUBLICATIONS (SELECTION)</h3>
+      {publicationList}
     </div>
   </div>
 
