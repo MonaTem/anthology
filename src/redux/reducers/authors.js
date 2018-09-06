@@ -18,7 +18,6 @@ function authors(state = initialState, action) {
    // return the updated state
       console.log('Selecting author!');
       return {
-        ...state,
         authorname: action.authorname,
         index: action.index
       };

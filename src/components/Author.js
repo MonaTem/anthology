@@ -6,30 +6,24 @@ import authors from '../data/authors.js'
 
 const Author = (props) => {
 
-  // console.log("location props is " + Object.entries(props.location));
-  // console.log("match params props are " + Object.entries(props.match.params));
+  // this.createWeblist  = this.createWeblist.bind(this);
 
   const index = props.match.params.index;
   const name = authors[index].name;
   const width = (name === "JULIE SPRINGER")
     ? 147
     : 200;
-  // const video_height = (name === "MICHAEL MARGOLIS")
-  //    ? 400
-  //    : 281;
 
-  // const stringy = (JSON.stringify(authors[index]));
-  //
-  // var regex = /\\/g;
-  //
-  // escape backslash to avoid errors
-  // var escapeJSON = function(str) {
-  //      return str.replace(regex,'');
-  //  }
-  //
-  // const newObj = escapeJSON(stringy);
-  //
-  // console.log(newObj);
+  var websiteList = "";
+
+  authors[2].websites.forEach((element) => {
+     const website = Object.values(element).join();
+
+     if (websiteList) {
+       websiteList = websiteList + " " + website;
+    } else websiteList = websiteList + website;
+  });
+
 
   return (<div className="container">
     <NavTop page={'Author'}/> {/* <div> */}
@@ -47,13 +41,14 @@ const Author = (props) => {
       <div className="col-4">
         <h2>{name}</h2>
         <br></br>
-        <iframe width="380" height="210" title={authors[index].video_caption} src={authors[index].video_link} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+        <iframe width="380" height="210" title={authors[index].video_caption} src={authors[index].video_link} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen"></iframe>
         <br></br>
         <br></br>
         <p>{authors[index].video_caption}</p>
       </div>
       <div className="col-4">
       <h3>WEBSITES (SELECTION)</h3>
+      {websiteList}
       <h3>CONTACT</h3>
       {authors[index].contact}
       <h3>PUBLICATIONS (SELECTION)</h3>
