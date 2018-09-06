@@ -37,14 +37,7 @@ const Author = (props) => {
       Bio is {authors[index].bio};
       Index is {props.match.params.index}; */
     }
-    {/* Author is JENNIFER AAKER;
-      Index is 0; */
-    }
-    {/* </div> */}
-    {/* <div> */}
-      {/* <h1>{authors[index].name}</h1> */}
-      {/* <h3>{name}</h3>
-    </div> */}
+
     <div className="row">
       <div className="col-4">
         <img src={authors[index].photo_url} alt={authors[index].name} className="author-photo" width={width} height="200"/>
@@ -52,22 +45,23 @@ const Author = (props) => {
         <p className="author-bio">{authors[index].bio}</p>
       </div>
       <div className="col-4">
-        {/* <img src={authors[index].video_link} alt={authors[index].video_caption} className="author-video" width="400" height="200"/> */}
-        {/* <video width="320" height="240" controls>
-     <source src={authors[index].video_link}></source>
-     Your browser does not support the video tag.
-    </video> */}
         <h2>{name}</h2>
         <br></br>
-        <iframe width="500" height="281" title={authors[index].video_caption} src={authors[index].video_link} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+        <iframe width="380" height="210" title={authors[index].video_caption} src={authors[index].video_link} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
         <br></br>
         <br></br>
         <p>{authors[index].video_caption}</p>
       </div>
-      <div className="col-4"></div>
+      <div className="col-4">
+      <h3>WEBSITES (SELECTION)</h3>
+      <h3>CONTACT</h3>
+      {authors[index].contact}
+      <h3>PUBLICATIONS (SELECTION)</h3>
     </div>
+  </div>
 
-    <NavBottom page={'Author'}/> {/* </div> */}
+
+    <NavBottom page={'Author'}/>
   </div>);
 }
 
