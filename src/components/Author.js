@@ -51,7 +51,7 @@ const Author = (props) => {
       <div className="col-4">
         <h2>{name}</h2>
         <br></br>
-        <iframe width="380" height="210" title={authors[index].video_caption} src={authors[index].video_link} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen"></iframe>
+        <iframe width="370" height="210" title={authors[index].video_caption} src={authors[index].video_link} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen"></iframe>
         <br></br>
         <br></br>
         <p>{authors[index].video_caption}</p>
