@@ -33,7 +33,7 @@ const authors = [
                       '          YOUTUBE                   '],
     'websites': [{'website': 'https://www.linkedin.com/in/mjadoul/'}, {'website': 'https://www.speakersbase.com/public/mjadoul'},{'website': 'https://b2bstorytelling.wordpress.com/'},{'website':'https://www.business2community.com/author/marc-jadoul'},{'website':'https://www.slideshare.net/mjadoul'}],
     'contact': 'https://b2bstorytelling.wordpress.com/get-in-touch-with-me/',
-    'publications': [{'publication': 'blog posts compilation https://b2bstorytelling.wordpress.com/download/'}]
+    'publications': [{'publication': 'https://b2bstorytelling.wordpress.com/download/'}]
   },
   {
   'name': 'DONALD DAVIS',

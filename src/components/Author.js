@@ -3,7 +3,8 @@ import '../styles/Author.css';
 import NavTop from './NavTop.js'
 import NavBottom from './NavBottom.js'
 import authors from '../data/authors.js'
-
+import WebsiteList from './WebsiteList.js'
+import PublicationList from './PublicationList.js'
 const Author = (props) => {
 
   // this.createWeblist  = this.createWeblist.bind(this);
@@ -69,11 +70,11 @@ const Author = (props) => {
       </div>
       <div className="col-4">
       <h3>WEBSITES (SELECTION)</h3>
-      {/* {websiteList} */}
+      <WebsiteList index={index} />
       <h3>CONTACT</h3>
       {authors[index].contact}
       <h3>PUBLICATIONS (SELECTION)</h3>
-      {/* {publicationList} */}
+      <PublicationList index={index}/>
     </div>
   </div>
 

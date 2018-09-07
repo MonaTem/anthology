@@ -1,43 +1,35 @@
-import React from 'react';
+import React from 'react'
 import authors from '../data/authors.js';
-import WebsiteLink from './WebsiteLink.js';
+import '../styles/Anthology.css';
 
 const WebsiteList = (props) => {
-// class WebsiteList extends Component {
-
-
 
   const index = props.index;
-  // const websiteList = authors[index].websites;
-  // const websiteList = authors[index].websites;
-  // var websiteList = "";
-  // var i = 0;
+
+  var websiteList = [];
+  var i = 0;
+
+  const websites = authors[index].websites;
+
+   websites.forEach((element) => {
+     let website = Object.values(element);
+     console.log(Object.keys(websites));
+     website = <li key={i}><a href={website}>{website}</a></li>
+     websiteList.push(website);
+     i++;
+  });
+
+  console.log(websiteList);
 
 
-  const websiteList = authors[index].websites.forEach(element => Object.values(element));
-     // const website = Object.values(element).join();
+    return (
+       <div>
+        <ul>
+        {websiteList}
+      </ul>
+       </div>
+    );
+  }
 
-  //    i++;
-  //
-  //   //  if (websiteList) {
-  //   //    websiteList = websiteList + " " + website;
-  //   // } else websiteList = websiteList + website;
-  //    <WebsiteLink key={i}
-  //             value={authors[index].website[i]} />
-  // });
-
-  // const websitelist = websiteList.map((websiteList) =>
-      // Correct! Key should be specified inside the array.
-
-
-    // );
-    //
-    //
-
-  return (<div>
-
-
-  </div>);
-}
 
 export default WebsiteList;
