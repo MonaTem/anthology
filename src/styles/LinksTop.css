@@ -85,6 +85,7 @@
 }
 .navtop {
   margin-left: -2em;
+  margin-top: -1rem;
 }
 
 @media only screen and (max-width: 750px) {
