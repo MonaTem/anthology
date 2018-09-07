@@ -46,7 +46,7 @@
     font-size: 1.5em;
     float: left;
     display: inline-block;
-    margin-left: 3em;
+    margin-left: 2.5em;
     top: -2rem;
     height: 1.5em;
 }
@@ -83,6 +83,9 @@
     top: -2rem;
     height: 1.5em;
 }
+.navtop {
+  margin-left: -2em;
+}
 
 @media only screen and (max-width: 750px) {
   /* For smart phone screens */
@@ -94,43 +97,39 @@
   .navtop {
     margin-top: -5rem;
     margin-left: -2em;
-    font-size: 4em;
-  }
-
-  button {
-    margin-top: -3rem;
+    font-size: 2em;
   }
 
   .navtop-collapse {
-    margin-top: -8rem;
+    margin-top: -5rem;
   }
 
   #buy {
     margin-left: -.5em;
     /* margin-top: -5rem; */
-    font-size: 6em;
+    font-size: 2em;
   }
 
   #home {
     margin-top: 2rem;
-    font-size: 6em;
+    font-size: 2em;
   }
 
    #description {
     left: -2.5em;
-    font-size: 6em;
+    font-size: 2em;
   }
 
   #table-of-contents {
     left: -5.5em;
     margin-top: .2rem;
-    font-size: 6em;
+    font-size: 2em;
   }
 
   #authors {
     margin-left: -2.5em;
-    margin-top: 1.5rem;
-    font-size: 6em;
+    /* margin-top: 1rem; */
+    font-size: 2em;
 
   }
 

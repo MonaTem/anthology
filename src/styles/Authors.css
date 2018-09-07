@@ -1,6 +1,6 @@
 #cover-001a {
     position: relative;
-    /* top: 7.5rem; */
+    top: -1rem;
     /* left: -16em; */
     /* width: 30em; */
     height: auto;
@@ -20,12 +20,16 @@
 
 .author {
   font-family: Arial,cursive;
-  font-size: 1em;
+  font-size: .9em;
   color: #254489;
-  margin-top: -40rem;
+  margin-top: -33rem;
   /* top: -0rem; */
   /* float: right; */
 
+}
+
+.second-author-col {
+  left: -10em;
 }
 
 /* .author-list {
@@ -39,10 +43,15 @@
 
 .info {
   font-family: HelveticaNeue;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   color: #254489;
   font-weight: bold;
-  margin-top: -10rem;
+  margin-top: -4rem;
+  /* margin-left: -.1em; */
+  left: 45em;
+  margin-bottom: 2rem;
+  font-size: 1.3em;
+
 }
 
 
@@ -116,12 +125,12 @@
   margin-left: 12em;
 }
 
-.info {
+/* .info {
   margin-top: -8rem;
   margin-left: -.5em;
   margin-bottom: 2rem;
   font-size: 1.3em;
-}
+} */
 
 .clickName {
   margin-top: -1rem;

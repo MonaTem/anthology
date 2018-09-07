@@ -13,15 +13,17 @@ const PublicationList = (props) => {
 
   const publications = authors[index].publications;
 
-   publications.forEach((element) => {
-     let publication = Object.values(element);
-     console.log(Object.keys(publications));
-     if (name === "MARC JADOUL") {
-        publication = <li key={i}><a href={publication}>{publication}</a></li>
-     } else publication = <li key={i}>{publication}</li>
-     PublicationList.push(publication);
-     i++;
+   if (publications) {
+       publications.forEach((element) => {
+       let publication = Object.values(element);
+       // console.log(Object.keys(publications));
+       if (name === "MARC JADOUL") {
+          publication = <li key={i}><a href={publication}>{publication}</a></li>
+       } else { publication = <li key={i}>{publication}</li> }
+       PublicationList.push(publication);
+       i++;
   });
+  }
 
   console.log(PublicationList);
 

@@ -22,7 +22,7 @@ class Authors extends Component {
       </div>
       <div className="media-body author-list">
         <div className="row">
-          <div className="col-6 offset-5 author text-left">
+          <div className="col-4 offset-5 author text-left">
             <p className="active">
                <Link to={'/author/0/JENNIFER_AAKER'}>JENNIFER AAKER</Link>
             </p>
@@ -57,7 +57,7 @@ class Authors extends Component {
               <Link to={'/author/2/MARC_JADOUL'}>MARC JADOUL</Link>
             </p>
           </div>
-          <div className="col-6 offset-7 author text-left second-author-col">
+          <div className="col-4 author text-left second-author-col">
             <p>
               JOEL KURZMAN
             </p>
@@ -94,10 +94,12 @@ class Authors extends Component {
             <p>
               RUEDIGER DRISCHEL (EDITOR)
             </p>
+            <div className="col-4">
+            </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-12 offset-1 info">
+          <div className="col-12 info">
             <p>
               FOR MORE INFORMATION
             </p>
