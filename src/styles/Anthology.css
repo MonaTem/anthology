@@ -10,12 +10,12 @@ body {
     background-image: linear-gradient(rgb(115, 179, 222) 0%, rgb(202, 220, 232) 100%);
 }
 
-@media only screen and (max-width: 1499px) and (min-width: 951px) {
+/* @media only screen and (max-width: 1499px) and (min-width: 951px) {
     body {
       min-height: 100vh;
       height: 200vh;
     }
-}
+} */
 
 @media only screen and (max-width: 950px) and (min-width: 750px) {
     body {
@@ -34,4 +34,6 @@ body {
 
 ul {
   list-style: none;
+  text-align: left;
+  /* list-style-position: inside; */
 }

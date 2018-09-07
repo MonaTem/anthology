@@ -11,41 +11,11 @@ const Author = (props) => {
 
   const index = props.match.params.index;
   const name = authors[index].name;
+  const contact = authors[index].contact;
   const width = (name === "JULIE SPRINGER")
     ? 147
     : 200;
 
-  // var websiteList = "";
-  // var publicationList = "";
-
-
-
-  // authors[index].websites.forEach((element) => {
-  //    const website = Object.values(element).join();
-  //
-  //    if (websiteList) {
-  //      websiteList = websiteList + " " + website;
-  //   } else websiteList = websiteList + website;
-  // });
-  //
-  // var publicationList = "";
-  //
-  // authors[index].publications.forEach((element) => {
-  //    const publication = Object.values(element).join();
-  //
-  //    if (publicationList) {
-  //      publicationList = publicationList + " " + publication;
-  //   } else publicationList = publicationList + publication;
-  // });
-  //
-  //
-
-
-  // const websiteList = authors[index].websites.map((website) =>
-  //   <div key={website}>
-  //     <a href={website}>{website}</a>
-  //   </div>
-  // );
 
   return (<div className="container">
     <NavTop page={'Author'}/> {/* <div> */}
@@ -58,6 +28,7 @@ const Author = (props) => {
       <div className="col-4">
         <img src={authors[index].photo_url} alt={authors[index].name} className="author-photo" width={width} height="200"/>
         <br></br>
+        <br></br>
         <p className="author-bio">{authors[index].bio}</p>
       </div>
       <div className="col-4">
@@ -69,15 +40,16 @@ const Author = (props) => {
         <p>{authors[index].video_caption}</p>
       </div>
       <div className="col-4">
-      <h3>WEBSITES (SELECTION)</h3>
-      <WebsiteList index={index} />
-      <h3>CONTACT</h3>
-      {authors[index].contact}
-      <h3>PUBLICATIONS (SELECTION)</h3>
-      <PublicationList index={index}/>
+        <h5>WEBSITES (SELECTION)</h5>
+           <WebsiteList index={index} />
+        <h5>CONTACT</h5>
+         <ul>
+          <li><a href="{contact}" className="author-contact">{contact}</a></li>
+         </ul>
+        <h5>PUBLICATIONS (SELECTION)</h5>
+         <PublicationList index={index}/>
+      </div>
     </div>
-  </div>
-
 
     <NavBottom page={'Author'}/>
   </div>);

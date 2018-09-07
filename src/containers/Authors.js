@@ -4,39 +4,16 @@ import '../styles/Authors.css';
 import '../styles/Anthology.css';
 import NavTop from '../components/NavTop.js';
 import NavBottomNoToggle from '../components/NavBottomNoToggle.js';
-// import authors from './redux/reducers/authors.js';
-// import { actions } from '.redux/actions/actions.js';
-// import { SELECT_AUTHOR } from '../redux/actions/actions.js';
 import * as authoractions from '../redux/actions/authoractions.js'
 import {bindActionCreators} from 'redux';
-// import Author from '../components/Author.js';
 import {Link} from 'react-router-dom';
-// import store from '../redux/store.js';
 
 class Authors extends Component {
 
 
-  // constructor(props) {
-  //   super(props);
-    // this.state = {
-    //   authorname: 'JENNIFER AAKER',
-    //   index: 0
-    // }
-    // this.state.bind(this);
-  // }
-
-  // store.getState();
-  //
-  // console.log("state is " + state.authorname + " " + state.index);
-
-  // console.log(store.getState());
-
 
   render() {
 
-    // let authorname = 'JENNIFER AAKER';
-    // let index = 0;
-    // console.log ("author name and index = " + authorname + " " + index);
 
     return (<div className="container">
       <NavTop page={'Authors'}/>
