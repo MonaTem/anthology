@@ -146,18 +146,4 @@ function mapDispatchToProps(dispatch) {
 
 
 
-// function mapDispatchToProps(dispatch) {
-//   return bindActionCreators(SELECT_AUTHOR, dispatch);
-// }
-
-// const mapDispatchToProps = dispatch => ({
-//   ...bindActionCreators(
-//     {
-//       SELECT_AUTHOR,
-//     },
-//     dispatch
-//    )
-//   // otherService, // this is not to be wrapped into dispatch
-// })
-
 export default connect(mapStateToProps, mapDispatchToProps)(Authors);

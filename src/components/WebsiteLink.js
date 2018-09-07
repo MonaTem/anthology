@@ -1,15 +1,13 @@
 import React from 'react';
 
-const WebsiteList = (props) => {
 
-  // this.createWeblist  = this.createWeblist.bind(this);
+const WebsiteLink = (props) => {
 
-  const index = props.index;
+  const website = props.website;
 
   return (<div>
-
-
+    <a href={website}>{website}</a>
   </div>);
 }
 
-export default WebsiteList;
+export default WebsiteLink;
