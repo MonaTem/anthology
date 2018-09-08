@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Description.css';
 import '../styles/Anthology.css';
 import NavTop from './NavTop.js'
-import NavBottom from './NavBottom.js'
+import NavBottomNoToggle from './NavBottomNoToggle.js'
 
 const Description = (props) => {
 
@@ -59,13 +59,13 @@ const Description = (props) => {
             insights, as storytellers, scientists, technologists, economists, psychologists,
             <br></br>
             marketers.
-          </p>  
+          </p>
 
           </div>
         </div>
       </div>
       <div className="bottom-nav">
-        <NavBottom page={'Description'}/>
+        <NavBottomNoToggle page={'Description'}/>
       </div>
     </div>);
 }
