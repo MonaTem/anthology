@@ -11,6 +11,27 @@ body {
     background-image: linear-gradient(rgb(115, 179, 222) 0%, rgb(202, 220, 232) 100%);
 }
 
+.cover-001 {
+    position: relative;
+    height: 70vh;
+    width: 45vh;
+    margin-right: auto;
+
+}
+
+.cover-002 {
+    position: relative;
+    width: 45vh;
+    height: 70vh;
+    margin-right: auto;
+
+}
+
+.bottom-nav {
+  margin-top: 80rem;
+  margin-left: -6em;
+}
+
 @media only screen  (min-width: 951px) {
     body {
       min-height: 100vh;

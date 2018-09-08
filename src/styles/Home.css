@@ -51,7 +51,7 @@
 }
 
 
-#cover-001 {
+.cover-001 {
     position: relative;
     height: 70vh;
     width: 45vh;
@@ -59,7 +59,7 @@
 
 }
 
-#cover-002 {
+.cover-002 {
     position: relative;
     width: 45vh;
     height: 70vh;
@@ -198,14 +198,14 @@
     left: 1em;
     margin-top: -1rem;
     /* margin-top: 0rem; */
-    width: 70%;
-    height: 70%;
+    /* width: 70%;
+    height: 70%; */
   }
   #cover-002 {
     left: -12em;
     margin-top: 45rem;
-    width: 70%;
-    height: 70%;
+    /* width: 70%;
+    height: 70%; */
   }
 
   .quotes {

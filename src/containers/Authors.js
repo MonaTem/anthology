@@ -10,21 +10,18 @@ import {Link} from 'react-router-dom';
 
 class Authors extends Component {
 
-
-
   render() {
-
 
     return (<div className="container">
       <NavTop page={'Authors'}/>
       <div className="media">
-        <img id="cover-001a" className="img-fluid" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+        <img id="cover-001a" className="img-fluid cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
       <div className="media-body author-list">
         <div className="row">
           <div className="col-4 offset-5 author text-left">
             <p className="active">
-               <Link to={'/author/0/JENNIFER_AAKER'}>JENNIFER AAKER</Link>
+              <Link to={'/author/0/JENNIFER_AAKER'}>JENNIFER AAKER</Link>
             </p>
             <p className="active">
               <Link to={'/author/1/GENE_BELLINGER'}>GENE BELLINGER</Link>
@@ -33,13 +30,13 @@ class Authors extends Component {
               JULIA BORST BRAZAS
             </p>
             <p className="active">
-                <Link to={'/author/3/DONALD_DAVIS'}>DONALD DAVIS</Link>
+              <Link to={'/author/3/DONALD_DAVIS'}>DONALD DAVIS</Link>
             </p>
             <p>
               BRENT DYKES
             </p>
             <p className="active">
-                <Link to={'/author/8/MITCH_DITKOFF'}>MITCH DITKOFF</Link>
+              <Link to={'/author/8/MITCH_DITKOFF'}>MITCH DITKOFF</Link>
             </p>
             <p>
               JON FERREIRA
@@ -51,7 +48,7 @@ class Authors extends Component {
               KIM GASKINS
             </p>
             <p className="active">
-                <Link to={'/author/6/GERALD_HÜTHER'}>GERALD HÜTHER</Link>
+              <Link to={'/author/6/GERALD_HÜTHER'}>GERALD HÜTHER</Link>
             </p>
             <p className="active">
               <Link to={'/author/2/MARC_JADOUL'}>MARC JADOUL</Link>
@@ -74,16 +71,16 @@ class Authors extends Component {
               <Link to={'/author/5/MICHAEL_MARGOLIS'}>MICHAEL MARGOLIS</Link>
             </p>
             <p className="active">
-                <Link to={'/author/7/ANDY_SMITH'}>ANDY SMITH</Link>
+              <Link to={'/author/7/ANDY_SMITH'}>ANDY SMITH</Link>
             </p>
             <p className="active">
-                <Link to={'/author/9/JIMMY_NEIL_SMITH'}>JIMMY NEIL SMITH</Link>
+              <Link to={'/author/9/JIMMY_NEIL_SMITH'}>JIMMY NEIL SMITH</Link>
             </p>
             <p className="active">
-                <Link to={'/author/11/LUKE_SULLIVAN'}>LUKE SULLIVAN</Link>
+              <Link to={'/author/11/LUKE_SULLIVAN'}>LUKE SULLIVAN</Link>
             </p>
             <p className="active">
-                <Link to={'/author/12/JULIE_SPRINGER'}>JULIE SPRINGER</Link>
+              <Link to={'/author/12/JULIE_SPRINGER'}>JULIE SPRINGER</Link>
             </p>
             <p>
               STORYREGIONS
@@ -94,8 +91,7 @@ class Authors extends Component {
             <p>
               RUEDIGER DRISCHEL (EDITOR)
             </p>
-            <div className="col-4">
-            </div>
+            <div className="col-4"></div>
           </div>
         </div>
         <div className="row">
@@ -109,8 +105,9 @@ class Authors extends Component {
           </div>
         </div>
       </div>
-
-      <NavBottomNoToggle page={'Authors'}/>
+      <div className="bottom-nav">
+        <NavBottomNoToggle page={'Authors'}/>
+      </div>
     </div>)
   }
 }
@@ -120,9 +117,9 @@ function mapStateToProps(state, ownProps) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return {actions: bindActionCreators(authoractions, dispatch)}
+  return {
+    actions: bindActionCreators(authoractions, dispatch)
+  }
 }
-
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(Authors);

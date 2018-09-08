@@ -11,17 +11,21 @@ const VideoCaptions = (props) => {
   // var i = 0;
 
   var videoCaption = authors[ix].video_caption;
+  console.log(videoCaption.length);
+
   var videoCaptionLine = '';
-  console.log(videoCaption);
 
-  videoCaption.forEach((element, index) => {
-       console.log(index);
-       videoCaptionLine = <li key={index}>{element}</li>
-       VideoCaptionArray.push(videoCaptionLine);
-       // i++;
-  });
+  if (videoCaption.length > 3) {
+    let element = videoCaption;
+    videoCaptionLine = <li key={0}>{element}</li>
+    VideoCaptionArray.push(videoCaptionLine);
 
-  console.log('VideoCaptions ' + VideoCaptions);
+    } else
+      for (var i = 0; i < videoCaption.length; i++) {
+          let element = videoCaption[i];
+          videoCaptionLine = <li key={i}>{element}</li>
+          VideoCaptionArray.push(videoCaptionLine);
+          }
 
 
     return (

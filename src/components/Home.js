@@ -9,8 +9,8 @@ const Home = (props) => {
   return (<div className="container">
     <NavTop page={'Home'}/>
     <div className="media ml-5 home">
-      <img id="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
-      <img id="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
+      <img className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+      <img className="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
       <div className="media-body ml-3 quotes">
         <div className="row">
           <div className="col-12">

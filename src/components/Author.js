@@ -36,7 +36,6 @@ const Author = (props) => {
         <br></br>
         <iframe width="370" height="210" title={authors[ix].video_caption} src={authors[ix].video_link} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen"></iframe>
         <br></br>
-        <br></br>
         <VideoCaptions ix={ix} />
       </div>
       <div className="col-4">
