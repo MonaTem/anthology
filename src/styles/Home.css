@@ -21,12 +21,13 @@
 #howard-gardner-psyc {
     position: relative;
     text-align: left;
+    margin-left: -7em;
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1.2em;
     display: inline-block;
-    marginleft: 10em;
+    /* marginleft: 10em; */
 
 }
 
@@ -45,8 +46,7 @@
     text-align: left;
     color: black;
     font-weight: 500;
-    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
-    font-size: 1em;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;    font-size: 1em;
     display: inline-block;
 }
 
@@ -69,20 +69,21 @@
 
 #michael-margolis-te {
     position: relative;
-    text-align: left;
+    /* text-align: left; */
     color: black;
     font-weight: 500;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 1.2em;
-    left: -7.5em;
+    margin-left: -7em;
+    /* left: -7.5em; */
     display: inline-block;
 
 }
 
-#group-4 {
+/* #group-4 {
     position: relative;
     display: inline-block;
-}
+} */
 
 /* section {
     width: 100%;
@@ -90,17 +91,17 @@
 
 #most-powerful-section {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: left;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 1.2em;
 }
 
-#group-3-section {
+/* #group-3-section {
     position: relative;
     display: inline-block;
     text-align: left;
-}
+} */
 
 #stories-constitute-t {
     position: relative;
@@ -108,18 +109,33 @@
     color: black;
     font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
     font-size: 1.2em;
-    display: inline-block;
+    /* display: inline-block; */
     top: 3rem;
 
 }
 
-#its-like-everyone-t-section {
+/* #its-like-everyone-t-section {
     position: relative;
     display: inline-block;
     text-align: left;
+} */
+
+.quotes {
+  font-size: .8em;
 }
 
+.media-body {
+  font-size: .8em;
+}
 
+.home {
+  margin-top: -2rem;
+}
+
+.bottom-nav {
+  margin-top: 80rem;
+  margin-left: -6em;
+}
 
 @media only screen and (min-width: 1400px) {
     /* For extra large screens, i.e., laptops and desktops: */

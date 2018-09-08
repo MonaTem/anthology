@@ -27,7 +27,7 @@ class Anthology extends Component {
           <Switch>
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/authors" component={Authors}></Route>
-            <Route path="/author/:index" component={Author}></Route>
+            <Route path="/author/:ix" component={Author}></Route>
             <Route path="/description" component={Description}></Route>
             <Route path="/tableofcontents" component={TableOfContents}></Route>
             <Route path="/imprint" component={Imprint}></Route>

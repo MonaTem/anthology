@@ -5,20 +5,20 @@ import '../styles/VideoCaptions.css'
 
 const VideoCaptions = (props) => {
 
-  const index = props.index;
+  const ix = props.ix;
 
   var VideoCaptionArray = [];
-  var i = 0;
+  // var i = 0;
 
-  const videoCaption = authors[index].video_caption;
+  var videoCaption = authors[ix].video_caption;
   var videoCaptionLine = '';
+  console.log(videoCaption);
 
-  videoCaption.forEach((element) => {
-       // console.log(element);
-       videoCaptionLine = <li key={i}>{element}</li>
-       // console.log(videoCaptionLine);
+  videoCaption.forEach((element, index) => {
+       console.log(index);
+       videoCaptionLine = <li key={index}>{element}</li>
        VideoCaptionArray.push(videoCaptionLine);
-       i++;
+       // i++;
   });
 
   console.log('VideoCaptions ' + VideoCaptions);

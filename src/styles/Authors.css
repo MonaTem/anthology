@@ -28,9 +28,9 @@
 
 }
 
-.second-author-col {
-  left: -10em;
-}
+/* .second-author-col {
+  left: 10em;
+} */
 
 /* .author-list {
   margin-top: 3rem;
@@ -48,7 +48,7 @@
   font-weight: bold;
   margin-top: -4rem;
   /* margin-left: -.1em; */
-  left: 45em;
+  left: 7em;
   margin-bottom: 2rem;
   font-size: 1.3em;
 

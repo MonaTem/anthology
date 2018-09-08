@@ -4,12 +4,12 @@ import '../styles/Anthology.css';
 
 const WebsiteList = (props) => {
 
-  const index = props.index;
+  const ix = props.ix;
 
   var websiteList = [];
   var i = 0;
 
-  const websites = authors[index].websites;
+  const websites = authors[ix].websites;
 
    websites.forEach((element) => {
      let website = Object.values(element);

@@ -8,7 +8,7 @@
 //
 const initialState = {
   authorname: 'JENNIFER AAKER',
-  index: 0
+  ix: 0
 }
 
 function authors(state = initialState, action) {
@@ -19,7 +19,7 @@ function authors(state = initialState, action) {
       console.log('Selecting author!');
       return {
         authorname: action.authorname,
-        index: action.index
+        ix: action.ix
       };
     }
    default:

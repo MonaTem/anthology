@@ -4,14 +4,14 @@ import '../styles/Anthology.css';
 
 const PublicationList = (props) => {
 
-  const index = props.index;
-  const name = authors[index].name;
-  console.log(`index ${index}`);
+  const ix = props.ix;
+  const name = authors[ix].name;
+  // console.log(`ix ${ix}`);
 
   var PublicationList = [];
   var i = 0;
 
-  const publications = authors[index].publications;
+  const publications = authors[ix].publications;
 
    if (publications) {
        publications.forEach((element) => {

@@ -90,6 +90,12 @@
     /* height: 36px; */
     height: auto;
 }
+
+/* .navbottom {
+  margin-top: 60rem;
+  left: 10em;
+} */
+
  @media only screen and (max-width: 950px) and (min-width: 751px) {
       /* medium width screens--smaller tablets, huge phones */
 
@@ -130,13 +136,14 @@
       }
 }
 
-@media only screen and (min-width: 951px) and (max-width: 1499px) {
+@media only screen and (min-width: 951px) and (max-width: 1399px) {
     /* For medium large screens--some larger tablets and smaller laptops */
 
 
     .navbottom {
-      top: -60rem;
-      left: -30rem;
+      /* top: -10rem; */ */
+      top: 60rem;
+      left: 10em;
     }
     .navbar-item {
       font-size: 1.5em;
@@ -213,4 +220,4 @@
       margin-left: 2em;
       font-size: .2em;
     }
-  }  
+  }

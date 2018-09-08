@@ -9,7 +9,7 @@ export const history = createHistory();
 
 const initialState = {
       authorname: 'JENNIFER AAKER',
-      index: 0
+      ix: 0
 };
 
 const enhancers = []

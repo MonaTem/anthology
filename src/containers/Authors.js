@@ -116,7 +116,7 @@ class Authors extends Component {
 }
 
 function mapStateToProps(state, ownProps) {
-  return {authorName: state.authorName, index: state.index}
+  return {authorName: state.authorName, ix: state.ix}
 }
 
 function mapDispatchToProps(dispatch) {

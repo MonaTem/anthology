@@ -8,7 +8,7 @@ const Home = (props) => {
 
   return (<div className="container">
     <NavTop page={'Home'}/>
-    <div className="media ml-5">
+    <div className="media ml-5 home">
       <img id="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       <img id="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
       <div className="media-body ml-3 quotes">
@@ -29,14 +29,13 @@ const Home = (props) => {
               </p>
               <br></br>
               <p id="michael-margolis-te">Michael Margolis, Technologist {/* <p> Michael Margolis, Technologist */}
-                <br></br>
+                {/* <br></br> */}
               </p>
             </section>
             <section id="group-3-section">
               <p id="stories-constitute-t">Stories constitute the single most powerful
                 <br></br>weapon in a LEADER’s arsenal.
               </p>
-              <br></br>
               <br></br>
               <br></br>
               <p id="howard-gardner-psyc">Howard Gardner, Psychologist
@@ -56,7 +55,9 @@ const Home = (props) => {
         </div>
       </div>
     </div>
-    <NavBottomNoToggle page={'Home'}/>
+    <div className="bottom-nav">
+     <NavBottomNoToggle page={'Home'} />
+   </div>
   </div>);
 }
 
