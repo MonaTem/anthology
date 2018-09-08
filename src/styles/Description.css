@@ -1,7 +1,7 @@
 .description {
   text-align: left;
   margin-top: -35rem;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: Arial,cursive;
 }
 
@@ -11,4 +11,8 @@
 
 .top-nav {
   margin-left: -3em;
+}
+
+.bottom-nav {
+  margin-top: -1rem;
 }

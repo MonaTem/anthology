@@ -15,6 +15,10 @@ const VideoCaptions = (props) => {
 
   var videoCaptionLine = '';
 
+  // Had to remove forEach because videoCaption (authors[ix].video_caption from the data folder)
+  // is an array like object, not an actual array.   So I was getting a "TypeError: videoCapton.forEach is not a functions"
+  // Replaced it with a simple old fashioned for loop
+
   if (videoCaption.length > 3) {
     let element = videoCaption;
     videoCaptionLine = <li key={0}>{element}</li>
