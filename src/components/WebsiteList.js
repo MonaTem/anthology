@@ -13,13 +13,10 @@ const WebsiteList = (props) => {
 
    websites.forEach((element) => {
      let website = Object.values(element);
-     console.log(Object.keys(websites));
      website = <li key={i}><a href={website}>{website}</a></li>
      websiteList.push(website);
      i++;
   });
-
-  console.log(websiteList);
 
 
     return (

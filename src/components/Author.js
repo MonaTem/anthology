@@ -5,9 +5,9 @@ import NavBottom from './NavBottom.js'
 import authors from '../data/authors.js'
 import WebsiteList from './WebsiteList.js'
 import PublicationList from './PublicationList.js'
-const Author = (props) => {
+import VideoCaptions from './VideoCaptions.js'
 
-  // this.createWeblist  = this.createWeblist.bind(this);
+const Author = (props) => {
 
   const index = props.match.params.index;
   const name = authors[index].name;
@@ -37,7 +37,7 @@ const Author = (props) => {
         <iframe width="370" height="210" title={authors[index].video_caption} src={authors[index].video_link} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen"></iframe>
         <br></br>
         <br></br>
-        <p>{authors[index].video_caption}</p>
+        <VideoCaptions index={index} />
       </div>
       <div className="col-4">
         <h5>WEBSITES (SELECTION)</h5>
@@ -47,7 +47,7 @@ const Author = (props) => {
           <li><a href="{contact}" className="author-contact">{contact}</a></li>
          </ul>
         <h5>PUBLICATIONS (SELECTION)</h5>
-         <PublicationList index={index}/>
+         <PublicationList index={index} />
       </div>
     </div>
 
