@@ -51,7 +51,8 @@
     /* float: left; */
     display: inline-block;
     margin-top: -1rem;
-    left: 3em;
+    margin-left: -1.2em;
+    /* left: 3em; */
     height: auto;
 
 }
@@ -85,7 +86,7 @@
     font-size: 20px;
     float: left;
     display: inline-block;
-    margin-top: -1rem;
+    margin-top: -4rem;
     margin-left: 9.5em;
     /* height: 36px; */
     height: auto;

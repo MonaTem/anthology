@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/Author.css';
 import NavTop from './NavTop.js'
-import NavBottom from './NavBottom.js'
+// import NavBottom from './NavBottom.js'
+import NavBottomNoToggle from './NavBottomNoToggle.js'
 import authors from '../data/authors.js'
 import WebsiteList from './WebsiteList.js'
 import PublicationList from './PublicationList.js'
@@ -18,7 +19,7 @@ const Author = (props) => {
 
 
   return (<div className="container">
-    <NavTop page={'Author'}/> {/* <div> */}
+    <NavTop page={'Author'}/> 
     {/* Author is {authors[ix].name};
       Bio is {authors[ix].bio};
       ix is {props.match.params.ix}; */
@@ -50,7 +51,8 @@ const Author = (props) => {
       </div>
     </div>
 
-    <NavBottom page={'Author'}/>
+    {/* <NavBottom page={'Author'}/> */}
+    <NavBottomNoToggle page='Author' />
   </div>);
 }
 

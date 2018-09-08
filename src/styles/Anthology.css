@@ -27,10 +27,11 @@ body {
 
 }
 
-.bottom-nav {
+/* .bottom-nav {
   margin-top: 80rem;
   margin-left: -6em;
-}
+} */
+
 
 @media only screen  (min-width: 951px) {
     body {
