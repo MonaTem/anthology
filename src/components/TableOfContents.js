@@ -18,7 +18,9 @@ const TableOfContents = (props) => {
         <div className="col-4 offset-5 text-left Toc-col-1">
           PREFACE
           <br></br>
-          A NEW AGE OF STORYTELLING - INTRODUCTION
+          A NEW AGE OF STORYTELLING -
+          <br></br>
+          INTRODUCTION
           <br></br>
           Storytelling - A Tentative Structure
           <br></br>
@@ -31,12 +33,88 @@ const TableOfContents = (props) => {
           <br></br>
           Culture
           <br></br>
-          From Aristoteles to AI Confusion of Tongues HUMAN RELATIONS The ability to tell stories that engage others and compel them to act or feel The Birth of the National Storytelling Festival and the Emergence of the Storytelling Revival A Therapist Should Be A Good Storyteller Digital Storytelling, Then And Now: From Academic Tool To Social Empowerment LIFE EXPERIENCE How The Story Transforms The Teller A Manifesto For Seven Billion Dreams Why Tell stories? Why People Don’t Tell Their Stories Are Storytellers in the Relationship Business?
+          From Aristoteles to AI
+          <br></br>
+          Confusion of Tongues
+          <br></br>
+          <br></br>
+          HUMAN RELATIONS
+          <br></br>
+          The ability to tell stories that engage others and
+          <br></br>
+          compel them to act or feel
+          <br></br>
+          The Birth of the National Storytelling Festival and
+          <br></br>
+          the Emergence of the Storytelling Revival
+          <br></br>
+          A Therapist Should Be A Good Storyteller
+          <br></br>
+          Digital Storytelling, Then And Now: From
+          <br></br>
+          Academic Tool To Social Empowerment
+          <br></br>
+          <br></br>
+          LIFE EXPERIENCE
+          <br></br>
+          How The Story Transforms The Teller
+          <br></br>
+          A Manifesto For Seven Billion Dreams
+          <br></br>
+          Why Tell stories?
+          <br></br>
+          Why People Don’t Tell Their Stories
+          <br></br>
+          Are Storytellers in the Relationship Business?
 
         </div>
         <div className="col-4 text-left offset-9 Toc-col-2">
-          SCIENCE, TECHNOLOGY, PHILOSOPHY Understanding Relationships And Their Implications "We like to think in pictures" - which causes storytelling in our brain Data Storytelling: The Essential Data Science Skill Everyone Needs ECONOMY, SOCIETY The Seven Deadly Sins of Storytelling Why Is The Bad Guy Always More Interesting? Storytelling in Business ALL THINGS STORYTELLING Storytelling - What are we talking about? Learn 5 Tips You Need To Tell A More Strategic Narrative The Future Of Storytelling Is About To Get Wild How Does Technology Contribute To Create Better Stories? APPENDIX THE AUTHORS WEBSITE COPYRIGHT
-
+          SCIENCE, TECHNOLOGY, PHILOSOPHY
+          <br></br>
+          Understanding Relationships And Their
+          <br></br>
+          Implications
+          <br></br>
+          "We like to think in pictures" - which causes
+          <br></br>
+          storytelling in our brain
+          <br></br>
+          Data Storytelling: The Essential Data Science Skill
+          <br></br>
+          Everyone Needs
+          <br></br>
+          <br></br>
+          ECONOMY, SOCIETY
+          <br></br>
+          The Seven Deadly Sins of Storytelling
+          <br></br>
+          Why Is The Bad Guy Always More Interesting?
+          <br></br>
+          Storytelling in Business
+          <br></br>
+          <br></br>
+          ALL THINGS STORYTELLING
+          <br></br>
+          Storytelling - What are we talking about?
+          <br></br>
+          Learn 5 Tips You Need To Tell A More Strategic
+          <br></br>
+          Narrative
+          <br></br>
+          The Future Of Storytelling Is About To Get Wild
+          <br></br>
+          How Does Technology Contribute To Create Better
+          <br></br>
+          Stories?
+          <br></br>
+          <br></br>
+          APPENDIX
+          <br></br>
+          THE AUTHORS
+          <br></br>
+          WEBSITE
+          <br></br>
+          COPYRIGHT   
         </div>
       </div>
     </div>
