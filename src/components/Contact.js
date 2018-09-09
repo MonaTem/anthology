@@ -11,7 +11,7 @@ const Contact = (props) => {
       <NavTop page={'Contact'}/>
     </div>
     <div className="media desc">
-      <img className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+      <img className="cover-001 cover-001-contact" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     </div>
     <div className="media-body">
       <div className="row">
@@ -35,7 +35,7 @@ const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div className="bottom-nav-contact">
+      <div className="bottom-navigation-contact">
         <NavBottomNoToggle page={'Contact'}/>
       </div>
     </div>);
