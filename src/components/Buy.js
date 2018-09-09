@@ -15,7 +15,7 @@ const Buy = (props) => {
     </div>
     <div className="media-body">
       <div className="row buy">
-        <div className="col-4 offset-6 text-left buy-col-1">
+        <div className="col-4 offset-5 text-left buy-col-1">
           <h4>EBOOK</h4>
           <br></br>
           <img src='/images/Amazon.jpg' alt="Amazon" width="80" height="80"/>
@@ -40,8 +40,22 @@ const Buy = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-5 offset-8 text-left buy-col-2 border border-dark">
+        <div className="col-4 offset-8 text-left buy-col-2 border border-dark">
           <h1 className="heading1">NOTE</h1>
+          <br></br>
+          <br></br>
+          <div className="Europe">
+            SALES IN EUROPE
+            <br></br>
+            SEPTEMBER 15
+          </div>
+          <br></br>
+          <br></br>
+          <div className="US">
+            SALES IN THE U.S.
+            <br></br>
+            OCTOBER 15
+          </div>
         </div>
       </div>
     </div>

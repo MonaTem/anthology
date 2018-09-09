@@ -18,12 +18,19 @@
 } */
 
 .buy-col-2 {
-   margin-top: -38rem;
+   margin-top: -40rem;
+   height: 29em;
    /* border-style: solid; */
+}
+
+.buy-col-1 {
+  padding-left: 3em;
 }
 
 .heading1 {
   font-size: 3em;
+  margin-left: 1.5em;
+  margin-top: 1rem;
 }
 
 .bn-logo {
@@ -31,7 +38,7 @@
 }
 
 .bottom-nav-buy {
-  margin-top: 19rem;
+  margin-top: -2rem;
 }
 
 .cover-001-buy {
@@ -46,6 +53,14 @@
 .book {
   margin-top: .5rem;
 }
+
+.Europe, .US {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-left: 2em;
+  /* font-family: Arial; */
+}
+
 
 h5 {
   text-align: left;
