@@ -132,10 +132,10 @@
   margin-top: -2rem;
 }
 
-/* .bottom-nav {
-  margin-top: 50rem;
+.bottom-nav {
+  top: -40rem;
   margin-left: -6em;
-} */
+}
 
 @media only screen and (min-width: 1400px) {
     /* For extra large screens, i.e., laptops and desktops: */
