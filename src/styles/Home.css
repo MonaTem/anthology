@@ -136,9 +136,9 @@
   margin-left: 4em;
 }
 
-.navbottom {
-  top: -11rem;
-}
+/* .navbottom {
+  top: -1rem;
+} */
 
 @media only screen and (min-width: 1400px) {
     /* For extra large screens, i.e., laptops and desktops: */

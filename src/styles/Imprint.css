@@ -1,6 +1,6 @@
 .imprint {
   text-align: left;
-  margin-top: -37rem;
+  margin-top: -38rem;
   font-size: 1em;
   font-family: Helvetica;
 }
@@ -13,12 +13,13 @@
   margin-left: -3em;
 }
 
-.bottom-navigation {
-  margin-top: 15rem;
+.bottom-navigation-imprint {
+  margin-top: 3rem;
 }
 
 .cover-001i {
     height: 75vh;
     width: 48vh;
+    margin-top: -2rem;
 
 }

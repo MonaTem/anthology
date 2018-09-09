@@ -43,8 +43,7 @@ const Imprint = (props) => {
           <br></br>
           Although every precaution has been taken
           <br></br>
-          to verify the accuracy of the
-          information contained herein, the author
+          to verify the accuracy of the information contained herein, the author
           <br></br>
           and publisher assume no responsibility
           <br></br>
@@ -75,7 +74,7 @@ const Imprint = (props) => {
         </div>
       </div>
     </div>
-    <div className="bottom-navigation">
+    <div className="bottom-navigation-imprint">
       <NavBottomNoToggle page={'Imprint'}/>
     </div>
   </div>);
