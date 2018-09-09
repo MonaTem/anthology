@@ -7,13 +7,13 @@ import NavBottomNoToggle from './NavBottomNoToggle.js'
 const Imprint = (props) => {
 
   return (<div className="container">
-    <div className="top-nav">
+    <div className="top-nav top-nav-imprint">
       <NavTop page={'Imprint'}/>
     </div>
     <div className="media desc">
-      <img className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+      <img className="cover-001 cover-001i" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     </div>
-    <div className="media-body inform_the_user_when_the_app_is_ready_for_offline_consumption">
+    <div className="media-body imprint">
       <div className="row">
         <div className="col-4 offset-5 text-left imprint-col-1">
           COPYRIGHT: STORYZONE
@@ -61,16 +61,21 @@ const Imprint = (props) => {
           the explicit approval of the authors or
           <br></br>
           publishers.
-
-
         </div>
         <div className="col-4 text-left offset-9 imprint-col-2">
-
-
+          Editor: Ruediger Drischel
+          <br></br>
+          Publisher: STORYZONE
+          <br></br>
+          4P Labs AG, Freiburgstraße 172, 3008 Switzerland
+          <br></br>
+          Web design: Mona Temchin
+          <br></br>
+          First Edition 2018
         </div>
       </div>
     </div>
-    <div className="bottom-nav">
+    <div className="bottom-navigation">
       <NavBottomNoToggle page={'Imprint'}/>
     </div>
   </div>);

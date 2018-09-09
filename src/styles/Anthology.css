@@ -5,7 +5,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    height: 100vh;
+    height: 120vh;
     overflow-x: hidden;
     backface-visibility: hidden;
     background-image: linear-gradient(rgb(115, 179, 222) 0%, rgb(202, 220, 232) 100%);

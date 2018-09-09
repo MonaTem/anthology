@@ -1,22 +1,24 @@
-.toc {
+.imprint {
   text-align: left;
-  margin-top: -35rem;
-  font-size: .9em;
-  font-family: Arial,cursive;
+  margin-top: -37rem;
+  font-size: 1em;
+  font-family: Helvetica;
 }
 
-.Toc-col-2 {
-  margin-top: -33rem;
+.imprint-col-2 {
+  margin-top: -25rem;
 }
 
-.desc {
-  margin-top: -2rem;
-}
-
-.top-nav {
+.imprint-nav {
   margin-left: -3em;
 }
 
-.bottom-nav {
-  margin-top: 13rem;
+.bottom-navigation {
+  margin-top: 15rem;
+}
+
+.cover-001i {
+    height: 75vh;
+    width: 48vh;
+
 }

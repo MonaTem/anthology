@@ -133,8 +133,11 @@
 }
 
 .bottom-nav {
-  top: -40rem;
-  margin-left: -6em;
+  margin-left: 4em;
+}
+
+.navbottom {
+  top: -11rem;
 }
 
 @media only screen and (min-width: 1400px) {

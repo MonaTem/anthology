@@ -55,7 +55,7 @@ const Home = (props) => {
         </div>
       </div>
     </div>
-    <div className="bottom-nav">
+    <div className="bottom-nav navbottom">
      <NavBottomNoToggle page={'Home'} />
    </div>
   </div>);
