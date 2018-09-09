@@ -13,10 +13,15 @@
   margin-top: 17rem;
 } */
 
-.bottom-navigation-contact {
-  top: 18rem;
+.bottom-nav-contact {
+  margin-top: 3rem;
 }
 
 .cover-001-contact {
   margin-top: -1rem;
+}
+
+.cover-002-contact {
+  margin-top: -1rem;
+  margin-left: -24.2em;
 }
