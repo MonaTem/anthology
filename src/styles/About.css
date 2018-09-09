@@ -1,0 +1,27 @@
+.about {
+  text-align: left;
+  margin-top: -33rem;
+  font-size: 1.6em;
+  font-family: Helvetica;
+}
+
+.about-nav {
+  margin-left: -3em;
+}
+
+/* .bottom-navigation-about {
+  margin-top: 17rem;
+} */
+
+.bottom-nav-about {
+  margin-top: 3rem;
+}
+
+.cover-001-about {
+  margin-top: -1rem;
+}
+
+.cover-002-about {
+  margin-top: -1rem;
+  margin-left: -24.2em;
+}

@@ -12,7 +12,7 @@ const LinksBottomNoToggle = (props) => {
       <div>
         <ul className="navbar navbar-nav">
           <li id="about" className="navbar-item">
-            <Link to={"/"} style={props.navstyleabout}>ABOUT</Link>
+            <Link to={"/about"} style={props.navstyleabout}>ABOUT</Link>
           </li>
           <li id="imprint" className="navbar-item">
             <Link to={"/imprint"} style={props.navstyleimprint}>IMPRINT</Link>
