@@ -1,10 +1,11 @@
 {
   "name": "anthology",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.2",
     "connected-react-router": "^4.4.1",
+    "dotenv": "^6.0.0",
     "eslint": "^4.19.1",
     "eslint-config-react-app": "^2.1.0",
     "eslint-loader": "^2.1.0",
