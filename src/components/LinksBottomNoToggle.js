@@ -7,7 +7,7 @@ const LinksBottomNoToggle = (props) => {
 
   return (<div>
 
-    <nav className="navbar navbar-light d-flex navbar-expand-sm navbottom">
+    <nav className="navbar navbar-light navbar-expand-sm navbottom">
 
       <div>
         <ul className="navbar navbar-nav">
