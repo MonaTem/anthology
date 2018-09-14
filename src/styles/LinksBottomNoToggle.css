@@ -1,138 +1,104 @@
 
 
-#text {
-    font-family: HelveticaNeue;
-    font-size: 20px;
-    line-height: 1;
-    color: #254489;
-    text-align: left;
-    direction: rtl;
-    z-index: 20;
-}
-
-#text2 {
-    font-family: HelveticaNeue;
-    font-size: 20px;
-    line-height: 1;
-    color: #254489;
-    text-align: left;
-    direction: rtl;
-    z-index: 10;
-}
-
 #imprint {
     position: relative;
-    /* width: 129px; */
     width: auto;
-    z-index: 50;
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 20px;
-    /* direction: rtl; */
+    font-size: 18px;
     display: inline-block;
-    margin-top: -1rem;
-    margin-left: 17em;
-    float: left;
-    /* left: -75px; */
-    height: 36px;
+    /* margin-top: -16px; */
+    margin-left: 400px;
+
 }
 
 #about {
     position: relative;
-    /* width: 102px; */
     width: auto;
-    /* width: 3.5em; */
-    z-index: 40;
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 20px;
-    /* float: left; */
+    font-size: 18px;
     display: inline-block;
-    margin-top: -1rem;
-    margin-left: -1.2em;
-    /* left: 3em; */
+    /* margin-top: 8px; */
+    top: 6px;
+    margin-left: -140px;
     height: auto;
 
 }
 
 #_2018 {
       position: relative;
-      /* width: 102px; */
       width: auto;
-      z-index: 20;
       text-align: left;
       color: #254489;
       font-family: HelveticaNeue;
-      font-size: 20px;
+      font-size: 18px;
       float: left;
       display: inline-block;
-      /* margin-top: 1 rem; */
-      margin-left: 18em;
-      /* height: 36px; */
+      margin-left: 40px;
       height: auto;
+      /* margin-top: -16px; */
 }
 
 
 #contact {
     position: relative;
-    /* width: 139px; */
     width: auto;
-    z-index: 10;
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 20px;
+    font-size: 18px;
     float: left;
     display: inline-block;
-    margin-top: -4rem;
-    margin-left: 9.5em;
-    /* height: 36px; */
+    /* margin-top: -16px; */
+    margin-left: 170px;
     height: auto;
 }
 
-/* .navbottom {
-  margin-top: 60rem;
-  left: 10em;
-} */
+.navbottom {
+  margin-top: -60px;
+  margin-left: 18px;
+
+}
 
  @media only screen and (max-width: 950px) and (min-width: 751px) {
       /* medium width screens--smaller tablets, huge phones */
 
      .navbot {
-        top: -60rem;
+        top: -960px;
       }
 
       .navbar-item {
-        font-size: 1.5em;
+        font-size: 18px;
       }
 
       #about {
-        margin-top: 1rem;
+        margin-top: 16px;
         /* left: -1em; */
       }
 
 
       #imprint {
-        margin-top: 1.5rem;
-        left: -20em;
+        margin-top: 24px;
+        left: -300px;
       }
 
       #_2018 {
 
-        margin-top: -2.1rem;
-        left: 2em;
+        margin-top: 34px;
+        left: 30px;
       }
 
       #contact {
         /* left: 4em; */
-        margin-left: 25em;
-        margin-top: -4rem;
+        margin-left: 375em;
+        margin-top: -64px;
       }
 
       #authors {
-        margin-left: -20em;
+        margin-left: -300px;
         width: auto;
       }
 }
@@ -143,38 +109,38 @@
 
     .navbottom {
       /* top: -10rem; */ */
-      top: 60rem;
-      left: 10em;
+      top: 1408px;
+      left: 150px;
     }
     .navbar-item {
-      font-size: 1.5em;
+      font-size: 22px;
     }
 
     #about {
-      margin-top: 1rem;
+      margin-top: 16px;
       /* margin-left: 3em; */
-      left: -1em;
+      left: -22px;
     }
 
 
     #imprint {
-      margin-top: 1.5rem;
-      left: -10em;
+      margin-top: 24px;
+      left: -220px;
     }
 
     #_2018 {
 
-      margin-top: 2rem;
-      left: -.5em;
+      margin-top: 32px;
+      left: -11px;
     }
 
     #contact {
-      left: -1em;
-      margin-top: 1.5rem;
+      left: -22px;
+      margin-top: 22px;
     }
 
     #authors {
-      margin-left: -20em;
+      margin-left: -300px;
       width: auto;
     }
   }
@@ -182,9 +148,9 @@
   @media only screen and (max-width: 575px) {
     /* For smaller smart phone screens */
     .navbar-exp {
-      margin-top: -23rem;
-      margin-left: 2em;
-      font-size: .2em;
+      margin-top: -368px;
+      margin-left: 6px;
+      font-size: 3px;
     }
 
     /* .navbar-collapse {
@@ -192,24 +158,24 @@
     } */
 
     #about {
-      top: -1rem;
-      left: -.1em;
+      top: -16px;
+      left: -.3px;
     }
 
     #imprint {
       /* margin-top: .1rem; */
-      left: -6.9em;
+      left: -20.7px;
     }
 
     #_2018 {
       /* margin-top: .1rem; */
-      left: -7.5em;
-      width: 4em;
+      left: -22.5px;
+      width: 12px;
     }
 
     #contact {
       /* margin-top: .1rem; */
-      left: -2.9em;
+      left: -8.7px;
     }
 
   }
@@ -217,8 +183,8 @@
   @media only screen and (min-width: 576px) and (max-width: 749px) {
     /* For medium sized smart phone screens */
     .navbar-exp {
-      margin-top: -23rem;
-      margin-left: 2em;
-      font-size: .2em;
+      margin-top: -69rem;
+      margin-left: 6px;
+      font-size: 3px;
     }
   }

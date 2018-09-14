@@ -1,72 +1,60 @@
 
-
 #authors {
     position: relative;
-    /* width: 5 em; */
     max-width: 100%;
     height: auto;
-    /* z-index: 20; */
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 1.2em;
+    font-size: 18px;
     display: inline-block;
-    /* left: 1em; */
-    margin-left: -17em;
-    top: -2rem;
-    height: 1.2em;
+    margin-left: -306px;
+    top: -32px;
 }
 
 #buy {
     position: relative;
-    width: 1.5em;
-    max-width: 100%;
     height: auto;
-    /* z-index: 10; */
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 1.2em;
+    font-size: 18px;
     display: inline-block;
-    margin-left: 10em;
-    top: -2rem;
-    left: 7em;
-    height: 1.2em;
+    top: -32px;
+    left: 117px;
 }
 
 #home {
     position: relative;
-    width: 3em;
-    max-width: 100%;
+    /* width: 3em;
+    max-width: 100%; */
     height: auto;
-    /* z-index: 30; */
     text-align: left;
     color: #254489;
     font-weight: 700;
     font-family: HelveticaNeue;
-    font-size: 1.2em;
+    font-size: 18px;
     float: left;
     display: inline-block;
-    margin-left: 2.5em;
-    top: -2rem;
-    height: 1.5em;
+    margin-left: 52px;
+    top: -32px;
+    /* height: 1.5em; */
 }
 
 #description {
     position: relative;
-    width: 6.5em;
-    max-width: 100%;
+    /* width: 6.5em; */
+    /* max-width: 100%; */
     height: auto;
-    /* z-index: 40; */
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 1.2em;
+    font-size: 18px;
     float: left;
     display: inline-block;
-    margin-left: 11em;
-    top: -2rem;
-    height: 1.5em;
+    margin-left: 120px;
+    top: -32px;
+    /* height: 1.5em; */
 }
 
 #table-of-contents {
@@ -78,15 +66,15 @@
     text-align: left;
     color: #254489;
     font-family: HelveticaNeue;
-    font-size: 1.2em;
+    font-size: 18px;
     display: inline-block;
-    margin-left: 11em;
-    top: -2rem;
-    height: 1.5em;
+    margin-left: 191px;
+    top: -32px;
+    /* height: 1.5em; */
 }
 .navtop {
-  margin-left: -2em;
-  margin-top: -1rem;
+  margin-left: -36px;
+  margin-top: -32px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -97,9 +85,9 @@
   } */
 
   .navtop {
-    margin-top: -5rem;
-    margin-left: -2em;
-    font-size: 2em;
+    margin-top: -80px;
+    margin-left: -60px;
+    font-size: 30px;
   }
 
   .navtop-collapse {
@@ -107,31 +95,31 @@
   }
 
   #buy {
-    margin-left: -.5em;
+    margin-left: -15px;
     /* margin-top: -5rem; */
-    font-size: 2em;
+    font-size: 30px;
   }
 
   #home {
-    margin-top: 2rem;
-    font-size: 2em;
+    margin-top: 32px;
+    font-size: 30px;
   }
 
    #description {
-    left: -2.5em;
-    font-size: 2em;
+    left: -75px;
+    font-size: 30px;
   }
 
   #table-of-contents {
-    left: -5.5em;
-    margin-top: .2rem;
-    font-size: 2em;
+    left: -165px;
+    margin-top: 3.2px;
+    font-size: 30px;
   }
 
   #authors {
-    margin-left: -2.5em;
+    margin-left: -75px;
     /* margin-top: 1rem; */
-    font-size: 2em;
+    font-size: 30px;
 
   }
 
@@ -146,16 +134,16 @@
 @media only screen and (max-width: 950px) and (min-width: 751px) {
   /* For medium sized screens like small tablets */
       .navbar-item {
-        font-size: 1.5em;
+        font-size: 22px;
       }
 
 
       #buy {
-        margin-left: 3em;
+        margin-left: 66px;
       }
 
       #home {
-        left: -4.5em;
+        left: -99px;
       }
 
       #table-of-contents {
