@@ -1,5 +1,6 @@
 .quotes {
   font-size: 12px;
+  /* font-size: inherit; */
   font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
   text-align: left;
 }
