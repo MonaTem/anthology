@@ -35,12 +35,12 @@ const Description = (props) => {
   </nav>
 
 
-    <div className="media ml-3 descr">
+    <div className="media ml-5 descrip">
       <img className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     </div>
     <div className="media-body">
       <div className="row">
-        <div className="col-12 offset-6 text-left description">
+        <div className="col-12 flex offset-5 text-left description">
           <p>The objective of this anthology is to initiate a discourse about storytelling. If
             <br></br>
             storytelling has as many meanings as the many use cases indicate, storytellers
