@@ -13,19 +13,19 @@ const Home = (props) => {
       </button>
       <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item nav-item-anthology active">
+          <li className="nav-item nav-item-anthology nav-item-top active">
              <Link to="/" className="link-anthology">HOME</Link>
           </li>
-          <li className="nav-item nav-item-anthology">
+          <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/description" className="link-anthology">DESCRIPTION</Link>
           </li>
-          <li  className="nav-item nav-item-anthology">
+          <li  className="nav-item nav-item-anthology nav-item-top">
             <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
           </li>
-          <li className="nav-item nav-item-anthology">
+          <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/authors" className="link-anthology">AUTHORS</Link>
           </li>
-          <li className="nav-item nav-item-anthology">
+          <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/buy" className="link-anthology">BUY</Link>
           </li>
       </ul>

@@ -33,7 +33,15 @@ body {
 
 .nav-item-anthology {
   color: #254489;
-  margin-left: 60px;
+  /* margin-left: 60px; */
+}
+
+.navtop {
+  left: -16px;
+}
+
+.nav-item-top {
+  margin-left: 80px;
 }
 
 .nav-item-bottom {
@@ -47,7 +55,7 @@ body {
 }
 
 .bottom-nav-bar {
-  left: -26px;
+  left: -25px;
 }
 
 .imprint {
