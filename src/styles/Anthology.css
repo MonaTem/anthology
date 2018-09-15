@@ -27,6 +27,42 @@ body {
 
 }
 
+.stuff {
+    margin-top: -10px;
+}
+
+.nav-item-anthology {
+  color: #254489;
+  margin-left: 60px;
+}
+
+.nav-item-bottom {
+  margin-right: 102px;
+  margin-left: 50px;
+  /* margin-left: 62px; */
+}
+
+.link-anthology {
+  color: #254489;
+}
+
+.bottom-nav-bar {
+  left: -26px;
+}
+
+.imprint {
+  margin-left: 30px;
+}
+
+.year-2018 {
+  margin-left: -2px;
+  margin-right: 50px;
+}
+
+/* .year-2018 {
+  max-height: inherit;
+} */
+
 /* .bottom-nav {
   margin-top: 80rem;
   margin-left: -6em;

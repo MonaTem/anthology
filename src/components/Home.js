@@ -2,37 +2,37 @@ import React from 'react';
 import '../styles/Anthology.css';
 import '../styles/Home.css';
 import {Link} from 'react-router-dom';
-import NavBottomNoToggle from './NavBottomNoToggle.js';
+// import NavBottomNoToggle from './NavBottomNoToggle.js';
 
 const Home = (props) => {
 
   return (<div className="container">
-    <nav className="navbar navbar-light navbar-expand-sm navtop-home p-5">
+    <nav className="navbar navbar-light navbar-expand-sm navtop-home navtop p-4">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item nav-item-home active">
-             <Link to="/" className="link-home">HOME</Link>
+          <li className="nav-item nav-item-anthology active">
+             <Link to="/" className="link-anthology">HOME</Link>
           </li>
-          <li className="nav-item nav-item-home">
-            <Link to="/description" className="link-home">DESCRIPTION</Link>
+          <li className="nav-item nav-item-anthology">
+            <Link to="/description" className="link-anthology">DESCRIPTION</Link>
           </li>
-          <li  className="nav-item nav-item-home">
-            <Link to="/tableofcontents" className="link-home">TABLE OF CONTENTS</Link>
+          <li  className="nav-item nav-item-anthology">
+            <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
           </li>
-          <li className="nav-item nav-item-home">
-            <Link to="/authors" className="link-home">AUTHORS</Link>
+          <li className="nav-item nav-item-anthology">
+            <Link to="/authors" className="link-anthology">AUTHORS</Link>
           </li>
-          <li className="nav-item nav-item-home">
-            <Link to="/buy" className="link-home">BUY</Link>
+          <li className="nav-item nav-item-anthology">
+            <Link to="/buy" className="link-anthology">BUY</Link>
           </li>
       </ul>
     </div>
   </nav>
 
-  <div className="media ml-5 home">
+  <div className="media ml-5 home stuff">
     <img className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     <img className="cover-002" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
     <div className="media-body ml-3 quotes">
@@ -69,9 +69,26 @@ const Home = (props) => {
       </div>
     </div>
   </div>
-  <div className="bottom-nav navbottom">
-    <NavBottomNoToggle page={'Home'}/>
-  </div>
+  {/* <div className="bottom-nav"> */}
+    {/* <NavBottomNoToggle page={'Home'}/> */}
+    <nav className="navbar navbar-light navbar-expand-sm bottom-nav-bar mt-2">
+        <ul className="navbar-nav">
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/about" className="link-anthology">ABOUT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+              <p year-2018>© 2018
+              </p>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/contact" className="link-anthology">CONTACT</Link>
+          </li>
+        </ul>
+    </nav>
+  {/* </div> */}
 </div>);
 }
 

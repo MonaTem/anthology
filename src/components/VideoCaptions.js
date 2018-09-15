@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import authors from '../data/authors.js';
 import '../styles/Anthology.css';
 import '../styles/VideoCaptions.css'
