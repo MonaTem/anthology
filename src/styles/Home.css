@@ -1,5 +1,5 @@
 .quotes {
-  font-size: 12px;
+  font-size: 14px;
   /* font-size: inherit; */
   font-family: "Helvetica-Oblique", Helvetica, Arial, serif;
   text-align: left;
@@ -10,17 +10,6 @@
   font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
 }
 
-/* .navtop-home {
-  color: #254489;
-  /* margin-left: -56px; */
-  /* margin-top: -32px;
-  margin-left: 30px; */
-/* }  */
-
-/* .nav-item-home {
-  color: #254489;
-  margin-left: 60px;
-} */
 
 .link-home {
   color: #254489;

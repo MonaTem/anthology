@@ -46,10 +46,11 @@ body {
 
 .nav-item-top {
   margin-left: 80px;
+  margin-right: 52px;
 }
 
 .nav-item-bottom {
-  margin-right: 102px;
+  margin-right: 145px;
   margin-left: 50px;
   /* margin-left: 62px; */
 }
@@ -59,7 +60,8 @@ body {
 }
 
 .bottom-nav-bar {
-  left: -25px;
+  left: -24px;
+  top: 40px;
 }
 
 .imprint {
@@ -70,16 +72,6 @@ body {
   margin-left: -2px;
   margin-right: 50px;
 }
-
-/* .year-2018 {
-  max-height: inherit;
-} */
-
-/* .bottom-nav {
-  margin-top: 80rem;
-  margin-left: -6em;
-} */
-
 
 
 

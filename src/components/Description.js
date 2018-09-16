@@ -2,26 +2,24 @@ import React from 'react';
 import '../styles/Description.css';
 import '../styles/Anthology.css';
 import {Link} from 'react-router-dom';
-// import NavTop from './NavTop.js'
-// import NavBottomNoToggle from './NavBottomNoToggle.js'
 
 const Description = (props) => {
 
   return (<div className="container">
 
-    <nav className="navbar navbar-light navbar-expand-sm navtop-desc navtop p-4">
+    <nav className="navbar navbar-light navbar-expand-sm navtop p-4">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item nav-item-anthology nav-item-top">
-             <Link to="/" className="link-anthology">HOME</Link>
+            <Link to="/" className="link-anthology">HOME</Link>
           </li>
           <li className="nav-item nav-item-anthology nav-item-top active">
             <Link to="/description" className="link-anthology">DESCRIPTION</Link>
           </li>
-          <li  className="nav-item nav-item-anthology nav-item-top">
+          <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
           </li>
           <li className="nav-item nav-item-anthology nav-item-top">
@@ -30,12 +28,11 @@ const Description = (props) => {
           <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/buy" className="link-anthology">BUY</Link>
           </li>
-      </ul>
-    </div>
-  </nav>
+        </ul>
+      </div>
+    </nav>
 
-
-    <div className="media ml-5 descrip">
+    <div className="media ml-5">
       <img className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     </div>
     <div className="media-body">
@@ -86,30 +83,29 @@ const Description = (props) => {
             marketers.
           </p>
 
-          </div>
         </div>
       </div>
-      <div className="bottom-nav">
-        <nav className="navbar navbar-light navbar-expand-sm bottom-nav-bar mt-2">
-            <ul className="navbar-nav">
-              <li className="nav-item nav-item-anthology nav-item-bottom">
-                <Link to="/about" className="link-anthology">ABOUT</Link>
-              </li>
-              <li className="nav-item nav-item-anthology nav-item-bottom">
-                <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
-              </li>
-              <li className="nav-item nav-item-anthology nav-item-bottom">
-                  <p>© 2018
-                  </p>
-              </li>
-              <li className="nav-item nav-item-anthology nav-item-bottom">
-                <Link to="/contact" className="link-anthology">CONTACT</Link>
-              </li>
-            </ul>
-        </nav>
+    </div>
+      <nav className="navbar navbar-light navbar-expand-sm bottom-nav-bar bottom-nav bottom-nav-descr">
+        <ul className="navbar-nav">
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/about" className="link-anthology">ABOUT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <p>© 2018
+            </p>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/contact" className="link-anthology">CONTACT</Link>
+          </li>
+        </ul>
+      </nav>
 
-      </div>
-    </div>);
+
+  </div>);
 }
 
 export default Description;

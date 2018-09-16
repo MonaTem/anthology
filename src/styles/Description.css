@@ -1,34 +1,27 @@
-.description {
+/* .description {
   text-align: left;
   margin-top: -560px;
   font-size: 14px;
   /* font-size: inherit; */
-  font-family: Arial,cursive;
-}
+  /* font-family: Arial,cursive; */
+/* } */
 
-/* .descr {
-  margin-top: 1px;
-} */
-
-/* .descrip {
-   margin-left: 20px;
-} */
 
 .descript {
   margin-top: -550px;
+  font-size: 14px;
+  font-family: Arial,cursive;
 }
+
 
 .top-nav {
   margin-left: -36px;
 }
 
-.bottom-nav {
-  margin-top: -16px;
+.bottom-nav-descr {
+  top: -10px;
 }
 
-/* .cover-001 {
-  margin-left: -11px;
-} */
 
 @media only screen and (max-width: 1400px) {
   .descript {

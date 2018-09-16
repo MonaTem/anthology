@@ -1,22 +1,28 @@
 .toc {
   text-align: left;
-  margin-top: -35rem;
-  font-size: .9em;
+  margin-top: -560px;
+  font-size: 13px;
   font-family: Arial,cursive;
 }
 
+.tableofc {
+  margin-top: 2px;
+  margin-left: 40px;
+}
+
 .Toc-col-2 {
-  margin-top: -33rem;
+  margin-top: -528px;
 }
 
 .desc {
-  margin-top: -2rem;
+  margin-top: -32px;
 }
 
 .top-nav {
-  margin-left: -3em;
+  margin-left: -39px;
 }
 
 .bottom-nav {
-  margin-top: 1rem;
+  margin-top: 50px;
+  margin-left: -15px;
 }
