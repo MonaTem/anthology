@@ -80,7 +80,7 @@ const Home = (props) => {
             <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
           </li>
           <li className="nav-item nav-item-anthology nav-item-bottom">
-              <p year-2018>© 2018
+              <p>© 2018
               </p>
           </li>
           <li className="nav-item nav-item-anthology nav-item-bottom">
