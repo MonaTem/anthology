@@ -16,10 +16,10 @@ const TableOfContents = (props) => {
               <li className="nav-item nav-item-anthology nav-item-top">
                  <Link to="/" className="link-anthology">HOME</Link>
               </li>
-              <li className="nav-item nav-item-anthology nav-item-top active">
+              <li className="nav-item nav-item-anthology nav-item-top">
                 <Link to="/description" className="link-anthology">DESCRIPTION</Link>
               </li>
-              <li  className="nav-item nav-item-anthology nav-item-top">
+              <li  className="nav-item nav-item-anthology nav-item-top active">
                 <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
               </li>
               <li className="nav-item nav-item-anthology nav-item-top">

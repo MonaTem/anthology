@@ -16,7 +16,7 @@ const Buy = (props) => {
           <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/" className="link-anthology">HOME</Link>
           </li>
-          <li className="nav-item nav-item-anthology nav-item-top active">
+          <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/description" className="link-anthology">DESCRIPTION</Link>
           </li>
           <li className="nav-item nav-item-anthology nav-item-top">
@@ -25,7 +25,7 @@ const Buy = (props) => {
           <li className="nav-item nav-item-anthology nav-item-top">
             <Link to="/authors" className="link-anthology">AUTHORS</Link>
           </li>
-          <li className="nav-item nav-item-anthology nav-item-top">
+          <li className="nav-item nav-item-anthology nav-item-top active">
             <Link to="/buy" className="link-anthology">BUY</Link>
           </li>
         </ul>
