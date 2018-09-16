@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import '../styles/Authors.css';
 import '../styles/Anthology.css';
-import NavTop from '../components/NavTop.js';
-import NavBottomNoToggle from '../components/NavBottomNoToggle.js';
+// import NavBottomNoToggle from '../components/NavBottomNoToggle.js';
 import * as authoractions from '../redux/actions/authoractions.js'
 import {bindActionCreators} from 'redux';
 import {Link} from 'react-router-dom';
@@ -13,9 +12,33 @@ class Authors extends Component {
   render() {
 
     return (<div className="container">
-      <NavTop page={'Authors'}/>
+      <nav className="navbar navbar-light navbar-expand-sm navtop p-4">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/" className="link-anthology">HOME</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/description" className="link-anthology">DESCRIPTION</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top active">
+              <Link to="/authors" className="link-anthology">AUTHORS</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/buy" className="link-anthology">BUY</Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <div className="media">
-        <img id="cover-001a" className="img-fluid cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+        <img id="cover-001" className="img-fluid cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
       <div className="media-body author-list">
         <div className="row">
@@ -105,9 +128,24 @@ class Authors extends Component {
           </div>
         </div>
       </div>
-      <div className="bottom-nav">
-        <NavBottomNoToggle page={'Authors'}/>
-      </div>
+
+      <nav className="navbar navbar-light navbar-expand-sm bottom-nav-bar bottom-nav bottom-nav-descr">
+        <ul className="navbar-nav">
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/about" className="link-anthology">ABOUT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <p>© 2018
+            </p>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/contact" className="link-anthology">CONTACT</Link>
+          </li>
+        </ul>
+      </nav>
     </div>)
   }
 }

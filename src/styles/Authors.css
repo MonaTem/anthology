@@ -1,18 +1,10 @@
-#cover-001a {
+/* #cover-001a {
     position: relative;
-    top: -1rem;
-    /* left: -16em; */
-    /* width: 30em; */
+    top: -16px;
     height: auto;
-    margin-left: 4em;
-    /* max-width: 100%; */
-    /* z-index: 150; */
-    /* right: 21em; */
-    /* margin-right: auto; */
-    /* left: -10em; */
+    margin-left: 60px;
 
-    /* float: left; */
-}
+} */
 
 .active {
   font-weight: bold
@@ -20,11 +12,10 @@
 
 .author {
   font-family: Arial,cursive;
-  font-size: .9em;
+  font-size: 13px;
   color: #254489;
-  margin-top: -33rem;
-  /* top: -0rem; */
-  /* float: right; */
+  margin-top: -528px;
+
 
 }
 
@@ -46,11 +37,11 @@
   /* font-size: 1.5em; */
   color: #254489;
   font-weight: bold;
-  margin-top: -5rem;
+  margin-top: -80px;
   /* margin-left: -.1em; */
-  left: 7em;
-  margin-bottom: 2rem;
-  font-size: 1.3em;
+  left: 105px;
+  margin-bottom: 32px;
+  font-size: 20px;
 
 }
 
@@ -58,7 +49,18 @@
 @media only screen and (min-width: 1500px) {
     /* For extra large screens, i.e., laptops and desktops: */
     #cover-001a {
-        margin-left: 8em;
+        margin-left: 120px;
+    }
+
+    .author {
+      margin-left: 550px;
+    }
+
+    .second-author-col {
+      margin-left: 980px;
+    }
+    .info {
+      margin-left: 125px;
     }
 
  }

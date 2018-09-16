@@ -19,11 +19,8 @@ const Author = (props) => {
 
 
   return (<div className="container">
-    <NavTop page={'Author'}/> 
-    {/* Author is {authors[ix].name};
-      Bio is {authors[ix].bio};
-      ix is {props.match.params.ix}; */
-    }
+    <NavTop page={'Author'}/>
+    
 
     <div className="row">
       <div className="col-4">
