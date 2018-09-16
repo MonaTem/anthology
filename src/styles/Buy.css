@@ -1,13 +1,14 @@
+
 .buy {
   text-align: left;
-  margin-top: -35rem;
-  font-size: 1.5em;
+  /* margin-top: -300px; */
+  font-size: 22px;
   font-family: Helvetica;
 }
 
-.buy-nav {
-  margin-left: -3em;
-}
+/* .buy-nav {
+  margin-left: -66px;
+} */
 
 /* .bottom-navigation-buy {
   margin-top: 17rem;
@@ -18,55 +19,69 @@
 } */
 
 .buy-col-2 {
-   margin-top: -40rem;
-   height: 29em;
+   margin-top: -677px;
+   height: 620px;
    /* border-style: solid; */
 }
 
 .buy-col-1 {
-  padding-left: 3em;
+  padding-left: 66px;
+  margin-top: -550px;
 }
 
 .heading1 {
-  font-size: 3em;
-  margin-left: 1.5em;
-  margin-top: 1rem;
+  font-size: 66px;
+  margin-left: 100px;
+  margin-top: 16px;
 }
 
 .bn-logo {
-  margin-left: -.5em;
+  margin-left: -11px;
 }
 
 .bottom-nav-buy {
-  margin-top: -2rem;
+  margin-top: -30px;
 }
 
 .cover-001-buy {
-  margin-top: -1rem;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .Amazon-logo {
-  margin-left: -2.5em;
-  margin-top:  -3rem;
+  margin-left: -50px;
+  margin-top:  -60px;
 }
 
 .book {
-  margin-top: .5rem;
+  margin-top: -60px;
 }
 
 .Europe, .US {
-  font-size: 1.5em;
+  font-size: 22px;
   font-weight: 100;
-  margin-left: 2em;
+  margin-left: 100px;
   /* font-family: Arial; */
 }
 
 
-h5 {
+h4 {
   text-align: left;
-  margin-left: .1em;
+  margin-left: 2.2px;
 }
 
+@media only screen and (min-width: 1800px) {
+  .Amazon-logo {
+    margin-left: -20px;
+  }
+  .book {
+    margin-left: 5px;
+  }
+  .buy-col-1 {
+    padding-left: 100px;
+
+  }
+}
 
 /* .book {
    margin-top: 2rem;
