@@ -81,12 +81,7 @@ body {
 } */
 
 
-@media only screen  (min-width: 951px) {
-    body {
-      min-height: 100vh;
-      height: 100vh;
-    }
-}
+
 
 @media only screen and (max-width: 950px) and (min-width: 750px) {
     body {

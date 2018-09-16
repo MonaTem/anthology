@@ -14,7 +14,7 @@
    margin-left: 20px;
 } */
 
-.description {
+.descript {
   margin-top: -550px;
 }
 
@@ -29,3 +29,11 @@
 /* .cover-001 {
   margin-left: -11px;
 } */
+
+@media only screen and (max-width: 1400px) {
+  .descript {
+    margin-top: -420px;
+    font-size: 11px;
+  }
+
+}
