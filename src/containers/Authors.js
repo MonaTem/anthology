@@ -38,7 +38,7 @@ class Authors extends Component {
       </nav>
 
       <div className="media">
-        <img id="cover-001" className="img-fluid cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+        <img id="cover-001" className="cover-001" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
       </div>
       <div className="media-body author-list">
         <div className="row">

@@ -1,27 +1,59 @@
 .about {
   text-align: left;
-  margin-top: -33rem;
-  font-size: 1.6em;
+  margin-top: -528px;
+  font-size: 20px;
   font-family: Helvetica;
 }
 
 .about-nav {
-  margin-left: -3em;
+  margin-left: -15px;
 }
 
 /* .bottom-navigation-about {
   margin-top: 17rem;
 } */
 
-.bottom-nav-about {
-  margin-top: 3rem;
-}
+
 
 .cover-001-about {
-  margin-top: -1rem;
+  margin-left: -14px;
 }
 
 .cover-002-about {
-  margin-top: -1rem;
-  margin-left: -24.2em;
-}
+   margin-top: -16px;
+  margin-left: -402px;
+ }
+
+ @media only screen and (min-width: 1500px) {
+     /* For extra large screens, i.e., laptops and desktops: */
+
+     .author {
+       margin-left: 550px;
+     }
+
+     .second-author-col {
+       margin-left: 980px;
+     }
+     .info {
+       margin-left: 125px;
+     }
+
+     .about {
+       text-align: left;
+       margin-top: -600px;
+       font-size: 22px;
+       font-family: Helvetica;
+       margin-left: 1000px;
+     }
+
+     .cover-001-about {
+       /* margin-top: 44px; */
+       margin-left: -14px;
+     }
+
+     .cover-002-about {
+        /* margin-top: 40px; */
+       margin-left: -240px;
+      }
+
+  }

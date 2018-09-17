@@ -1,18 +1,42 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../styles/About.css';
 import '../styles/Anthology.css';
-import NavTop from './NavTop.js'
-import NavBottomNoToggle from './NavBottomNoToggle.js'
+// // import NavTop from './NavTop.js'
+// import NavBottomNoToggle from './NavBottomNoToggle.js'
 
 const About = (props) => {
 
   return (<div className="container">
     <div className="top-nav top-nav-About">
-      <NavTop page={'About'}/>
+      <nav className="navbar navbar-light navbar-expand-sm navtop p-4">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/" className="link-anthology">HOME</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/description" className="link-anthology">DESCRIPTION</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/authors" className="link-anthology">AUTHORS</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/buy" className="link-anthology">BUY</Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <div className="media desc">
-      <img className="cover-001 cover-001-about" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
-      <img className="cover-002 cover-002-about" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
+      <img className="cover-001 cover-001-about mt-5" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
+      <img className="cover-002 cover-002-about mt-5" src="/images/BackCover.jpeg" alt="Anthology Back Cover"/>
     </div>
     <div className="media-body">
       <div className="row">
@@ -26,7 +50,7 @@ const About = (props) => {
           relates to the internet, new
           <br></br>
           technologies, data, artificial
-          <br></br> 
+          <br></br>
           intelligence.
           <br></br>
           <br></br>
@@ -53,9 +77,24 @@ const About = (props) => {
           </div>
         </div>
       </div>
-      <div className="bottom-nav-about">
-        <NavBottomNoToggle page={'About'}/>
-      </div>
+
+      <nav className="navbar navbar-light navbar-expand-sm bottom-nav-bar bottom-nav bottom-nav-descr">
+        <ul className="navbar-nav">
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/about" className="link-anthology active">ABOUT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <p>© 2018
+            </p>
+          </li>
+          <li className="nav-item nav-item-anthology nav-item-bottom">
+            <Link to="/contact" className="link-anthology">CONTACT</Link>
+          </li>
+        </ul>
+      </nav>
     </div>);
 }
 
