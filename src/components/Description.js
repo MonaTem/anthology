@@ -92,14 +92,14 @@ const Description = (props) => {
             <Link to="/about" className="link-anthology">ABOUT</Link>
           </li>
           <li className="nav-item nav-item-anthology nav-item-bottom">
-            <Link to="/imprint" className="link-anthology imprint">IMPRINT</Link>
+            <p className="link-anthology">IMPRINT</p>
           </li>
           <li className="nav-item nav-item-anthology nav-item-bottom">
             <p>© 2018
             </p>
           </li>
           <li className="nav-item nav-item-anthology nav-item-bottom">
-            <Link to="/contact" className="link-anthology">CONTACT</Link>
+            <p>CONTACT</p>
           </li>
         </ul>
       </nav>
