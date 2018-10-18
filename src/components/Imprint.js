@@ -1,15 +1,38 @@
 import React from 'react';
-import '../styles/Imprint.css';
-import '../styles/Anthology.css';
-import NavTop from './NavTop.js'
+import '../styles/Imprint.css'
+import {Link} from 'react-router-dom';
 import NavBottomNoToggle from './NavBottomNoToggle.js'
 
 const Imprint = (props) => {
 
   return (<div className="container">
     <div className="top-nav top-nav-imprint">
-      <NavTop page={'Imprint'}/>
+      <nav className="navbar navbar-light navbar-expand-sm navtop p-4">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-collapse collapse navtop-collapse" id="navbarToggler">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item nav-item-anthology nav-item-top active">
+              <Link to="/" className="link-anthology">HOME</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/description" className="link-anthology">DESCRIPTION</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/tableofcontents" className="link-anthology">TABLE OF CONTENTS</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/authors" className="link-anthology">AUTHORS</Link>
+            </li>
+            <li className="nav-item nav-item-anthology nav-item-top">
+              <Link to="/buy" className="link-anthology">BUY</Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
+
     <div className="media desc">
       <img className="cover-001 cover-001i" src="/images/FrontCover.jpeg" alt="Anthology Front Cover"/>
     </div>
