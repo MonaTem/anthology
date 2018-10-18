@@ -111,9 +111,7 @@ class Authors extends Component {
             <p>
               JASON XENOPOOULOS
             </p>
-            <p>
-              RUEDIGER DRISCHEL (EDITOR)
-            </p>
+            
             <div className="col-4"></div>
           </div>
         </div>
