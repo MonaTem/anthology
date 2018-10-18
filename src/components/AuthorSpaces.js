@@ -26,10 +26,10 @@ const AuthorSpaces = (props) => {
        biospaces = 5;
        break;
     case 5:
-       biospaces = 9;
-       break;
     case 4:
     case 3:
+       biospaces = 8;
+       break;
     case 2:
     case 1:
         biospaces = 10;
